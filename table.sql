@@ -1,7 +1,7 @@
 CREATE TABLE Domain
 (
     DomainGPSPosition TEXT PRIMARY KEY NOT NULL,
-    nbrResorts INT UNSIGNED
+    nbrResorts INT UNSIGNED NOT NULL
 )
 
 CREATE TABLE SkiResort
@@ -19,13 +19,13 @@ CREATE TABLE Building
 
 CREATE TABLE Shop
 (
-    Type INT UNSIGNED,
+    Type INT UNSIGNED NOT NULL,
     Surface FLOAT UNSIGNED
 )
 
 CREATE TABLE Hotel
 (
-    HotelCapacity INT UNSIGNED,
+    HotelCapacity INT UNSIGNED NOT NULL,
     HotelComfort INT UNSIGNED
 )
 
@@ -38,7 +38,7 @@ CREATE TABLE Restaurant
 CREATE TABLE Transport
 (
     TransportID TEXT PRIMARY KEY NOT NULL,
-    TransportType INT UNSIGNED,
+    TransportType INT UNSIGNED NOT NULL,
     TransportPassengerNbr INT UNSIGNED,
     TransportCapacityNbr INT UNSIGNED
 )
@@ -55,15 +55,15 @@ CREATE TABLE Customer
 -- TO CHECK
 CREATE TABLE Customer
 (
-    DepartureDate TEXT,
-    ArrivalDate TEXT,
+    DepartureDate TEXT NOT NULL,
+    ArrivalDate TEXT NOT NULL,
     TransportCost FLOAT UNSIGNED
 )
 
 CREATE TABLE MechanicalLift
 (
     MLName TEXT PRIMARY KEY NOT NULL,
-    MLType FLOAT UNSIGNED,
+    MLType FLOAT UNSIGNED NOT NULL,
     MLCapacityNbr INT UNSIGNED
 )
 
@@ -71,15 +71,15 @@ CREATE TABLE MechanicalLift
 CREATE TABLE SkiPass
 (
     SkiPassID TEXT PRIMARY KEY NOT NULL,
-    SkiStartDate TEXT,
-    SkiEndDate TEXT,
+    SkiStartDate TEXT NOT NULL,
+    SkiEndDate TEXT NOT NULL,
     SPPrice FLOAT UNSIGNED
 )
 
 CREATE TABLE Piste
 (
     PisteName TEXT PRIMARY KEY NOT NULL,
-    DifficultyColor INT UNSIGNED,
+    DifficultyColor INT UNSIGNED NOT NULL,
     NbrMeter FLOAT UNSIGNED
 )
 
@@ -95,6 +95,6 @@ CREATE TABLE SkiClass
     CourseLevel INT UNSIGNED,
     MaxParticipants INT UNSIGNED,
     CoursePrice FLOAT UNSIGNED,
-    SCBeginTime TEXT,
-    SCEndTime TEXT
+    SCBeginTime TEXT NOT NULL,
+    SCEndTime TEXT NOT NULL
 )
