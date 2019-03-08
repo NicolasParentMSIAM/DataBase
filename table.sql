@@ -6,155 +6,146 @@ just added in the subclasses the foreign key of the superclass with primary cons
 
 CREATE TABLE Domain
 (
-    DomainGPSPosition TEXT PRIMARY KEY NOT NULL,
-    nbrResorts INT UNSIGNED NOT NULL
+    DomainGPSPosition VARCHAR(20) PRIMARY KEY,
+    nbrResorts INT NOT NULL
 );
 
 CREATE TABLE SkiResort
 (
-    SkiResortName TEXT PRIMARY KEY NOT NULL,
-    DomainGPSPosition TEXT FOREIGN KEY NOT NULL,
-    SkiResortGPSPosition TEXT
+    SkiResortName VARCHAR(20) PRIMARY KEY,
+    DomainGPSPosition VARCHAR(20),
+    SkiResortGPSPosition VARCHAR(20),
+    FOREIGN KEY(DomainGPSPosition) REFERENCES Domain(DomainGPSPosition)
 );
 
 CREATE TABLE Building
 (
-    BuildingName TEXT PRIMARY KEY NOT NULL,
-    BuildingAdresse TEXT PRIMARY KEY NOT NULL,
-    SkiResortName TEXT FOREIGN KEY NOT NULL,
-    BuildingDailyPeople INT UNSIGNED
+    BuildingName VARCHAR(20) ,
+    BuildingAdresse VARCHAR(20) ,
+    SkiResortName VARCHAR(20) ,
+    BuildingDailyPeople INT ,
+    PRIMARY KEY(BuildingName, BuildingAdresse),
+    FOREIGN KEY(SkiResortName) REFERENCES SkiResort(SkiResortName)
 );
 
 CREATE TABLE Shop
 (
-    BuildingName TEXT PRIMARY KEY NOT NULL,
-    BuildingAdresse TEXT PRIMARY KEY NOT NULL,
-    Type INT UNSIGNED NOT NULL,
-    Surface FLOAT UNSIGNED,
+    BuildingName VARCHAR(20) ,
+    BuildingAdresse VARCHAR(20) ,
+    Type INT  NOT NULL,
+    Surface FLOAT ,
+    PRIMARY KEY(BuildingName, BuildingAdresse),
     FOREIGN KEY(BuildingName, BuildingAdresse) REFERENCES Building(BuildingName, BuildingAdresse)
 );
 
 CREATE TABLE Hotel
 (
-    BuildingName TEXT PRIMARY KEY NOT NULL,
-    BuildingAdresse TEXT PRIMARY KEY NOT NULL,
-    HotelCapacity INT UNSIGNED NOT NULL,
-    HotelComfort INT UNSIGNED,
+    BuildingName VARCHAR(20)  ,
+    BuildingAdresse VARCHAR(20)  ,
+    HotelCapacity INT  NOT NULL,
+    HotelComfort INT ,
+    PRIMARY KEY(BuildingName, BuildingAdresse),
     FOREIGN KEY(BuildingName, BuildingAdresse) REFERENCES Building(BuildingName, BuildingAdresse)
 );
 
 CREATE TABLE Restaurant
 (
-    BuildingName TEXT PRIMARY KEY NOT NULL,
-    BuildingAdresse TEXT PRIMARY KEY NOT NULL,
-    RstCapacity INT UNSIGNED,
-    RstMenu TEXT,
+    BuildingName VARCHAR(20)  ,
+    BuildingAdresse VARCHAR(20)  ,
+    RstCapacity INT ,
+    RstMenu VARCHAR(20),
+    PRIMARY KEY(BuildingName, BuildingAdresse),
     FOREIGN KEY(BuildingName, BuildingAdresse) REFERENCES Building(BuildingName, BuildingAdresse)
 );
 
 CREATE TABLE Transport
 (
-    TransportID TEXT PRIMARY KEY NOT NULL,
-    TransportType INT UNSIGNED NOT NULL,
-    TransportPassengerNbr INT UNSIGNED,
-    TransportCapacityNbr INT UNSIGNED
+    TransportID VARCHAR(20) PRIMARY KEY ,
+    TransportType INT  NOT NULL,
+    TransportPassengerNbr INT ,
+    TransportCapacityNbr INT
 );
 
 CREATE TABLE Customer
 (
-    CustomerName TEXT PRIMARY KEY NOT NULL,
-    Gender Boolean,
-    Age INT UNSIGNED,
-    Level INT UNSIGNED,
-    Practice INT UNSIGNED
+    CustomerName VARCHAR(20) PRIMARY KEY ,
+    Gender INT ,
+    Age INT ,
+    CustomerLevel INT ,
+    Practice INT
 );
 
 
 CREATE TABLE MechanicalLift
 (
-    MLName TEXT PRIMARY KEY NOT NULL,
-    SkiResortName TEXT FOREIGN KEY NOT NULL,
-    MLType FLOAT UNSIGNED NOT NULL,
-    MLCapacityNbr INT UNSIGNED
+    MLName VARCHAR(20) PRIMARY KEY ,
+    SkiResortName VARCHAR(20) ,
+    MLType FLOAT  NOT NULL,
+    MLCapacityNbr INT,
+    FOREIGN KEY(SkiResortName) REFERENCES SkiResort(SkiResortName)
 );
 
 
 CREATE TABLE SkiPass
 (
-    SkiPassID TEXT PRIMARY KEY NOT NULL,
-    CustomerName TEXT FOREIGN KEY NOT NULL,
-    SkiStartDate TEXT NOT NULL,
-    SkiEndDate TEXT NOT NULL,
-    SPPrice FLOAT UNSIGNED
+    SkiPassID VARCHAR(20) PRIMARY KEY ,
+    CustomerName VARCHAR(20) ,
+    SkiStartDate VARCHAR(20) NOT NULL,
+    SkiEndDate VARCHAR(20) NOT NULL,
+    SPPrice FLOAT,
+    FOREIGN KEY(CustomerName) REFERENCES Customer(CustomerName)
 );
 
 CREATE TABLE Piste
 (
-    PisteName TEXT PRIMARY KEY NOT NULL,
-    DifficultyColor INT UNSIGNED NOT NULL,
-    NbrMeter FLOAT UNSIGNED
+    PisteName VARCHAR(20) PRIMARY KEY ,
+    DifficultyColor INT  NOT NULL,
+    NbrMeter FLOAT
 );
 
 CREATE TABLE Instructor
 (
-    InstructorName TEXT PRIMARY KEY NOT NULL,
-    ExperienceLevel INT UNSIGNED
+    InstructorName VARCHAR(20) PRIMARY KEY ,
+    ExperienceLevel INT
 );
 
 -- MULTI ASSOCIATION
-//Changed
 CREATE TABLE SkiClass
 (
-    InstructorName TEXT PRIMARY KEY NOT NULL,
-    PisteName TEXT PRIMARY KEY,
-    Customer TEXT PRIMARY KEY,
-    CourseLevel INT UNSIGNED,
-    MaxParticipants INT UNSIGNED,
-    CoursePrice FLOAT UNSIGNED,
-    SCBeginTime TEXT NOT NULL,
-    SCEndTime TEXT NOT NULL,
+    InstructorName VARCHAR(20)  ,
+    PisteName VARCHAR(20) ,
+    CustomerName VARCHAR(20) ,
+    CourseLevel INT ,
+    MaxParticipants INT ,
+    CoursePrice FLOAT ,
+    SCBeginTime VARCHAR(20) NOT NULL,
+    SCEndTime VARCHAR(20) NOT NULL,
+    PRIMARY KEY(InstructorName, PisteName, CustomerName),
     FOREIGN KEY(InstructorName) REFERENCES Instructor(InstructorName),
-    FOREIGN KEY(PisteName) REFERENCES Instructor(PisteName),
-    FOREIGN KEY(CustomerName) REFERENCES Instructor(CustomerName)
+    FOREIGN KEY(PisteName) REFERENCES Piste(PisteName),
+    FOREIGN KEY(CustomerName) REFERENCES Customer(CustomerName)
 );
 
-/* the Narry association is the one which contains participants etc..
-CREATE TABLE CustomerParticipateClass
-(
-      SkiClassID INT PRIMARY KEY NOT NULL,
-      PisteName TEXT PRIMARY KEY NOT NULL,
-);
-
-
-CREATE TABLE InstructorParticipateClass
-(
-      SkiClassID INT PRIMARY KEY NOT NULL,
-      InstructorName TEXT PRIMARY KEY NOT NULL,
-);
-
-CREATE TABLE PisteOfClass
-(
-      SkiClassID INT PRIMARY KEY NOT NULL,
-      PisteName TEXT PRIMARY KEY NOT NULL,
-
-);
-*/
 -- any to any tables
 
 CREATE TABLE AccessMechanicalLift
 (
-    MLName TEXT PRIMARY KEY NOT NULL,
-    SkiPassID TEXT PRIMARY KEY NOT NULL
+    MLName VARCHAR(20) ,
+    SkiPassID VARCHAR(20) , /*can be null*/
+    PRIMARY KEY(MLName, SkiPassID),
+    FOREIGN KEY(MLName) REFERENCES MechanicalLift(MLName),
+    FOREIGN KEY(SkiPassID) REFERENCES SkiPass(SkiPassID)
 );
 
 
 CREATE TABLE UseTransport
 (
-    CustomerName TEXT PRIMARY KEY NOT NULL,
-    TransportID TEXT PRIMARY KEY NOT NULL,
-    DepartureDate TEXT NOT NULL,
-    ArrivalDate TEXT NOT NULL,
-    TransportCost FLOAT UNSIGNED
+    CustomerName VARCHAR(20) ,
+    TransportID VARCHAR(20) ,
+    DepartureDate VARCHAR(20) NOT NULL,
+    ArrivalDate VARCHAR(20) NOT NULL,
+    TransportCost FLOAT,
+    PRIMARY KEY(CustomerName, TransportID),
     FOREIGN KEY(CustomerName) REFERENCES Customer(CustomerName),
     FOREIGN KEY(TransportID) REFERENCES Transport(TransportID)
 );
@@ -162,20 +153,29 @@ CREATE TABLE UseTransport
 
 CREATE TABLE GoBuilding
 (
-    CustomerName TEXT PRIMARY KEY NOT NULL,
-    BuildingName TEXT PRIMARY KEY NOT NULL,
+    CustomerName VARCHAR(20) ,
+    BuildingName VARCHAR(20) ,
+    BuildingAdresse VARCHAR(20) ,
+    PRIMARY KEY(CustomerName, BuildingName, BuildingAdresse),
+    FOREIGN KEY(CustomerName) REFERENCES Customer(CustomerName),
+    FOREIGN KEY(BuildingName, BuildingAdresse) REFERENCES Building(BuildingName, BuildingAdresse)
 );
 
 
 CREATE TABLE TransportDeserveResort
 (
-    SkiResortName TEXT PRIMARY KEY NOT NULL,
-    TransportID TEXT PRIMARY KEY NOT NULL,
+    SkiResortName VARCHAR(20) ,
+    TransportID VARCHAR(20) ,
+    PRIMARY KEY(SkiResortName, TransportID),
+    FOREIGN KEY(SkiResortName) REFERENCES SkiResort(SkiResortName),
+    FOREIGN KEY(TransportID) REFERENCES Transport(TransportID)
 );
 
 
 CREATE TABLE MLGiveAccessToPiste(
-    PisteName TEXT PRIMARY KEY NOT NULL,
-    MLName TEXT PRIMARY KEY NOT NULL,
-
+    PisteName VARCHAR(20) ,
+    MLName VARCHAR(20) ,
+    PRIMARY KEY(PisteName, MLName),
+    FOREIGN KEY(PisteName) REFERENCES Piste(PisteName),
+    FOREIGN KEY(MLName) REFERENCES MechanicalLift(MLName)
 );
