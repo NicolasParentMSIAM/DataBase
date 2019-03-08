@@ -1,8 +1,3 @@
-/*done
--- Manage Heritage
-just added in the subclasses the foreign key of the superclass with primary constraint
-*/
-
 
 CREATE TABLE Domain
 (
