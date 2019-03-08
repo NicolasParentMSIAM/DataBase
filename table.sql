@@ -1,3 +1,7 @@
+--TODO
+-- Manage Heritage
+
+
 CREATE TABLE Domain
 (
     DomainGPSPosition TEXT PRIMARY KEY NOT NULL,
@@ -7,6 +11,7 @@ CREATE TABLE Domain
 CREATE TABLE SkiResort
 (
     SkiResortName TEXT PRIMARY KEY NOT NULL,
+    DomainGPSPosition TEXT FOREIGN KEY NOT NULL,
     SkiResortGPSPosition TEXT
 )
 
@@ -14,6 +19,7 @@ CREATE TABLE Building
 (
     BuildingName TEXT PRIMARY KEY NOT NULL,
     BuildingAdresse TEXT PRIMARY KEY NOT NULL,
+    SkiResortName TEXT FOREIGN KEY NOT NULL,
     BuildingDailyPeople INT UNSIGNED
 )
 
@@ -52,17 +58,11 @@ CREATE TABLE Customer
     Practice INT UNSIGNED
 )
 
--- TO CHECK
-CREATE TABLE Customer
-(
-    DepartureDate TEXT NOT NULL,
-    ArrivalDate TEXT NOT NULL,
-    TransportCost FLOAT UNSIGNED
-)
 
 CREATE TABLE MechanicalLift
 (
     MLName TEXT PRIMARY KEY NOT NULL,
+    SkiResortName TEXT FOREIGN KEY NOT NULL,
     MLType FLOAT UNSIGNED NOT NULL,
     MLCapacityNbr INT UNSIGNED
 )
@@ -71,6 +71,7 @@ CREATE TABLE MechanicalLift
 CREATE TABLE SkiPass
 (
     SkiPassID TEXT PRIMARY KEY NOT NULL,
+    CustomerName TEXT FOREIGN KEY NOT NULL,
     SkiStartDate TEXT NOT NULL,
     SkiEndDate TEXT NOT NULL,
     SPPrice FLOAT UNSIGNED
@@ -89,12 +90,75 @@ CREATE TABLE Instructor
     ExperienceLevel INT UNSIGNED
 )
 
--- TO CHECK
+-- MULTI ASSOCIATION
 CREATE TABLE SkiClass
 (
+    SkiClassID INT PRIMARY KEY NOT NULL,
     CourseLevel INT UNSIGNED,
     MaxParticipants INT UNSIGNED,
     CoursePrice FLOAT UNSIGNED,
     SCBeginTime TEXT NOT NULL,
     SCEndTime TEXT NOT NULL
+)
+
+
+CREATE TABLE CustomerParticipateClass
+(
+      SkiClassID INT PRIMARY KEY NOT NULL,
+      PisteName TEXT PRIMARY KEY NOT NULL,
+)
+
+
+CREATE TABLE InstructorParticipateClass
+(
+      SkiClassID INT PRIMARY KEY NOT NULL,
+      InstructorName TEXT PRIMARY KEY NOT NULL,
+)
+
+CREATE TABLE PisteOfClass
+(
+      SkiClassID INT PRIMARY KEY NOT NULL,
+      PisteName TEXT PRIMARY KEY NOT NULL,
+
+)
+
+-- any to any tables
+
+CREATE TABLE AccessMechanicalLift
+(
+    MLName TEXT PRIMARY KEY NOT NULL,
+    SkiPassID TEXT PRIMARY KEY NOT NULL
+)
+
+
+CREATE TABLE UseTransport
+(
+    CustomerName TEXT PRIMARY KEY NOT NULL,
+    TransportID TEXT PRIMARY KEY NOT NULL,
+    DepartureDate TEXT NOT NULL,
+    ArrivalDate TEXT NOT NULL,
+    TransportCost FLOAT UNSIGNED
+)
+
+
+CREATE TABLE GoBuilding
+(
+    CustomerName TEXT PRIMARY KEY NOT NULL,
+    BuildingName TEXT PRIMARY KEY NOT NULL,
+
+)
+
+
+CREATE TABLE TransportDeserveResort
+(
+    SkiResortName TEXT PRIMARY KEY NOT NULL,
+    TransportID TEXT PRIMARY KEY NOT NULL,
+
+)
+
+
+CREATE TABLE MLGiveAccessToPiste(
+    PisteName TEXT PRIMARY KEY NOT NULL,
+    MLName TEXT PRIMARY KEY NOT NULL,
+
 )
