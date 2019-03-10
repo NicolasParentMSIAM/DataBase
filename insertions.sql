@@ -38,3 +38,38 @@ insert into MechanicalLift(MLName,SkiResortName,MLType,MLCapacityNbr) VALUES ("L
 
 insert into MechanicalLift(MLName,SkiResortName,MLType,MLCapacityNbr) VALUES ("Les anglaises",  "Meribel" 2, 250);
 insert into MechanicalLift(MLName,SkiResortName,MLType,MLCapacityNbr) VALUES ("QueenEli",  "Meribel" 1, 560);
+
+-- CustomerName
+
+insert into Customer(CustomerName,Gender,Age,CustomerLevel,Practice) VALUES ("Adrien Babachat", 1, 29, 3, 5);
+insert into Customer(CustomerName,Gender,Age,CustomerLevel,Practice) VALUES ("Batiste Chloups", 1, 26, 2, 3);
+insert into Customer(CustomerName,Gender,Age,CustomerLevel,Practice) VALUES ("Matthieu Laurendeau", 1, 22, 0, 0);
+insert into Customer(CustomerName,Gender,Age,CustomerLevel,Practice) VALUES ("Seb Chabal", 1, 32, 6, 10);
+insert into Customer(CustomerName,Gender,Age,CustomerLevel,Practice) VALUES ("Romain Cordoba", 1, 22, 5, 3);
+insert into Customer(CustomerName,Gender,Age,CustomerLevel,Practice) VALUES ("Louis CK", 1, 45, 2, 1);
+insert into Customer(CustomerName,Gender,Age,CustomerLevel,Practice) VALUES ("Sylvie Rodriguez", 2, 20, 0, 0);
+insert into Customer(CustomerName,Gender,Age,CustomerLevel,Practice) VALUES ("Erica Brakebal", 3, 20, 2, 1);
+insert into Customer(CustomerName,Gender,Age,CustomerLevel,Practice) VALUES ("Laura Calvez", 2 , 24, 3, 2);
+
+
+
+--Instructor
+insert into Instructor(InstructorName,ExperienceLevel) Values("Sebatian Cimes", 56);
+insert into Instructor(InstructorName,ExperienceLevel) Values("John Snow ", 100);
+insert into Instructor(InstructorName,ExperienceLevel) Values("Yunonothing Jonsnow ", 80);
+insert into Instructor(InstructorName,ExperienceLevel) Values("Gerard aligege", 85);
+insert into Instructor(InstructorName,ExperienceLevel) Values("Serge Papagali", 55);
+insert into Instructor(InstructorName,ExperienceLevel) Values("Ali Baba", 12);
+
+
+
+--Pistes
+insert into Pistes(PisteName, DifficultyColor, NbrMeter) Values("La chartreuse", 2,500);
+insert into Pistes(PisteName, DifficultyColor, NbrMeter) Values("Le genepy", 5,1500);
+insert into Pistes(PisteName, DifficultyColor, NbrMeter) Values("Le druide", 4,600);
+insert into Pistes(PisteName, DifficultyColor, NbrMeter) Values("Les cailloux", 5, 200);
+insert into Pistes(PisteName, DifficultyColor, NbrMeter) Values("Arthouur", 1, 400);
+insert into Pistes(PisteName, DifficultyColor, NbrMeter) Values("Serpentar", 3, 1700);
+insert into Pistes(PisteName, DifficultyColor, NbrMeter) Values("La falaise", 6, 20);
+insert into Pistes(PisteName, DifficultyColor, NbrMeter) Values("Le castor", 2, 1200);
+insert into Pistes(PisteName, DifficultyColor, NbrMeter) Values("Le fenouille", 2, 1800);
