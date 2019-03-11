@@ -20,3 +20,13 @@ alter session set current_schema=TRAVEL;
 start filename.sql
 
 /*Donner droit de lecture et écriture*/
+
+
+ALTER TABLE Building
+DROP CONSTRAINT SkiResortName;
+ALTER TABLE Building
+ADD CONSTRAINT SkiResortName
+  FOREIGN KEY(SkiResortName)
+  REFERENCES SkiResort(SkiResortName)
+  ON UPDATE CASCADE
+  ON DELETE SET NULL;
