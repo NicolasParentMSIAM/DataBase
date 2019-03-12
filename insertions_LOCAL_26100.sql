@@ -555,8 +555,9 @@ INSERT INTO Customer(CustomerName,Gender,Age,CustomerLevel,Practice) VALUES ('We
 INSERT INTO Customer(CustomerName,Gender,Age,CustomerLevel,Practice) VALUES ('Yoko Baird',2,12,0,0);
 INSERT INTO Customer(CustomerName,Gender,Age,CustomerLevel,Practice) VALUES ('Neil Arnold',1,24,0,0);
 
+
 --GoBuilding
--- INSERT INTO GoBuilding(CustomerName,BuildingName,BuildingAdresse) VALUES ();
+INSERT INTO GoBuilding(CustomerName,BuildingName,BuildingAdresse) VALUES ();
 
 
 --Pistes
