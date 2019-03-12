@@ -1535,7 +1535,7 @@ INSERT INTO AccessMechanicalLift(MLName,SkiPassID) VALUES ('Touriste','333');
 
 
 --MLGiveAccessToPiste
-INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ();
+-- INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ();
 
 
 --Transport
