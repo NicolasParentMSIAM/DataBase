@@ -880,19 +880,19 @@ INSERT INTO Piste(PisteName, DifficultyColor, NbrMeter) Values('Cormoranf', 2, 1
 
 
 --SkiPass
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('1','Adrien Babachat','2018-01-0','2018-03-24',6612)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('1','Adrien Babachat','2018-01-1','2018-03-24',6612)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('2','Batiste Chloups','2018-04-1','2018-04-21',275)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('3','Matthieu Laurendeau','2018-01-0','2018-03-12',4686)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('4','Seb Chabal','2018-01-0','2018-03-14',1650)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('5','Romain Cordoba','2018-01-0','2018-02-19',3185)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('3','Matthieu Laurendeau','2018-01-1','2018-03-12',4686)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('4','Seb Chabal','2018-01-1','2018-03-14',1650)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('5','Romain Cordoba','2018-01-1','2018-02-19',3185)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('6','Louis CK','2018-01-2','2018-04-07',6862)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('7','Sylvie Rodriguez','2018-03-1','2018-03-25',736)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('8','Erica Brakebal','2018-02-0','2018-03-11',1443)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('8','Erica Brakebal','2018-02-1','2018-03-11',1443)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('9','Laura Calvez','2018-02-1','2018-04-19',4158)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('10','Carlos Correa','2018-01-2','2018-04-10',5680)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('11','Dak Prescott','2018-03-1','2018-04-11',1500)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('12','Christian Pulisic','2018-04-1','2018-04-19',129)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('13','Laurie Hernandez','2018-02-0','2018-03-29',153)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('13','Laurie Hernandez','2018-02-1','2018-03-29',153)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('14','Karl-Anthony Towns','2018-01-2','2018-04-16',7650)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('15','Joey Bosa','2018-01-1','2018-03-26',1022)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('16','Mookie Betts','2018-02-1','2018-03-17',72)
@@ -909,14 +909,14 @@ INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALU
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('27','Mikaela Shrifrin','2018-01-2','2018-02-06',876)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('28','Claressa Shields','2018-04-2','2018-04-25',13)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('29','Bryce Harper','2018-04-3','2018-04-30',39)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('30','Connor McDavid','2018-03-0','2018-04-24',3657)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('31','Evgenia Medvedeva','2018-01-0','2018-03-07',5824)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('32','Jordan Spieth','2018-02-0','2018-02-26',95)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('30','Connor McDavid','2018-03-1','2018-04-24',3657)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('31','Evgenia Medvedeva','2018-01-1','2018-03-07',5824)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('32','Jordan Spieth','2018-02-1','2018-02-26',95)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('33','Simone Biles','2018-03-2','2018-04-29',3822)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('34','Katie Ledecky','2018-01-2','2018-03-14',4998)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('35','Bruno Tucker','2018-04-0','2018-04-30',162)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('36','Chantale Frank','2018-03-0','2018-03-30',276)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('37','Quinn Owen','2018-03-0','2018-04-17',1288)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('35','Bruno Tucker','2018-04-1','2018-04-30',162)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('36','Chantale Frank','2018-03-1','2018-03-30',276)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('37','Quinn Owen','2018-03-1','2018-04-17',1288)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('38','Evan Alexander','2018-03-2','2018-04-25',1410)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('39','Paloma Swanson','2018-04-2','2018-04-25',486)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('40','Alvin Arnold','2018-04-1','2018-04-29',108)
@@ -926,49 +926,49 @@ INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALU
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('44','Uriel Puckett','2018-01-1','2018-04-09',8064)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('45','Peter Tyson','2018-01-2','2018-03-27',434)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('46','Kadeem Bennett','2018-02-2','2018-03-07',480)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('47','Phillip Oneil','2018-04-0','2018-04-24',928)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('47','Phillip Oneil','2018-04-1','2018-04-24',928)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('48','Octavius Walter','2018-03-1','2018-04-10',288)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('49','Keane Leblanc','2018-04-1','2018-04-19',384)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('50','Delilah Mccarthy','2018-03-2','2018-03-25',528)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('51','Teegan Stanley','2018-01-0','2018-01-07',64)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('51','Teegan Stanley','2018-01-1','2018-01-07',64)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('52','Graham Lawson','2018-04-2','2018-04-26',89)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('53','Patrick Gentry','2018-02-2','2018-03-16',1037)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('54','Jackson Wallace','2018-03-1','2018-04-28',920)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('55','Thane Wolfe','2018-02-1','2018-03-27',2132)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('56','Joseph Brown','2018-01-0','2018-03-23',4320)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('56','Joseph Brown','2018-01-1','2018-03-23',4320)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('57','Sasha Lester','2018-02-1','2018-02-26',17)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('58','Anika Randolph','2018-01-0','2018-04-22',10640)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('58','Anika Randolph','2018-01-1','2018-04-22',10640)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('59','Yoko Randolph','2018-03-2','2018-04-04',511)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('60','Jasper Hoover','2018-01-0','2018-03-12',612)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('61','Blossom Salinas','2018-01-0','2018-02-09',3096)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('60','Jasper Hoover','2018-01-1','2018-03-12',612)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('61','Blossom Salinas','2018-01-1','2018-02-09',3096)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('62','Upton Wynn','2018-01-1','2018-04-28',4860)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('63','Shoshana Carpenter','2018-02-0','2018-03-08',2508)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('63','Shoshana Carpenter','2018-02-1','2018-03-08',2508)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('64','Karleigh Jackson','2018-01-2','2018-04-25',7007)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('65','Yoko Vaughn','2018-03-3','2018-04-05',144)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('66','Aimee Woodward','2018-03-0','2018-04-10',2856)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('66','Aimee Woodward','2018-03-1','2018-04-10',2856)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('67','Stuart Compton','2018-02-2','2018-04-12',2548)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('68','Amela Hodges','2018-04-2','2018-04-27',76)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('69','Tyrone Harding','2018-03-0','2018-04-01',2592)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('69','Tyrone Harding','2018-03-1','2018-04-01',2592)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('70','Ivory Sosa','2018-03-1','2018-04-19',1296)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('71','Derek Stokes','2018-04-2','2018-04-28',216)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('72','Demetrius Pennington','2018-02-2','2018-04-08',3572)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('73','Reese Whitley','2018-02-1','2018-04-14',1568)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('74','Cole Snyder','2018-02-2','2018-04-03',2100)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('75','Jenette Avery','2018-03-1','2018-04-11',2970)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('76','Teegan Nichols','2018-02-0','2018-03-14',1155)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('76','Teegan Nichols','2018-02-1','2018-03-14',1155)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('77','Hyatt Sherman','2018-02-1','2018-04-29',3240)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('78','Ivy Anthony','2018-01-0','2018-02-20',1800)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('78','Ivy Anthony','2018-01-1','2018-02-20',1800)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('79','Kelsie Mcpherson','2018-02-2','2018-03-27',1595)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('80','Upton Quinn','2018-03-0','2018-04-12',2160)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('80','Upton Quinn','2018-03-1','2018-04-12',2160)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('81','Xyla Snow','2018-03-2','2018-04-10',861)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('82','Amery Kim','2018-03-0','2018-04-14',1672)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('82','Amery Kim','2018-03-1','2018-04-14',1672)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('83','Quinn Marks','2018-03-2','2018-04-30',1804)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('84','MacKensie Bailey','2018-01-1','2018-03-13',1512)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('85','Kalia Koch','2018-04-2','2018-04-26',59)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('86','Clayton Mcguire','2018-01-2','2018-04-09',2952)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('87','Reece Larson','2018-03-2','2018-04-19',1081)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('88','Devin Wilkerson','2018-04-2','2018-04-25',108)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('89','Georgia Garner','2018-04-0','2018-04-22',416)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('89','Georgia Garner','2018-04-1','2018-04-22',416)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('90','Armand Maynard','2018-03-1','2018-03-14',292)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('91','Delilah Goodwin','2018-04-2','2018-04-26',168)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('92','Timothy Madden','2018-03-2','2018-04-24',1242)
@@ -976,101 +976,101 @@ INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALU
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('94','Abigail Shaw','2018-04-1','2018-04-22',63)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('95','Sean Hinton','2018-03-1','2018-04-22',588)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('96','Tanner Parker','2018-03-2','2018-03-25',276)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('97','Hayfa Huffman','2018-01-0','2018-02-11',2232)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('97','Hayfa Huffman','2018-01-1','2018-02-11',2232)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('98','Aileen Mckinney','2018-04-1','2018-04-20',168)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('99','Dominique West','2018-02-0','2018-04-13',2275)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('99','Dominique West','2018-02-1','2018-04-13',2275)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('100','Aretha Whitaker','2018-01-1','2018-03-07',2915)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('101','Maile Barr','2018-04-0','2018-04-20',589)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('101','Maile Barr','2018-04-1','2018-04-20',589)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('102','Denton Meyers','2018-01-1','2018-02-11',2970)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('103','Gavin Ray','2018-04-2','2018-04-23',22)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('104','Callum Riggs','2018-03-1','2018-04-27',1638)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('105','Kathleen Gamble','2018-01-0','2018-02-26',1836)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('106','Virginia Bryant','2018-03-0','2018-04-20',510)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('107','Fay Guerra','2018-04-0','2018-04-27',1368)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('105','Kathleen Gamble','2018-01-1','2018-02-26',1836)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('106','Virginia Bryant','2018-03-1','2018-04-20',510)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('107','Fay Guerra','2018-04-1','2018-04-27',1368)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('108','Fritz Levine','2018-03-3','2018-04-06',609)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('109','Branden Kirby','2018-02-2','2018-04-25',992)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('110','Vaughan Levine','2018-01-0','2018-04-03',5874)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('110','Vaughan Levine','2018-01-1','2018-04-03',5874)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('111','Alden Herrera','2018-02-1','2018-04-23',6762)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('112','Lael Henry','2018-03-1','2018-04-24',3444)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('113','Cleo Shepherd','2018-04-2','2018-04-28',252)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('114','Brianna Buckley','2018-02-0','2018-03-23',4794)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('115','Simone Jimenez','2018-03-0','2018-04-02',900)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('114','Brianna Buckley','2018-02-1','2018-03-23',4794)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('115','Simone Jimenez','2018-03-1','2018-04-02',900)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('116','Macon Robertson','2018-02-1','2018-03-25',2640)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('117','Sybil Bowman','2018-02-1','2018-04-13',3969)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('118','Wing Crosby','2018-01-0','2018-01-25',357)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('119','Fallon Norton','2018-03-0','2018-04-15',4032)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('118','Wing Crosby','2018-01-1','2018-01-25',357)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('119','Fallon Norton','2018-03-1','2018-04-15',4032)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('120','Alvin Mccormick','2018-02-2','2018-02-25',156)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('121','Daquan Franklin','2018-04-0','2018-04-16',1344)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('121','Daquan Franklin','2018-04-1','2018-04-16',1344)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('122','Rudyard Vang','2018-01-2','2018-02-14',1525)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('123','Amos Duke','2018-02-0','2018-03-04',2130)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('123','Amos Duke','2018-02-1','2018-03-04',2130)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('124','Idola Nguyen','2018-03-2','2018-04-04',712)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('125','Wesley Lynn','2018-04-2','2018-04-27',133)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('126','Miranda Cardenas','2018-03-1','2018-04-01',903)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('127','Willow Maddox','2018-01-0','2018-04-07',6324)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('127','Willow Maddox','2018-01-1','2018-04-07',6324)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('128','Freya Osborne','2018-01-2','2018-04-16',2430)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('129','Anastasia Price','2018-04-2','2018-04-29',348)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('130','Gary Burch','2018-03-2','2018-03-30',153)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('131','Lamar Reid','2018-04-0','2018-04-15',996)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('132','Josiah Cherry','2018-03-0','2018-04-16',1426)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('131','Lamar Reid','2018-04-1','2018-04-15',996)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('132','Josiah Cherry','2018-03-1','2018-04-16',1426)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('133','Molly Stephens','2018-03-1','2018-03-25',153)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('134','Raja Rollins','2018-04-0','2018-04-27',114)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('135','Todd Harmon','2018-03-0','2018-04-03',850)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('136','Griffith Brown','2018-01-0','2018-02-01',1512)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('137','Leslie Vazquez','2018-01-0','2018-04-27',6490)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('134','Raja Rollins','2018-04-1','2018-04-27',114)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('135','Todd Harmon','2018-03-1','2018-04-03',850)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('136','Griffith Brown','2018-01-1','2018-02-01',1512)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('137','Leslie Vazquez','2018-01-1','2018-04-27',6490)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('138','Fatima Horton','2018-03-1','2018-04-22',1320)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('139','Hayley Simon','2018-03-1','2018-03-23',324)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('140','Dylan Prince','2018-03-1','2018-03-21',800)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('141','Brennan Bryant','2018-02-0','2018-04-10',189)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('141','Brennan Bryant','2018-02-1','2018-04-10',189)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('142','Roanna Dyer','2018-03-1','2018-03-27',1152)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('143','Clayton Mills','2018-03-1','2018-04-14',35)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('144','Blossom Stafford','2018-03-0','2018-04-08',148)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('144','Blossom Stafford','2018-03-1','2018-04-08',148)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('145','Lawrence Bray','2018-04-2','2018-04-20',12)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('146','Arden Torres','2018-03-1','2018-03-13',108)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('147','Brock Cunningham','2018-01-1','2018-02-18',2368)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('148','Ila Tate','2018-01-2','2018-04-26',192)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('149','Geraldine Tran','2018-02-0','2018-04-13',4752)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('150','Jamal Moss','2018-03-0','2018-04-25',3100)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('149','Geraldine Tran','2018-02-1','2018-04-13',4752)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('150','Jamal Moss','2018-03-1','2018-04-25',3100)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('151','Rajah Mendoza','2018-04-2','2018-04-26',110)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('152','Adrienne Miranda','2018-01-0','2018-01-26',575)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('152','Adrienne Miranda','2018-01-1','2018-01-26',575)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('153','Hashim Coleman','2018-03-2','2018-04-09',1080)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('154','Jonah Guerrero','2018-03-1','2018-04-30',414)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('155','Flynn Rogers','2018-01-3','2018-03-06',2590)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('156','Nathan Avila','2018-02-1','2018-04-29',4235)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('157','Pandora Jarvis','2018-01-2','2018-02-13',468)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('158','Ferris Mcgee','2018-03-0','2018-03-24',1248)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('158','Ferris Mcgee','2018-03-1','2018-03-24',1248)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('159','Priscilla Crane','2018-01-1','2018-03-05',2150)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('160','Matthew Martinez','2018-04-2','2018-04-22',71)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('161','Mira Hensley','2018-04-1','2018-04-13',24)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('162','Libby Wyatt','2018-03-1','2018-04-13',1296)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('163','Jin Hampton','2018-02-2','2018-03-16',44)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('164','Rooney Maynard','2018-03-1','2018-04-27',1504)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('165','Shellie Gamble','2018-02-0','2018-02-05',110)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('166','Thor Tanner','2018-03-0','2018-04-29',880)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('167','Pearl Gray','2018-02-0','2018-02-11',632)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('165','Shellie Gamble','2018-02-1','2018-02-05',110)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('166','Thor Tanner','2018-03-1','2018-04-29',880)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('167','Pearl Gray','2018-02-1','2018-02-11',632)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('168','Shafira Mendoza','2018-01-2','2018-01-28',4)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('169','Fuller Le','2018-01-1','2018-01-31',378)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('170','Amethyst Lane','2018-03-2','2018-04-19',744)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('171','Aiko Gonzales','2018-04-1','2018-04-21',95)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('172','Sloane Tran','2018-04-2','2018-04-29',120)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('173','Naida Morris','2018-03-0','2018-03-22',1674)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('174','Whitney Foreman','2018-02-0','2018-03-22',4183)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('173','Naida Morris','2018-03-1','2018-03-22',1674)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('174','Whitney Foreman','2018-02-1','2018-03-22',4183)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('175','Jarrod Gomez','2018-01-1','2018-01-18',252)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('176','Jesse Mendoza','2018-04-1','2018-04-18',270)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('177','Miriam Petty','2018-04-1','2018-04-18',95)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('178','Ina Caldwell','2018-04-2','2018-04-30',117)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('179','Gabriel Payne','2018-01-1','2018-03-17',854)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('180','Briar Baird','2018-01-0','2018-01-11',63)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('181','Ethan House','2018-01-0','2018-04-01',7480)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('182','Warren Todd','2018-04-0','2018-04-08',279)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('180','Briar Baird','2018-01-1','2018-01-11',63)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('181','Ethan House','2018-01-1','2018-04-01',7480)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('182','Warren Todd','2018-04-1','2018-04-08',279)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('183','Macy Tyler','2018-04-1','2018-04-13',32)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('184','Shoshana Padilla','2018-03-1','2018-03-21',264)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('185','Miriam Walls','2018-04-0','2018-04-22',1584)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('186','Kibo Bowman','2018-01-0','2018-04-15',3848)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('185','Miriam Walls','2018-04-1','2018-04-22',1584)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('186','Kibo Bowman','2018-01-1','2018-04-15',3848)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('187','Lynn Molina','2018-03-2','2018-03-30',462)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('188','Jason Richardson','2018-02-2','2018-03-15',1564)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('189','Shelly Juarez','2018-04-1','2018-04-14',15)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('190','Aspen Cherry','2018-04-2','2018-04-28',252)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('191','Fulton Weiss','2018-01-0','2018-04-13',8282)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('191','Fulton Weiss','2018-01-1','2018-04-13',8282)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('192','Zoe Macdonald','2018-02-2','2018-03-06',384)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('193','Eve Maddox','2018-01-2','2018-03-05',1764)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('194','Rae Fuentes','2018-02-1','2018-04-17',4897)
@@ -1081,23 +1081,23 @@ INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALU
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('199','Howard Sims','2018-03-1','2018-03-24',350)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('200','Conan Mckinney','2018-02-2','2018-03-14',595)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('201','Keiko Browning','2018-03-1','2018-03-28',1036)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('202','Richard Mendoza','2018-04-0','2018-04-15',270)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('203','Eagan Clayton','2018-04-0','2018-04-02',110)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('202','Richard Mendoza','2018-04-1','2018-04-15',270)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('203','Eagan Clayton','2018-04-1','2018-04-02',110)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('204','Lawrence Stewart','2018-03-2','2018-04-17',2231)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('205','Kamal Kent','2018-02-1','2018-04-08',275)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('206','Orson Olson','2018-04-2','2018-04-30',30)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('207','Whilemina Fischer','2018-03-3','2018-04-07',639)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('208','Robert Salazar','2018-01-2','2018-02-17',2436)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('209','Kylee Kinney','2018-01-0','2018-01-11',979)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('209','Kylee Kinney','2018-01-1','2018-01-11',979)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('210','Ria Vasquez','2018-03-1','2018-04-08',1365)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('211','Dante Hendricks','2018-02-1','2018-04-16',2665)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('212','Olga Lyons','2018-03-3','2018-04-24',1274)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('213','Nathan West','2018-01-0','2018-04-19',4080)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('213','Nathan West','2018-01-1','2018-04-19',4080)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('214','Quinlan Mcgee','2018-04-1','2018-04-25',560)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('215','Garth Graves','2018-02-0','2018-02-28',1148)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('216','Yasir Valencia','2018-02-0','2018-04-22',1900)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('215','Garth Graves','2018-02-1','2018-02-28',1148)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('216','Yasir Valencia','2018-02-1','2018-04-22',1900)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('217','Sloane Cooley','2018-03-2','2018-04-18',1464)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('218','Tyrone Padilla','2018-02-0','2018-04-16',1898)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('218','Tyrone Padilla','2018-02-1','2018-04-16',1898)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('219','Reuben White','2018-03-2','2018-04-20',1856)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('220','Cheyenne Patterson','2018-02-2','2018-04-25',5782)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('221','Lars Norman','2018-04-1','2018-04-14',84)
@@ -1107,99 +1107,99 @@ INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALU
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('225','Timon Petty','2018-02-2','2018-03-30',2940)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('226','Tana Barrera','2018-01-2','2018-01-31',402)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('227','Rafael Hawkins','2018-01-2','2018-04-03',4216)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('228','Emma Bass','2018-02-0','2018-03-14',3840)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('228','Emma Bass','2018-02-1','2018-03-14',3840)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('229','Charde Velez','2018-02-2','2018-04-26',6300)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('230','Dawn Love','2018-04-3','2018-04-30',19)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('231','Keane Perry','2018-03-2','2018-04-12',1254)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('232','Dolan Hopper','2018-02-0','2018-02-22',1584)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('232','Dolan Hopper','2018-02-1','2018-02-22',1584)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('233','Martha Wilkinson','2018-02-2','2018-03-02',275)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('234','Olivia Townsend','2018-03-2','2018-04-01',385)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('235','Tyrone Castro','2018-02-2','2018-04-15',1372)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('236','Marny Ramsey','2018-03-1','2018-03-16',198)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('237','Yael Parsons','2018-02-2','2018-02-24',45)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('238','Shaeleigh Conrad','2018-02-0','2018-04-10',3968)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('238','Shaeleigh Conrad','2018-02-1','2018-04-10',3968)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('239','Maisie Hale','2018-02-2','2018-03-15',1824)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('240','Ashely Grant','2018-01-0','2018-04-27',3270)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('240','Ashely Grant','2018-01-1','2018-04-27',3270)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('241','Melyssa Sloan','2018-01-1','2018-01-16',324)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('242','Joel Maddox','2018-02-1','2018-04-12',3816)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('243','Benedict Noble','2018-04-2','2018-04-28',360)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('244','Audra Rodriguez','2018-02-1','2018-03-01',832)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('245','Ishmael Flores','2018-02-0','2018-02-11',350)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('245','Ishmael Flores','2018-02-1','2018-02-11',350)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('246','Barbara Richards','2018-01-1','2018-02-24',2920)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('247','Coby Marks','2018-04-1','2018-04-27',493)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('248','Maggy Kirkland','2018-03-0','2018-04-26',3657)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('248','Maggy Kirkland','2018-03-1','2018-04-26',3657)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('249','Garrison Ayala','2018-02-2','2018-04-15',4418)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('250','Wesley Davenport','2018-03-3','2018-04-15',1632)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('251','Deacon Cohen','2018-01-0','2018-01-13',156)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('251','Deacon Cohen','2018-01-1','2018-01-13',156)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('252','Alan Taylor','2018-03-1','2018-03-27',110)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('253','Camilla Schmidt','2018-04-1','2018-04-24',840)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('254','Deirdre Alvarez','2018-01-2','2018-02-04',812)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('255','Evangeline Douglas','2018-04-2','2018-04-27',40)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('256','Tarik Love','2018-01-0','2018-01-23',1587)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('257','Willow Clarke','2018-02-0','2018-02-22',1134)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('258','Fuller Hudson','2018-02-0','2018-04-22',5625)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('256','Tarik Love','2018-01-1','2018-01-23',1587)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('257','Willow Clarke','2018-02-1','2018-02-22',1134)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('258','Fuller Hudson','2018-02-1','2018-04-22',5625)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('259','Guinevere Gutierrez','2018-01-1','2018-03-09',3132)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('260','Kenyon Hampton','2018-02-1','2018-04-30',3150)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('261','Fleur Baird','2018-01-2','2018-02-05',350)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('262','Maryam Beach','2018-01-2','2018-02-12',1472)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('263','Reuben Dorsey','2018-04-0','2018-04-12',430)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('263','Reuben Dorsey','2018-04-1','2018-04-12',430)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('264','Mufutau Powers','2018-02-2','2018-03-31',1014)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('265','Joelle Sullivan','2018-04-2','2018-04-22',16)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('266','Isabella Rodriguez','2018-04-2','2018-04-27',128)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('267','Zane Walls','2018-03-2','2018-04-06',1386)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('268','Travis Morin','2018-01-0','2018-02-03',2175)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('269','Aristotle Stone','2018-02-0','2018-04-26',5698)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('270','Jackson Osborn','2018-03-0','2018-04-26',3355)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('268','Travis Morin','2018-01-1','2018-02-03',2175)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('269','Aristotle Stone','2018-02-1','2018-04-26',5698)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('270','Jackson Osborn','2018-03-1','2018-04-26',3355)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('271','Owen Gross','2018-02-1','2018-03-01',1666)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('272','Kaseem Boyle','2018-03-1','2018-04-07',1344)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('273','Finn Grimes','2018-01-1','2018-02-25',4277)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('274','Ira Wilkerson','2018-04-0','2018-04-30',2231)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('274','Ira Wilkerson','2018-04-1','2018-04-30',2231)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('275','Blossom Glenn','2018-01-1','2018-04-24',3535)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('276','Wallace Whitaker','2018-04-2','2018-04-28',360)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('277','Jolene Buchanan','2018-01-2','2018-04-01',4047)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('278','Harper Hanson','2018-02-0','2018-02-15',357)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('278','Harper Hanson','2018-02-1','2018-02-15',357)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('279','Tarik Black','2018-02-1','2018-03-31',4268)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('280','Cameran Small','2018-04-2','2018-04-26',480)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('281','Madeline Parrish','2018-02-0','2018-03-27',2028)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('282','Justine Burks','2018-03-0','2018-04-12',3772)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('281','Madeline Parrish','2018-02-1','2018-03-27',2028)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('282','Justine Burks','2018-03-1','2018-04-12',3772)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('283','Gwendolyn Berger','2018-03-2','2018-04-12',1275)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('284','Emery Ware','2018-01-2','2018-03-27',3422)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('285','Claudia Schneider','2018-02-1','2018-04-26',825)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('286','Dean Spencer','2018-03-1','2018-03-27',810)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('287','Troy Donovan','2018-03-2','2018-03-21',58)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('288','Bruno Cantu','2018-01-3','2018-03-20',49)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('289','Drake Barber','2018-01-0','2018-02-04',3168)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('289','Drake Barber','2018-01-1','2018-02-04',3168)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('290','Lacey Smith','2018-04-1','2018-04-21',441)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('291','Myles Riggs','2018-04-1','2018-04-26',780)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('292','Reece Strong','2018-01-2','2018-04-11',480)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('293','Hayden Rowland','2018-02-1','2018-02-27',518)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('294','Cain Eaton','2018-01-0','2018-01-09',125)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('294','Cain Eaton','2018-01-1','2018-01-09',125)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('295','Colorado Marshall','2018-01-2','2018-03-29',6200)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('296','Quinlan Juarez','2018-02-1','2018-03-10',280)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('297','Bryar Kaufman','2018-04-1','2018-04-22',216)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('298','Dahlia Sloan','2018-04-1','2018-04-18',240)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('299','Kelsey Barber','2018-01-2','2018-03-13',1222)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('300','Gregory Rollins','2018-03-0','2018-04-26',4312)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('301','Leila Gilmore','2018-02-0','2018-04-18',4970)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('302','Trevor Talley','2018-01-0','2018-02-07',1216)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('300','Gregory Rollins','2018-03-1','2018-04-26',4312)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('301','Leila Gilmore','2018-02-1','2018-04-18',4970)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('302','Trevor Talley','2018-01-1','2018-02-07',1216)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('303','Mason Greer','2018-01-1','2018-02-22',1254)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('304','Preston Woods','2018-01-1','2018-02-02',935)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('305','Willa Camacho','2018-04-1','2018-04-24',50)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('306','Meredith Soto','2018-04-0','2018-04-21',1064)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('306','Meredith Soto','2018-04-1','2018-04-21',1064)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('307','Ima Solis','2018-02-2','2018-03-23',2511)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('308','Violet Flynn','2018-02-2','2018-02-25',48)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('309','Shaine Marshall','2018-04-1','2018-04-21',500)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('310','Guy Dickerson','2018-01-2','2018-03-02',252)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('311','Chantale Benjamin','2018-04-1','2018-04-18',60)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('312','Charde Doyle','2018-02-1','2018-04-28',6120)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('313','Cherokee Foreman','2018-02-0','2018-02-11',244)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('313','Cherokee Foreman','2018-02-1','2018-02-11',244)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('314','Acton Meadows','2018-04-3','2018-04-30',26)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('315','Imani Copeland','2018-02-2','2018-04-19',4316)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('316','Whoopi Atkinson','2018-04-0','2018-04-20',1520)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('317','Lars Mcintyre','2018-01-0','2018-03-23',2128)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('316','Whoopi Atkinson','2018-04-1','2018-04-20',1520)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('317','Lars Mcintyre','2018-01-1','2018-03-23',2128)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('318','Karen Lyons','2018-03-1','2018-04-26',1702)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('319','Carla Carr','2018-04-2','2018-04-24',120)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('320','Tatyana Kline','2018-02-0','2018-03-13',1292)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('320','Tatyana Kline','2018-02-1','2018-03-13',1292)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('321','Brennan Blair','2018-04-2','2018-04-30',60)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('322','Daniel Reyes','2018-03-2','2018-03-30',672)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('323','Jena Witt','2018-01-3','2018-04-07',1632)
@@ -1210,7 +1210,7 @@ INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALU
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('328','Dale Knight','2018-03-3','2018-04-18',1349)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('329','May Bruce','2018-03-2','2018-04-02',234)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('330','Blaine Mcintyre','2018-02-2','2018-04-01',2418)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('331','Wesley Crosby','2018-01-0','2018-01-30',1219)
+INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('331','Wesley Crosby','2018-01-1','2018-01-30',1219)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('332','Yoko Baird','2018-03-1','2018-04-19',374)
 INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('333','Neil Arnold','2018-04-2','2018-04-25',192)
 
@@ -1535,7 +1535,87 @@ INSERT INTO AccessMechanicalLift(MLName,SkiPassID) VALUES ('Touriste','333');
 
 
 --MLGiveAccessToPiste
--- INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ();
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('La chartreuse','Les anglaises');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Arthouur','Le 6 places');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Arthouur','Le Fast');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Arthouur','Les chamoix');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Chimpanzee','Chaud Asticot');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Chimpanzee','Les oeufs');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Chimpanzee','Splendide');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Cormoranf','GiveMeMore');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Cormoranf','Le parigot');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Cormoranf','Le sucidaire');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Coyote','Le flocon');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Coyote','Les chamoix');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Coyote','QueenEli');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Crocodile','Le Fast');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Crocodile','Truck');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Crocodile','Water');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Dolphin','Jandri');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Dolphin','Le dahut');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Dolphin','Le Fast');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Elephant','Chaud Asticot');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Elephant','La folie douce');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Elephant','QueenEli');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Elk','Chaud Asticot');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Elk','Le flocon');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Elk','Le sucidaire');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Hippopotamus','GiveMeMore');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Hippopotamus','Le parigot');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Hippopotamus','Pays merveilleux');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('La chartreuse','Le vin chaud');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('La chartreuse','Truck');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('La falaise','Le commodore 3000');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('La falaise','Les chamoix');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('La falaise','Splendide');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Le castor','Jandri');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Le castor','Le Fast');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Le castor','Les oeufs');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Le druide','Chaud Asticot');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Le druide','Falaise');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Le druide','QueenEli');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Le fenouille','Chaud Asticot');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Le fenouille','Le vin chaud');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Le fenouille','Les chamoix');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Le genepy','Falaise');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Le genepy','GiveMeMore');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Le genepy','Le sucidaire');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Les cailloux','Grandiose');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Les cailloux','Le 6 places');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Les cailloux','Le dahut');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Lion','GiveMeMore');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Lion','Le flocon');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Lion','Tyrolienne');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Octopus','Genepy');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Octopus','La Classique');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Octopus','Ours');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Otter','Falaise');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Otter','Luxor');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Otter','Truck');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Racoon','Genepy');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Racoon','Le parigot');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Racoon','Le yeti');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Seahorse','La Classique');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Seahorse','Le flocon');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Seahorse','Splendide');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Serpentar','Le sucidaire');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Serpentar','Les chamoix');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Serpentar','Tyrolienne');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Shark','Le sucidaire');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Shark','Touriste');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Shark','Tyrolienne');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Squirrel','Le parigot');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Squirrel','Le vin chaud');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Squirrel','QueenEli');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Starfish','GiveMeMore');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Starfish','La Classique');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Walrus','Le sucidaire');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Walrus','Les anglaises');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Walrus','Luxor');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Whale','La Classique');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Whale','Le dahut');
+INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Whale','Pays merveilleux');
+
 
 
 --Transport
@@ -1559,16 +1639,406 @@ INSERT INTO Transport(TransportID,TransportType,TransportPassengerNbr,TransportC
 INSERT INTO Transport(TransportID,TransportType,TransportPassengerNbr,TransportCapacityNbr) Values('Blackout',2,3,4)
 
 
---MakeTransport
-
-
 --UseTransport
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Adrien Babachat','Spectre','2018-01-20','2018-02-26',1786);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Batiste Chloups','Batmobile','2018-04-04','2018-04-06',123);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Carlos Correa','Batmobile','2018-03-10','2018-03-12',42);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Christian Pulisic','Batmobile','2018-04-03','2018-04-05',102);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Delilah Mccarthy','Batmobile','2018-04-07','2018-04-18',540);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Erica Brakebal','Batmobile','2018-04-15','2018-04-15',37);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Ethan House','Batmobile','2018-04-11','2018-04-13',102);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Evgenia Medvedeva','Batmobile','2018-04-04','2018-04-12',117);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Ezekiel Elliott','Batmobile','2018-04-17','2018-04-17',24);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Giannis Antetokounmpo','Batmobile','2018-04-05','2018-04-09',105);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Grant Lara','Batmobile','2018-04-02','2018-04-18',391);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Louis CK','Batmobile','2018-04-02','2018-04-14',637);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Mookie Betts','Batmobile','2018-01-17','2018-03-02',1395);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Orson Olson','Batmobile','2018-01-23','2018-02-18',621);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Phillip Oneil','Batmobile','2018-02-16','2018-02-26',77);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Quinn Owen','Batmobile','2018-01-02','2018-01-03',32);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Reece Strong','Batmobile','2018-02-14','2018-02-28',495);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Robert Salazar','Batmobile','2018-01-18','2018-02-14',896);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Seb Chabal','Batmobile','2018-03-05','2018-03-09',15);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Uriel Puckett','Batmobile','2018-04-08','2018-04-20',611);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Adrien Babachat','Blackout','2018-02-19','2018-03-08',576);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Batiste Chloups','Blackout','2018-04-18','2018-04-21',80);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Bryce Harper','Blackout','2018-04-20','2018-04-21',34);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Cain Eaton','Blackout','2018-04-09','2018-04-13',60);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Carlos Correa','Blackout','2018-01-28','2018-02-20',144);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Chantale Frank','Blackout','2018-03-04','2018-03-19',480);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Dak Prescott','Blackout','2018-04-01','2018-04-16',592);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Delilah Mccarthy','Blackout','2018-04-02','2018-04-19',810);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Erica Brakebal','Blackout','2018-04-03','2018-04-03',40);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Evan Alexander','Blackout','2018-04-01','2018-04-09',261);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Evgenia Medvedeva','Blackout','2018-04-09','2018-04-14',18);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Ezekiel Elliott','Blackout','2018-04-03','2018-04-11',243);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Gabriel Payne','Blackout','2018-04-14','2018-04-15',36);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Grant Lara','Blackout','2018-04-17','2018-04-17',12);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Howard Sims','Blackout','2018-04-12','2018-04-19',376);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Jackson Osborn','Blackout','2018-04-08','2018-04-10',111);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Joey Bosa','Blackout','2018-02-11','2018-02-23',494);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Kadeem Bennett','Blackout','2018-03-26','2018-03-26',14);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Laura Calvez','Blackout','2018-04-18','2018-04-20',15);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Louis CK','Blackout','2018-04-18','2018-04-18',39);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Mikaela Shrifrin','Blackout','2018-02-10','2018-03-04',1127);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Miriam Walls','Blackout','2018-02-08','2018-03-08',1392);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Nasim Dawson','Blackout','2018-02-24','2018-03-01',180);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Peter Tyson','Blackout','2018-02-19','2018-03-02',108);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Seb Chabal','Blackout','2018-01-25','2018-03-05',360);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Simone Biles','Blackout','2018-03-07','2018-03-27',483);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Teegan Stanley','Blackout','2018-04-01','2018-04-04',20);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Xenos Sampson','Blackout','2018-02-07','2018-02-18',300);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Alvin Arnold','Bumblebee','2018-01-20','2018-03-24',192);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Batiste Chloups','Bumblebee','2018-04-08','2018-04-18',286);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Bruno Tucker','Bumblebee','2018-04-10','2018-04-21',528);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Chloe Kim','Bumblebee','2018-03-09','2018-03-30',616);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Christian Pulisic','Bumblebee','2018-04-08','2018-04-12',55);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Cleo Shepherd','Bumblebee','2018-04-03','2018-04-13',154);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Colorado Marshall','Bumblebee','2018-04-12','2018-04-15',144);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Erica Brakebal','Bumblebee','2018-04-03','2018-04-14',360);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Evan Alexander','Bumblebee','2018-04-03','2018-04-04',74);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Harry Kane','Bumblebee','2018-04-05','2018-04-06',38);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Jordan Spieth','Bumblebee','2018-01-10','2018-02-23',45);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Kadeem Bennett','Bumblebee','2018-01-27','2018-02-11',32);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Karl-Anthony Towns','Bumblebee','2018-02-09','2018-02-14',264);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Katie Ledecky','Bumblebee','2018-01-02','2018-01-16',0);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Laurie Hernandez','Bumblebee','2018-04-21','2018-04-21',46);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Lilly King','Bumblebee','2018-04-06','2018-04-15',470);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Nasim Dawson','Bumblebee','2018-01-03','2018-02-10',936);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Octavius Walter','Bumblebee','2018-01-26','2018-02-21',648);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Odell Beckham Jr.','Bumblebee','2018-02-06','2018-02-23',450);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Paloma Swanson','Bumblebee','2018-03-10','2018-03-12',69);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Sylvie Rodriguez','Bumblebee','2018-03-09','2018-03-17',63);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Uriel Puckett','Bumblebee','2018-04-23','2018-04-29',203);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Vaughan Levine','Bumblebee','2018-04-19','2018-04-21',132);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Xenos Sampson','Bumblebee','2018-03-02','2018-03-25',696);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Batiste Chloups','C est pas sorcier','2018-04-19','2018-04-20',72);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Bruno Tucker','C est pas sorcier','2018-04-14','2018-04-17',164);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Callum Riggs','C est pas sorcier','2018-04-15','2018-04-17',99);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Claressa Shields','C est pas sorcier','2018-04-17','2018-04-18',8);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Jack Valentine','C est pas sorcier','2018-04-17','2018-04-17',3);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Joey Bosa','C est pas sorcier','2018-03-21','2018-03-21',28);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Karl-Anthony Towns','C est pas sorcier','2018-02-16','2018-03-15',1036);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Lael Henry','C est pas sorcier','2018-04-07','2018-04-18',168);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Mookie Betts','C est pas sorcier','2018-03-07','2018-03-09',96);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Peter Tyson','C est pas sorcier','2018-02-03','2018-02-03',21);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Rae Fuentes','C est pas sorcier','2018-01-29','2018-02-25',1232);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Romain Cordoba','C est pas sorcier','2018-02-03','2018-03-05',403);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Simone Biles','C est pas sorcier','2018-02-06','2018-02-20',435);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Sybil Bowman','C est pas sorcier','2018-01-17','2018-01-30',546);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Sylvie Rodriguez','C est pas sorcier','2018-03-08','2018-03-22',675);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Travis Morin','C est pas sorcier','2018-04-05','2018-04-06',30);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Uriel Puckett','C est pas sorcier','2018-04-13','2018-04-25',416);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Wallace Whitaker','C est pas sorcier','2018-04-01','2018-04-11',110);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Zoe Macdonald','C est pas sorcier','2018-02-08','2018-02-25',522);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Alvin Arnold','Coccinelle','2018-01-02','2018-03-01',1121);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Auston Matthews','Coccinelle','2018-02-04','2018-02-27',864);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Batiste Chloups','Coccinelle','2018-04-05','2018-04-15',275);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Bruno Tucker','Coccinelle','2018-04-01','2018-04-19',665);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Bryce Harper','Coccinelle','2018-04-11','2018-04-12',14);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Carlos Correa','Coccinelle','2018-02-09','2018-03-23',645);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Chantale Frank','Coccinelle','2018-01-30','2018-02-15',255);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Chloe Kim','Coccinelle','2018-04-04','2018-04-08',170);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Christian Pulisic','Coccinelle','2018-04-15','2018-04-17',42);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Claressa Shields','Coccinelle','2018-04-01','2018-04-14',392);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Connor McDavid','Coccinelle','2018-04-16','2018-04-18',45);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Dak Prescott','Coccinelle','2018-04-04','2018-04-15',0);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Erica Brakebal','Coccinelle','2018-04-15','2018-04-16',0);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Evgenia Medvedeva','Coccinelle','2018-04-16','2018-04-16',49);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Ezekiel Elliott','Coccinelle','2018-04-10','2018-04-17',296);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Fay Guerra','Coccinelle','2018-04-02','2018-04-06',155);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Finn Grimes','Coccinelle','2018-04-10','2018-04-17',40);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Grant Lara','Coccinelle','2018-04-02','2018-04-16',645);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Joey Bosa','Coccinelle','2018-03-14','2018-03-22',144);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Justine Burks','Coccinelle','2018-02-11','2018-02-22',480);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Louis CK','Coccinelle','2018-04-02','2018-04-19',432);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Matthieu Laurendeau','Coccinelle','2018-02-27','2018-03-09',132);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Mikaela Shrifrin','Coccinelle','2018-02-28','2018-03-12',0);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Nasim Dawson','Coccinelle','2018-02-13','2018-03-10',728);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Octavius Walter','Coccinelle','2018-02-16','2018-03-02',105);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Peter Tyson','Coccinelle','2018-01-21','2018-02-20',1302);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Quinn Owen','Coccinelle','2018-02-15','2018-03-06',200);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Richard Mendoza','Coccinelle','2018-02-08','2018-02-18',22);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Romain Cordoba','Coccinelle','2018-01-15','2018-02-09',936);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Shoshana Padilla','Coccinelle','2018-02-06','2018-03-17',1160);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Simone Biles','Coccinelle','2018-04-05','2018-04-05',46);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Simone Jimenez','Coccinelle','2018-01-30','2018-02-05',84);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Uriel Puckett','Coccinelle','2018-04-07','2018-04-09',51);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Alvin Arnold','De Lorean','2018-03-14','2018-03-19',102);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Auston Matthews','De Lorean','2018-03-03','2018-03-23',399);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Batiste Chloups','De Lorean','2018-04-18','2018-04-19',66);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Blossom Glenn','De Lorean','2018-04-14','2018-04-21',56);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Branden Kirby','De Lorean','2018-04-11','2018-04-12',18);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Bryce Harper','De Lorean','2018-04-10','2018-04-16',70);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Caeleb Dressel','De Lorean','2018-04-20','2018-04-21',16);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Claressa Shields','De Lorean','2018-04-09','2018-04-19',198);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Erica Brakebal','De Lorean','2018-04-05','2018-04-10',186);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Evan Alexander','De Lorean','2018-04-07','2018-04-19',338);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Eve Maddox','De Lorean','2018-04-14','2018-04-15',8);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Giannis Antetokounmpo','De Lorean','2018-04-03','2018-04-07',5);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Grant Lara','De Lorean','2018-04-16','2018-04-19',124);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Karl-Anthony Towns','De Lorean','2018-02-27','2018-03-22',888);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Keane Leblanc','De Lorean','2018-03-05','2018-03-06',28);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Kylian Mbappe','De Lorean','2018-02-06','2018-03-02',25);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Lilly King','De Lorean','2018-04-09','2018-04-14',288);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Maryam Beach','De Lorean','2018-04-08','2018-04-15',288);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Matthieu Laurendeau','De Lorean','2018-02-22','2018-03-01',96);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Mikaela Shrifrin','De Lorean','2018-01-16','2018-02-17',1221);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Noel Thornton','De Lorean','2018-02-09','2018-02-09',27);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Odell Beckham Jr.','De Lorean','2018-02-24','2018-03-04',333);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Paloma Swanson','De Lorean','2018-03-11','2018-03-11',22);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Quinn Owen','De Lorean','2018-02-06','2018-03-11',1360);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Romain Cordoba','De Lorean','2018-02-10','2018-02-22',26);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Seb Chabal','De Lorean','2018-02-26','2018-03-09',192);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Xenos Sampson','De Lorean','2018-01-14','2018-03-10',1176);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Adrien Babachat','Eleanor','2018-01-08','2018-03-09',122);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Auston Matthews','Eleanor','2018-01-03','2018-03-19',1216);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Brianna Buckley','Eleanor','2018-04-07','2018-04-16',30);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Bruno Tucker','Eleanor','2018-04-20','2018-04-21',16);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Cameran Small','Eleanor','2018-04-07','2018-04-21',750);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Chloe Kim','Eleanor','2018-01-18','2018-03-12',1026);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Connor McDavid','Eleanor','2018-04-18','2018-04-18',7);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Delilah Mccarthy','Eleanor','2018-04-10','2018-04-17',128);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Erica Brakebal','Eleanor','2018-04-12','2018-04-18',238);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Evan Alexander','Eleanor','2018-04-16','2018-04-19',76);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Harry Kane','Eleanor','2018-04-08','2018-04-16',207);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Hayden Rowland','Eleanor','2018-04-05','2018-04-09',100);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Ina Caldwell','Eleanor','2018-04-18','2018-04-18',22);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Ira Wilkerson','Eleanor','2018-04-13','2018-04-17',230);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Jordan Spieth','Eleanor','2018-03-15','2018-03-16',6);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Katie Ledecky','Eleanor','2018-01-25','2018-03-14',294);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Madeline Parrish','Eleanor','2018-04-10','2018-04-14',195);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Matthieu Laurendeau','Eleanor','2018-01-29','2018-03-02',495);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Mikaela Shrifrin','Eleanor','2018-01-28','2018-03-01',66);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Mookie Betts','Eleanor','2018-02-17','2018-02-28',12);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Octavius Walter','Eleanor','2018-01-13','2018-02-26',1710);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Paloma Swanson','Eleanor','2018-02-10','2018-03-12',1116);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Quinlan Juarez','Eleanor','2018-02-12','2018-02-27',592);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Simone Biles','Eleanor','2018-02-02','2018-02-19',828);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Sylvie Rodriguez','Eleanor','2018-03-09','2018-03-25',255);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Wing Crosby','Eleanor','2018-04-24','2018-04-27',152);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Anthony Davis','Fast and Furious','2018-02-28','2018-03-02',144);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Bryce Harper','Fast and Furious','2018-04-10','2018-04-21',84);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Caeleb Dressel','Fast and Furious','2018-04-15','2018-04-17',147);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Dak Prescott','Fast and Furious','2018-04-05','2018-04-08',64);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Delilah Mccarthy','Fast and Furious','2018-04-02','2018-04-12',132);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Evan Alexander','Fast and Furious','2018-04-04','2018-04-11',328);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Evgenia Medvedeva','Fast and Furious','2018-04-03','2018-04-17',465);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Jarrod Gomez','Fast and Furious','2018-04-17','2018-04-19',78);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Jordan Spieth','Fast and Furious','2018-03-18','2018-03-24',49);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Karl-Anthony Towns','Fast and Furious','2018-01-31','2018-03-21',2500);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Laurie Hernandez','Fast and Furious','2018-04-09','2018-04-18',260);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Matthieu Laurendeau','Fast and Furious','2018-02-01','2018-03-06',408);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Mookie Betts','Fast and Furious','2018-02-07','2018-03-04',416);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Mufutau Powers','Fast and Furious','2018-01-15','2018-03-02',987);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Nasim Dawson','Fast and Furious','2018-01-19','2018-02-14',1296);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Octavius Walter','Fast and Furious','2018-02-23','2018-02-25',81);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Teegan Stanley','Fast and Furious','2018-04-13','2018-04-15',45);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Whilemina Fischer','Fast and Furious','2018-04-12','2018-04-23',120);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Adrien Babachat','Faucon noir','2018-03-03','2018-03-05',87);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Anthony Davis','Faucon noir','2018-01-09','2018-01-23',615);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Auston Matthews','Faucon noir','2018-03-19','2018-03-20',50);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Bruno Tucker','Faucon noir','2018-04-04','2018-04-06',48);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Bryce Harper','Faucon noir','2018-04-04','2018-04-11',296);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Carlos Correa','Faucon noir','2018-03-13','2018-04-06',775);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Chantale Frank','Faucon noir','2018-02-22','2018-03-03',400);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Christian Pulisic','Faucon noir','2018-04-08','2018-04-15',184);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Dahlia Sloan','Faucon noir','2018-04-15','2018-04-16',36);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Delilah Mccarthy','Faucon noir','2018-04-09','2018-04-10',2);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Emery Ware','Faucon noir','2018-04-06','2018-04-14',297);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Ezekiel Elliott','Faucon noir','2018-04-05','2018-04-15',495);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Fallon Norton','Faucon noir','2018-04-02','2018-04-10',450);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Jolene Buchanan','Faucon noir','2018-01-29','2018-03-19',2100);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Kadeem Bennett','Faucon noir','2018-02-07','2018-03-01',368);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Katie Ledecky','Faucon noir','2018-01-17','2018-03-09',2028);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Kylian Mbappe','Faucon noir','2018-02-07','2018-02-21',435);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Lacey Smith','Faucon noir','2018-04-20','2018-04-20',43);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Laura Calvez','Faucon noir','2018-04-16','2018-04-20',135);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Lilly King','Faucon noir','2018-04-01','2018-04-17',833);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Matthieu Laurendeau','Faucon noir','2018-01-20','2018-03-10',1700);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Mikaela Shrifrin','Faucon noir','2018-01-16','2018-02-27',1333);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Odell Beckham Jr.','Faucon noir','2018-01-27','2018-03-09',1596);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Reuben Dorsey','Faucon noir','2018-02-11','2018-03-08',1222);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Romain Cordoba','Faucon noir','2018-02-19','2018-03-02',552);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Tarik Black','Faucon noir','2018-04-29','2018-04-29',44);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Alvin Arnold','Fortnite bus','2018-03-10','2018-03-13',32);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Auston Matthews','Fortnite bus','2018-02-24','2018-02-25',36);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Bruno Cantu','Fortnite bus','2018-04-09','2018-04-11',87);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Chloe Kim','Fortnite bus','2018-03-03','2018-04-06',1505);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Conan Mckinney','Fortnite bus','2018-04-17','2018-04-17',5);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Connor McDavid','Fortnite bus','2018-04-08','2018-04-15',376);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Dak Prescott','Fortnite bus','2018-04-03','2018-04-12',360);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Daquan Franklin','Fortnite bus','2018-04-05','2018-04-13',189);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Fritz Levine','Fortnite bus','2018-04-13','2018-04-19',105);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Grant Lara','Fortnite bus','2018-04-15','2018-04-17',129);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Harry Kane','Fortnite bus','2018-04-18','2018-04-18',18);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Jason Richardson','Fortnite bus','2018-04-08','2018-04-18',242);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Joey Bosa','Fortnite bus','2018-03-14','2018-03-21',272);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Katie Ledecky','Fortnite bus','2018-03-04','2018-03-26',207);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Laura Calvez','Fortnite bus','2018-04-16','2018-04-17',88);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Laurie Hernandez','Fortnite bus','2018-04-20','2018-04-20',22);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Lilly King','Fortnite bus','2018-04-08','2018-04-15',312);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Odell Beckham Jr.','Fortnite bus','2018-01-22','2018-03-06',1760);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Owen Gross','Fortnite bus','2018-02-26','2018-03-10',442);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Peter Tyson','Fortnite bus','2018-02-12','2018-02-28',204);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Quinn Owen','Fortnite bus','2018-02-15','2018-02-23',288);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Seb Chabal','Fortnite bus','2018-01-20','2018-02-24',1152);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Simone Biles','Fortnite bus','2018-03-30','2018-04-04',96);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Teegan Stanley','Fortnite bus','2018-04-21','2018-04-28',136);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Uriel Puckett','Fortnite bus','2018-04-18','2018-04-29',336);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Xenos Sampson','Fortnite bus','2018-02-04','2018-03-24',98);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Bryar Kaufman','K2000','2018-04-20','2018-04-21',10);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Bryce Harper','K2000','2018-04-17','2018-04-18',50);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Caeleb Dressel','K2000','2018-04-08','2018-04-21',588);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Dean Spencer','K2000','2018-04-04','2018-04-06',123);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Drake Barber','K2000','2018-04-15','2018-04-15',28);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Evgenia Medvedeva','K2000','2018-04-08','2018-04-08',24);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Gavin Ray','K2000','2018-04-03','2018-04-04',56);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Giannis Antetokounmpo','K2000','2018-04-08','2018-04-11',16);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Karl-Anthony Towns','K2000','2018-03-04','2018-03-08',60);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Katie Ledecky','K2000','2018-02-01','2018-02-07',273);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Kylian Mbappe','K2000','2018-02-24','2018-03-06',44);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Macy Tyler','K2000','2018-04-16','2018-04-16',39);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Odell Beckham Jr.','K2000','2018-01-11','2018-03-07',56);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Paloma Swanson','K2000','2018-01-10','2018-01-20',517);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Phillip Oneil','K2000','2018-02-02','2018-03-08',1190);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Quinn Owen','K2000','2018-02-06','2018-02-17',444);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Shelly Juarez','K2000','2018-03-15','2018-03-24',60);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Sylvie Rodriguez','K2000','2018-03-13','2018-03-16',148);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Teegan Stanley','K2000','2018-04-16','2018-04-21',180);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Whitney Foreman','K2000','2018-04-21','2018-04-21',50);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Xenos Sampson','K2000','2018-02-16','2018-03-03',800);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Alvin Arnold','L Agence tous risque','2018-01-24','2018-02-10',900);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Anthony Davis','L Agence tous risque','2018-03-18','2018-03-19',6);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Auston Matthews','L Agence tous risque','2018-02-16','2018-02-23',0);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Briar Baird','L Agence tous risque','2018-04-09','2018-04-13',125);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Bruno Tucker','L Agence tous risque','2018-04-04','2018-04-14',198);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Caeleb Dressel','L Agence tous risque','2018-04-20','2018-04-21',44);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Chantale Frank','L Agence tous risque','2018-03-01','2018-03-11',264);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Chloe Kim','L Agence tous risque','2018-04-09','2018-04-09',24);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Christian Pulisic','L Agence tous risque','2018-04-02','2018-04-19',504);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Claressa Shields','L Agence tous risque','2018-04-01','2018-04-12',120);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Ezekiel Elliott','L Agence tous risque','2018-04-18','2018-04-19',60);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Giannis Antetokounmpo','L Agence tous risque','2018-04-16','2018-04-18',120);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Grant Lara','L Agence tous risque','2018-04-17','2018-04-17',17);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Isabella Rodriguez','L Agence tous risque','2018-04-16','2018-04-18',0);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Joey Bosa','L Agence tous risque','2018-01-16','2018-03-23',1005);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Jordan Spieth','L Agence tous risque','2018-02-12','2018-03-25',1008);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Keane Leblanc','L Agence tous risque','2018-03-09','2018-03-10',44);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Laurie Hernandez','L Agence tous risque','2018-04-18','2018-04-18',20);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Lilly King','L Agence tous risque','2018-04-01','2018-04-15',75);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Macon Robertson','L Agence tous risque','2018-04-13','2018-04-16',156);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Matthieu Laurendeau','L Agence tous risque','2018-01-31','2018-02-22',345);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Naida Morris','L Agence tous risque','2018-03-10','2018-03-11',88);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Octavius Walter','L Agence tous risque','2018-03-05','2018-03-11',140);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Paloma Swanson','L Agence tous risque','2018-02-28','2018-03-04',130);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Troy Donovan','L Agence tous risque','2018-04-21','2018-04-24',160);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Alvin Mccormick','OuiOui','2018-02-09','2018-02-17',360);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Christian Pulisic','OuiOui','2018-04-06','2018-04-11',162);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Connor McDavid','OuiOui','2018-04-17','2018-04-17',41);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Dak Prescott','OuiOui','2018-04-17','2018-04-17',26);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Delilah Mccarthy','OuiOui','2018-04-16','2018-04-16',29);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Giannis Antetokounmpo','OuiOui','2018-04-01','2018-04-15',495);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Grant Lara','OuiOui','2018-04-07','2018-04-09',51);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Harry Kane','OuiOui','2018-04-07','2018-04-08',60);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Kadeem Bennett','OuiOui','2018-01-26','2018-02-20',416);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Karl-Anthony Towns','OuiOui','2018-01-26','2018-02-06',240);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Katie Ledecky','OuiOui','2018-02-14','2018-02-19',204);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Keane Leblanc','OuiOui','2018-01-11','2018-03-25',2516);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Kibo Bowman','OuiOui','2018-01-11','2018-03-04',1431);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Kylian Mbappe','OuiOui','2018-02-09','2018-02-15',329);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Laurie Hernandez','OuiOui','2018-04-20','2018-04-21',84);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Matthieu Laurendeau','OuiOui','2018-02-22','2018-02-22',24);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Nasim Dawson','OuiOui','2018-02-01','2018-02-26',104);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Phillip Oneil','OuiOui','2018-01-25','2018-03-03',722);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Romain Cordoba','OuiOui','2018-02-17','2018-02-19',108);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Sylvie Rodriguez','OuiOui','2018-03-17','2018-03-21',230);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Uriel Puckett','OuiOui','2018-04-11','2018-04-22',216);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Xenos Sampson','OuiOui','2018-03-25','2018-03-25',22);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Auston Matthews','SOS fantomes','2018-03-20','2018-03-24',95);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Caeleb Dressel','SOS fantomes','2018-04-01','2018-04-06',42);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Chantale Frank','SOS fantomes','2018-03-08','2018-03-27',820);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Connor McDavid','SOS fantomes','2018-04-10','2018-04-10',23);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Evan Alexander','SOS fantomes','2018-04-09','2018-04-10',48);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Evgenia Medvedeva','SOS fantomes','2018-04-11','2018-04-18',64);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Fleur Baird','SOS fantomes','2018-04-16','2018-04-16',23);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Fulton Weiss','SOS fantomes','2018-04-03','2018-04-07',215);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Giannis Antetokounmpo','SOS fantomes','2018-04-12','2018-04-13',78);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Gwendolyn Berger','SOS fantomes','2018-04-11','2018-04-14',128);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Joey Bosa','SOS fantomes','2018-03-04','2018-03-14',550);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Jordan Spieth','SOS fantomes','2018-02-28','2018-03-05',174);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Kadeem Bennett','SOS fantomes','2018-02-20','2018-03-15',72);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Kamal Kent','SOS fantomes','2018-02-15','2018-02-24',50);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Karl-Anthony Towns','SOS fantomes','2018-03-09','2018-03-24',752);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Kathleen Gamble','SOS fantomes','2018-02-23','2018-03-13',798);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Katie Ledecky','SOS fantomes','2018-02-21','2018-03-17',75);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Keane Leblanc','SOS fantomes','2018-02-01','2018-02-15',690);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Laura Calvez','SOS fantomes','2018-04-05','2018-04-18',378);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Laurie Hernandez','SOS fantomes','2018-04-05','2018-04-10',234);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Matthieu Laurendeau','SOS fantomes','2018-01-07','2018-02-27',1664);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Mookie Betts','SOS fantomes','2018-01-09','2018-01-13',65);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Octavius Walter','SOS fantomes','2018-02-03','2018-03-09',1505);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Phillip Oneil','SOS fantomes','2018-02-22','2018-02-24',123);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Quinn Owen','SOS fantomes','2018-02-11','2018-02-16',54);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Sylvie Rodriguez','SOS fantomes','2018-03-16','2018-03-16',27);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Chloe Kim','Spectre','2018-03-24','2018-03-30',21);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Christian Pulisic','Spectre','2018-04-05','2018-04-17',130);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Evan Alexander','Spectre','2018-04-13','2018-04-13',43);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Evgenia Medvedeva','Spectre','2018-04-15','2018-04-15',34);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Jordan Spieth','Spectre','2018-02-06','2018-03-06',899);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Karl-Anthony Towns','Spectre','2018-02-02','2018-02-04',57);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Katie Ledecky','Spectre','2018-01-10','2018-02-20',42);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Keiko Browning','Spectre','2018-03-13','2018-03-14',34);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Laura Calvez','Spectre','2018-04-04','2018-04-17',168);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Mikaela Shrifrin','Spectre','2018-01-11','2018-02-07',476);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Mookie Betts','Spectre','2018-03-11','2018-03-11',15);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Peter Tyson','Spectre','2018-01-15','2018-02-18',630);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Romain Cordoba','Spectre','2018-01-23','2018-03-11',0);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Simone Biles','Spectre','2018-01-21','2018-03-24',2331);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Teegan Stanley','Spectre','2018-04-16','2018-04-26',495);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Uriel Puckett','Spectre','2018-04-22','2018-04-26',75);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Virginia Bryant','Spectre','2018-04-17','2018-04-28',48);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Adrien Babachat','The Magic School Bus','2018-03-02','2018-03-08',154);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Anne Conrad','The Magic School Bus','2018-02-09','2018-02-15',70);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Anthony Davis','The Magic School Bus','2018-02-28','2018-03-13',378);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Aristotle Stone','The Magic School Bus','2018-03-06','2018-03-12',35);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Caeleb Dressel','The Magic School Bus','2018-04-04','2018-04-21',270);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Carlos Correa','The Magic School Bus','2018-03-21','2018-03-30',480);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Chantale Frank','The Magic School Bus','2018-04-04','2018-04-04',11);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Chloe Kim','The Magic School Bus','2018-01-21','2018-02-18',1276);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Claudia Schneider','The Magic School Bus','2018-04-19','2018-04-19',7);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Connor McDavid','The Magic School Bus','2018-04-09','2018-04-17',450);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Dak Prescott','The Magic School Bus','2018-04-12','2018-04-14',123);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Ezekiel Elliott','The Magic School Bus','2018-04-11','2018-04-16',54);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Kenyon Hampton','The Magic School Bus','2018-03-24','2018-03-26',21);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Laurie Hernandez','The Magic School Bus','2018-04-11','2018-04-17',140);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Mikaela Shrifrin','The Magic School Bus','2018-03-11','2018-03-12',4);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Romain Cordoba','The Magic School Bus','2018-01-26','2018-01-28',123);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Seb Chabal','The Magic School Bus','2018-02-23','2018-03-04',0);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Simone Biles','The Magic School Bus','2018-02-19','2018-03-06',656);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Sylvie Rodriguez','The Magic School Bus','2018-03-05','2018-03-10',264);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Uriel Puckett','The Magic School Bus','2018-04-05','2018-04-22',288);
+INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Warren Todd','The Magic School Bus','2018-04-14','2018-04-23',140);
+
 
 
 --TransportDeserveResort
-
-
---SkiClass
+INSERT INTO TransportDeserveResort(SkiResortName,TransportID) Values('Val Thorens','The Magic School Bus');
+INSERT INTO TransportDeserveResort(SkiResortName,TransportID) Values('Val Thorens','Fortnite bus');
+INSERT INTO TransportDeserveResort(SkiResortName,TransportID) Values('Sambuy-Seythenex','C est pas sorcier');
+INSERT INTO TransportDeserveResort(SkiResortName,TransportID) Values('Val Thorens','SOS fantomes');
+INSERT INTO TransportDeserveResort(SkiResortName,TransportID) Values('Courchevel','Fast and Furious');
+INSERT INTO TransportDeserveResort(SkiResortName,TransportID) Values('Meribel','L Agence tous risque');
+INSERT INTO TransportDeserveResort(SkiResortName,TransportID) Values('Courchevel','Bumblebee');
+INSERT INTO TransportDeserveResort(SkiResortName,TransportID) Values('Val Thorens','Coccinelle');
+INSERT INTO TransportDeserveResort(SkiResortName,TransportID) Values('Sambuy-Seythenex','Eleanor');
+INSERT INTO TransportDeserveResort(SkiResortName,TransportID) Values('Sambuy-Seythenex','K2000');
+INSERT INTO TransportDeserveResort(SkiResortName,TransportID) Values('Sambuy-Seythenex','De Lorean');
+INSERT INTO TransportDeserveResort(SkiResortName,TransportID) Values('Sambuy-Seythenex','Batmobile');
+INSERT INTO TransportDeserveResort(SkiResortName,TransportID) Values('Sambuy-Seythenex','OuiOui');
+INSERT INTO TransportDeserveResort(SkiResortName,TransportID) Values('Crest-Volant','Spectre');
+INSERT INTO TransportDeserveResort(SkiResortName,TransportID) Values('Meribel','Faucon noir');
+INSERT INTO TransportDeserveResort(SkiResortName,TransportID) Values('Les Saisies','Blackout');
 
 
 --Instructor
@@ -1587,4 +2057,611 @@ INSERT INTO Instructor(InstructorName,ExperienceLevel) Values('Natalie Portman',
 INSERT INTO Instructor(InstructorName,ExperienceLevel) Values('Christopher Walken', 98);
 
 
--- https://rextester.com/l/sql_server_online_compiler
+--SkiClass
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','Walrus','Adrien Babachat',2,13,312,'2018-03-14','2018-03-19');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Octopus','Batiste Chloups',5,8,112,'2018-04-08','2018-04-21');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Serge Papagali','Le castor','Matthieu Laurendeau',0,9,406,'2018-01-13','2018-01-26');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gerard aligege','Squirrel','Seb Chabal',0,8,720,'2018-02-25','2018-03-04');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','Elk','Romain Cordoba',4,11,495,'2018-02-21','2018-03-03');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','Lion','Louis CK',3,6,330,'2018-04-07','2018-04-16');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Le castor','Sylvie Rodriguez',4,12,10,'2018-03-13','2018-03-22');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Arthouur','Erica Brakebal',2,3,160,'2018-03-15','2018-03-22');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Le druide','Carlos Correa',4,13,160,'2018-04-21','2018-04-22');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Ali Baba','Starfish','Dak Prescott',1,14,448,'2018-04-22','2018-04-28');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','Coyote','Christian Pulisic',0,15,660,'2018-04-07','2018-04-18');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gabrielle H Clavette','Octopus','Laurie Hernandez',4,3,240,'2018-04-01','2018-04-20');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Crocodile','Karl-Anthony Towns',5,13,3,'2018-04-14','2018-04-16');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','Elephant','Joey Bosa',2,9,90,'2018-04-01','2018-04-01');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Squirrel','Mookie Betts',4,5,1216,'2018-02-01','2018-02-19');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Le castor','Lilly King',3,4,330,'2018-04-10','2018-04-19');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','La chartreuse','Ezekiel Elliott',2,9,217,'2018-03-14','2018-03-20');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Sebatian Cimes','Chimpanzee','Caeleb Dressel',2,15,1496,'2018-04-03','2018-04-24');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Racoon','Kylian Mbappe',1,10,18,'2018-04-10','2018-04-10');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','La falaise','Auston Matthews',2,2,22,'2018-04-09','2018-04-09');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Sebatian Cimes','Arthouur','Chloe Kim',5,4,297,'2018-04-25','2018-04-27');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gerard aligege','Shark','Giannis Antetokounmpo',3,11,847,'2018-03-09','2018-03-19');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','Squirrel','Harry Kane',0,1,117,'2018-04-21','2018-04-23');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Le druide','Odell Beckham Jr.',3,11,64,'2018-03-11','2018-03-12');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','Racoon','Anthony Davis',3,13,248,'2018-04-15','2018-04-18');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','Coyote','Mikaela Shrifrin',5,10,1952,'2018-01-17','2018-02-17');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','Shark','Claressa Shields',4,12,528,'2018-04-10','2018-04-15');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','Lion','Connor McDavid',1,14,99,'2018-04-09','2018-04-11');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gabrielle H Clavette','Hippopotamus','Evgenia Medvedeva',5,7,190,'2018-03-10','2018-03-14');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gabrielle H Clavette','Les cailloux','Jordan Spieth',3,2,4,'2018-04-16','2018-04-16');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gabrielle H Clavette','La falaise','Simone Biles',1,13,140,'2018-02-19','2018-02-20');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','Le fenouille','Katie Ledecky',3,1,640,'2018-04-07','2018-04-16');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Ali Baba','Cormoranf','Bruno Tucker',0,5,918,'2018-04-03','2018-04-19');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gerard aligege','Dolphin','Chantale Frank',2,1,154,'2018-04-23','2018-04-29');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','Crocodile','Quinn Owen',5,11,120,'2018-02-25','2018-02-26');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Serpentar','Evan Alexander',5,2,21,'2018-03-19','2018-03-19');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gerard aligege','Chimpanzee','Paloma Swanson',5,4,2208,'2018-01-22','2018-02-13');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','Serpentar','Xenos Sampson',4,8,360,'2018-02-13','2018-02-24');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gerard aligege','Elk','Grant Lara',5,5,343,'2018-04-10','2018-04-16');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Coyote','Nasim Dawson',3,4,27,'2018-03-02','2018-03-10');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Racoon','Uriel Puckett',3,8,280,'2018-04-22','2018-04-26');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Octopus','Peter Tyson',0,12,4600,'2018-01-14','2018-02-28');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Ali Baba','Walrus','Kadeem Bennett',0,9,1092,'2018-04-01','2018-04-13');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Hippopotamus','Phillip Oneil',4,15,520,'2018-01-26','2018-03-06');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Ali Baba','La chartreuse','Octavius Walter',4,4,1036,'2018-02-01','2018-02-14');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Arthouur','Keane Leblanc',2,11,18,'2018-04-15','2018-04-17');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','Squirrel','Delilah Mccarthy',5,7,1386,'2018-03-11','2018-03-24');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Serge Papagali','La falaise','Teegan Stanley',1,14,923,'2018-04-13','2018-04-25');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Starfish','Graham Lawson',4,7,55,'2018-04-14','2018-04-14');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Crocodile','Patrick Gentry',1,13,2948,'2018-01-05','2018-03-12');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gerard aligege','Dolphin','Jackson Wallace',3,11,320,'2018-04-11','2018-04-14');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gabrielle H Clavette','Dolphin','Thane Wolfe',3,5,296,'2018-04-10','2018-04-17');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gerard aligege','Hippopotamus','Joseph Brown',5,13,20,'2018-04-13','2018-04-14');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','Le genepy','Sasha Lester',5,14,522,'2018-01-27','2018-02-24');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','Le castor','Anika Randolph',0,14,76,'2018-04-22','2018-04-25');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','Crocodile','Yoko Randolph',3,5,92,'2018-03-14','2018-03-14');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Sebatian Cimes','Cormoranf','Jasper Hoover',3,3,40,'2018-01-27','2018-01-28');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','Racoon','Blossom Salinas',4,15,497,'2018-04-11','2018-04-17');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','Dolphin','Upton Wynn',0,6,570,'2018-04-17','2018-04-22');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Seahorse','Shoshana Carpenter',5,9,686,'2018-02-22','2018-02-28');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','La falaise','Karleigh Jackson',5,11,93,'2018-04-14','2018-04-16');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Les cailloux','Yoko Vaughn',4,7,252,'2018-03-12','2018-03-20');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','Le genepy','Aimee Woodward',2,9,1485,'2018-02-12','2018-03-10');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gerard aligege','Cormoranf','Stuart Compton',4,7,1224,'2018-02-02','2018-03-09');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Ali Baba','Dolphin','Amela Hodges',0,10,56,'2018-04-01','2018-04-01');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','Starfish','Tyrone Harding',5,6,682,'2018-04-03','2018-04-24');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Sebatian Cimes','Otter','Ivory Sosa',5,13,47,'2018-04-26','2018-04-26');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','Crocodile','Derek Stokes',2,7,949,'2018-03-11','2018-03-23');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','Elk','Demetrius Pennington',1,11,160,'2018-03-22','2018-03-25');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Ali Baba','Cormoranf','Reese Whitley',5,13,5152,'2018-01-11','2018-03-07');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','Dolphin','Cole Snyder',4,6,690,'2018-04-13','2018-04-27');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','Elephant','Jenette Avery',3,15,88,'2018-04-14','2018-04-15');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','Elk','Teegan Nichols',2,2,858,'2018-04-10','2018-04-20');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gerard aligege','Lion','Hyatt Sherman',0,14,402,'2018-04-17','2018-04-22');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Elephant','Ivy Anthony',1,8,16,'2018-04-18','2018-04-25');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Octopus','Kelsie Mcpherson',5,1,0,'2018-04-15','2018-04-15');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Serge Papagali','Lion','Upton Quinn',4,2,873,'2018-04-20','2018-04-28');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Whale','Xyla Snow',5,4,3100,'2018-03-09','2018-04-08');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Le druide','Amery Kim',1,6,432,'2018-04-13','2018-04-24');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','Seahorse','Quinn Marks',0,14,1060,'2018-02-21','2018-03-12');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Ali Baba','Serpentar','MacKensie Bailey',0,15,196,'2018-04-13','2018-04-19');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Sebatian Cimes','Serpentar','Kalia Koch',0,14,624,'2018-04-07','2018-04-14');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Crocodile','Clayton Mcguire',3,10,57,'2018-04-10','2018-04-10');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Racoon','Reece Larson',1,3,632,'2018-03-26','2018-04-02');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','Chimpanzee','Devin Wilkerson',5,9,264,'2018-03-14','2018-03-17');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','Chimpanzee','Georgia Garner',2,13,216,'2018-03-11','2018-03-18');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Sebatian Cimes','Squirrel','Armand Maynard',5,1,1001,'2018-04-05','2018-04-17');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Serpentar','Delilah Goodwin',4,15,294,'2018-04-22','2018-04-27');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gabrielle H Clavette','Le castor','Timothy Madden',3,8,623,'2018-04-10','2018-04-16');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Octopus','Ocean Bright',1,14,2112,'2018-01-05','2018-03-11');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Lion','Sean Hinton',3,3,42,'2018-01-08','2018-01-09');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','Lion','Tanner Parker',0,15,38,'2018-04-25','2018-04-25');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gabrielle H Clavette','Serpentar','Aileen Mckinney',0,10,747,'2018-03-13','2018-03-21');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Elephant','Dominique West',0,7,490,'2018-03-20','2018-03-24');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gabrielle H Clavette','Crocodile','Aretha Whitaker',1,10,319,'2018-04-17','2018-04-27');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','Shark','Maile Barr',2,10,790,'2018-04-08','2018-04-17');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Chimpanzee','Denton Meyers',2,15,77,'2018-03-19','2018-03-19');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Starfish','Gavin Ray',5,14,290,'2018-03-19','2018-03-23');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Whale','Callum Riggs',5,12,72,'2018-04-29','2018-04-29');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','Otter','Kathleen Gamble',0,11,69,'2018-04-20','2018-04-20');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Serge Papagali','Otter','Virginia Bryant',4,3,600,'2018-04-09','2018-04-23');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Le fenouille','Fay Guerra',5,9,111,'2018-03-05','2018-03-07');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gabrielle H Clavette','Elephant','Sloane Tran',5,11,737,'2018-03-05','2018-03-15');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','Seahorse','Naida Morris',5,14,60,'2018-02-10','2018-02-15');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','Squirrel','Whitney Foreman',1,11,629,'2018-04-03','2018-04-19');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Le druide','Jarrod Gomez',4,4,99,'2018-04-14','2018-04-16');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','Le fenouille','Jesse Mendoza',0,10,125,'2018-04-15','2018-04-19');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Ali Baba','Lion','Ina Caldwell',1,8,630,'2018-04-07','2018-04-16');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','Racoon','Gabriel Payne',3,1,812,'2018-03-04','2018-03-17');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','Octopus','Briar Baird',2,10,637,'2018-04-19','2018-04-25');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Serge Papagali','Chimpanzee','Ethan House',2,12,192,'2018-03-23','2018-03-24');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Lion','Warren Todd',0,7,282,'2018-04-04','2018-04-09');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Le druide','Macy Tyler',2,5,186,'2018-04-15','2018-04-16');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','Le genepy','Shoshana Padilla',0,4,2280,'2018-02-19','2018-03-20');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','Chimpanzee','Miriam Walls',0,6,1140,'2018-01-14','2018-02-20');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Serge Papagali','Seahorse','Kibo Bowman',0,2,276,'2018-04-03','2018-04-14');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Seahorse','Lynn Molina',3,7,450,'2018-04-01','2018-04-05');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Ali Baba','Le fenouille','Jason Richardson',2,12,384,'2018-04-13','2018-04-18');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Serge Papagali','Starfish','Shelly Juarez',4,10,6,'2018-01-31','2018-02-02');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','Elk','Aspen Cherry',4,7,51,'2018-04-14','2018-04-14');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gerard aligege','Otter','Fulton Weiss',4,8,154,'2018-03-10','2018-03-20');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','Le castor','Zoe Macdonald',2,12,205,'2018-02-04','2018-02-08');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','Otter','Eve Maddox',1,3,200,'2018-03-23','2018-03-24');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Elephant','Rae Fuentes',3,11,665,'2018-02-14','2018-02-20');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','Le castor','Anne Conrad',2,8,448,'2018-04-08','2018-04-15');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Ali Baba','Dolphin','Meghan Greer',1,5,410,'2018-01-25','2018-01-29');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Seahorse','Noel Thornton',3,7,3895,'2018-01-21','2018-03-02');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Serge Papagali','Elephant','Jack Valentine',4,9,630,'2018-04-02','2018-04-22');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Ali Baba','Starfish','Howard Sims',0,6,65,'2018-04-26','2018-04-26');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','Racoon','Conan Mckinney',3,9,208,'2018-04-22','2018-04-29');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gabrielle H Clavette','Le fenouille','Keiko Browning',0,3,900,'2018-04-08','2018-04-19');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Whale','Richard Mendoza',1,3,130,'2018-02-02','2018-02-03');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','Otter','Lawrence Stewart',3,15,657,'2018-04-11','2018-04-19');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Whale','Kamal Kent',4,7,30,'2018-04-16','2018-04-16');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','Le genepy','Orson Olson',3,8,1820,'2018-01-31','2018-02-27');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Ali Baba','Coyote','Whilemina Fischer',2,8,1612,'2018-04-01','2018-04-26');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Lion','Robert Salazar',5,11,122,'2018-03-06','2018-03-07');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Le genepy','Kylee Kinney',5,5,267,'2018-04-08','2018-04-10');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Cormoranf','Dante Hendricks',5,10,33,'2018-04-25','2018-04-27');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gabrielle H Clavette','Shark','Olga Lyons',3,13,1798,'2018-01-29','2018-02-26');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Sebatian Cimes','Coyote','Nathan West',1,2,360,'2018-02-26','2018-03-03');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gerard aligege','Elk','Quinlan Mcgee',4,1,1240,'2018-02-15','2018-03-06');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','Elephant','Garth Graves',1,14,68,'2018-03-23','2018-03-23');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','Cormoranf','Yasir Valencia',1,1,486,'2018-04-14','2018-04-19');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','Elk','Sloane Cooley',0,3,144,'2018-03-02','2018-03-05');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Elk','Tyrone Padilla',4,5,343,'2018-04-23','2018-04-29');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','La chartreuse','Reuben White',2,5,935,'2018-02-14','2018-03-02');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','Coyote','Cheyenne Patterson',3,6,680,'2018-04-04','2018-04-13');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Whale','Lars Norman',0,7,750,'2018-04-04','2018-04-18');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','Arthouur','Reagan Andrews',3,9,260,'2018-03-05','2018-03-09');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Squirrel','Shelby Wright',5,12,1386,'2018-02-11','2018-02-28');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Octopus','Christian Fleming',4,15,15,'2018-04-05','2018-04-07');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Cormoranf','Timon Petty',1,6,231,'2018-04-16','2018-04-22');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Whale','Tana Barrera',5,1,249,'2018-04-19','2018-04-21');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Serge Papagali','Le castor','Charde Velez',2,9,390,'2018-04-16','2018-04-20');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Serge Papagali','Hippopotamus','Dawn Love',3,13,34,'2018-04-02','2018-04-18');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','Whale','Keane Perry',5,13,108,'2018-04-18','2018-04-19');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','Le fenouille','Dolan Hopper',2,10,1045,'2018-03-06','2018-03-16');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Serpentar','Martha Wilkinson',5,3,42,'2018-04-15','2018-04-20');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','Chimpanzee','Olivia Townsend',1,1,440,'2018-02-10','2018-02-14');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gerard aligege','Octopus','Tyrone Castro',0,5,75,'2018-04-16','2018-04-16');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Arthouur','Marny Ramsey',2,14,595,'2018-04-08','2018-04-14');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','Squirrel','Yael Parsons',4,10,600,'2018-01-01','2018-04-10');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Dolphin','Shaeleigh Conrad',3,1,980,'2018-02-14','2018-03-13');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gabrielle H Clavette','La falaise','Maisie Hale',1,9,294,'2018-04-04','2018-04-17');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Serge Papagali','Octopus','Ashely Grant',3,1,260,'2018-04-21','2018-04-24');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','Racoon','Melyssa Sloan',5,1,153,'2018-03-05','2018-03-07');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','Cormoranf','Joel Maddox',1,8,225,'2018-04-09','2018-04-13');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Cormoranf','Benedict Noble',5,11,150,'2018-04-09','2018-04-13');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gerard aligege','Racoon','Audra Rodriguez',2,4,111,'2018-04-26','2018-04-28');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Octopus','Barbara Richards',3,11,64,'2018-04-27','2018-04-27');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gabrielle H Clavette','La falaise','Coby Marks',5,12,7,'2018-04-01','2018-04-07');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','Coyote','Maggy Kirkland',0,9,96,'2018-04-21','2018-04-21');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Sebatian Cimes','Le fenouille','Garrison Ayala',4,1,592,'2018-03-13','2018-03-20');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Arthouur','Wesley Davenport',4,5,312,'2018-04-01','2018-04-08');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Ali Baba','Lion','Deacon Cohen',5,12,42,'2018-04-09','2018-04-22');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','Arthouur','Alan Taylor',3,5,1740,'2018-02-27','2018-03-18');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gerard aligege','Elk','Camilla Schmidt',5,6,672,'2018-04-17','2018-04-24');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gerard aligege','Crocodile','Deirdre Alvarez',1,9,840,'2018-04-10','2018-04-21');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Dolphin','Evangeline Douglas',3,7,50,'2018-03-06','2018-03-10');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','Walrus','Tarik Love',4,2,54,'2018-04-05','2018-04-10');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','La falaise','Willow Clarke',2,10,35,'2018-04-12','2018-04-18');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Serge Papagali','La chartreuse','Fuller Hudson',2,13,222,'2018-03-20','2018-03-25');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','Elephant','Guinevere Gutierrez',5,11,42,'2018-04-23','2018-04-24');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','Walrus','Kenyon Hampton',1,5,910,'2018-04-04','2018-04-17');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Otter','Fleur Baird',5,7,560,'2018-03-07','2018-03-13');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gerard aligege','Les cailloux','Maryam Beach',4,4,444,'2018-04-01','2018-04-12');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gerard aligege','Serpentar','Reuben Dorsey',1,13,366,'2018-01-18','2018-01-23');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','Whale','Joelle Sullivan',4,12,168,'2018-04-18','2018-04-21');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','Cormoranf','Zane Walls',1,4,225,'2018-01-21','2018-02-14');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Sebatian Cimes','La falaise','Aristotle Stone',1,15,632,'2018-04-20','2018-04-27');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Dolphin','Jackson Osborn',1,15,1474,'2018-04-02','2018-04-23');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Octopus','Owen Gross',4,15,308,'2018-02-17','2018-03-02');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','Walrus','Kaseem Boyle',0,13,504,'2018-04-10','2018-04-21');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Serge Papagali','Elk','Finn Grimes',1,13,468,'2018-03-05','2018-03-17');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Seahorse','Ira Wilkerson',2,14,308,'2018-04-02','2018-04-23');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Serge Papagali','Elk','Blossom Glenn',4,4,420,'2018-04-13','2018-04-22');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Serge Papagali','Elephant','Wallace Whitaker',1,13,45,'2018-04-24','2018-04-26');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Sebatian Cimes','Le castor','Jolene Buchanan',5,13,2,'2018-04-16','2018-04-16');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Cormoranf','Harper Hanson',5,12,672,'2018-04-06','2018-04-12');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','Squirrel','Tarik Black',5,7,1422,'2018-04-08','2018-04-25');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gerard aligege','Coyote','Cameran Small',5,12,1656,'2018-04-11','2018-04-28');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','Lion','Madeline Parrish',5,12,155,'2018-04-17','2018-04-21');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','Walrus','Justine Burks',1,14,430,'2018-04-05','2018-04-09');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','Elk','Emery Ware',3,12,192,'2018-03-14','2018-03-17');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','Chimpanzee','Claudia Schneider',1,3,52,'2018-04-29','2018-04-29');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Coyote','Troy Donovan',4,8,80,'2018-04-13','2018-04-22');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Serge Papagali','Squirrel','Bruno Cantu',0,13,728,'2018-04-22','2018-04-29');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','Crocodile','Leila Gilmore',0,15,162,'2018-04-19','2018-04-20');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Serge Papagali','Coyote','Trevor Talley',0,14,8,'2018-04-13','2018-04-20');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Serge Papagali','Cormoranf','Mason Greer',5,9,460,'2018-04-13','2018-04-17');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Otter','Preston Woods',5,15,460,'2018-02-21','2018-03-02');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gabrielle H Clavette','Le genepy','Willa Camacho',0,14,86,'2018-04-02','2018-04-02');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gabrielle H Clavette','Le fenouille','Meredith Soto',2,12,42,'2018-03-03','2018-03-08');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Sebatian Cimes','La chartreuse','Ima Solis',3,6,1056,'2018-04-07','2018-04-22');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Hippopotamus','Violet Flynn',1,5,0,'2018-04-24','2018-04-29');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Serge Papagali','Elk','Shaine Marshall',5,7,60,'2018-03-26','2018-04-06');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Coyote','Guy Dickerson',2,5,166,'2018-04-12','2018-04-13');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','Starfish','Chantale Benjamin',3,8,1638,'2018-04-08','2018-04-28');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Le druide','Charde Doyle',1,5,243,'2018-04-02','2018-04-28');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','Le genepy','Cherokee Foreman',0,3,620,'2018-04-09','2018-04-28');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','Les cailloux','Imani Copeland',0,2,294,'2018-04-15','2018-04-17');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','Whale','Adrien Babachat',5,14,1764,'2018-03-01','2018-03-21');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Serge Papagali','Seahorse','Batiste Chloups',5,4,1764,'2018-04-01','2018-04-18');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','Le castor','Matthieu Laurendeau',1,1,1254,'2018-01-21','2018-02-22');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','La falaise','Seb Chabal',3,14,682,'2018-01-08','2018-02-07');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gerard aligege','La falaise','Romain Cordoba',0,2,1196,'2018-02-05','2018-02-17');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','Lion','Erica Brakebal',0,14,616,'2018-03-14','2018-03-24');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','La chartreuse','Laura Calvez',2,3,414,'2018-04-02','2018-04-10');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Serge Papagali','Les cailloux','Carlos Correa',5,5,1422,'2018-04-02','2018-04-19');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Ali Baba','Cormoranf','Dak Prescott',5,4,240,'2018-04-20','2018-04-25');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Le genepy','Christian Pulisic',2,6,1410,'2018-04-11','2018-04-25');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Octopus','Laurie Hernandez',4,2,595,'2018-04-10','2018-04-16');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Sebatian Cimes','Cormoranf','Karl-Anthony Towns',4,5,300,'2018-04-04','2018-04-18');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','Le castor','Joey Bosa',5,1,74,'2018-04-20','2018-04-20');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','Le fenouille','Mookie Betts',3,12,441,'2018-02-03','2018-02-11');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','Le druide','Lilly King',3,7,67,'2018-04-14','2018-04-14');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','Chimpanzee','Ezekiel Elliott',3,5,204,'2018-03-04','2018-03-06');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Ali Baba','Otter','Caeleb Dressel',3,5,352,'2018-04-06','2018-04-16');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','Elephant','Kylian Mbappe',4,7,2,'2018-04-21','2018-04-21');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Sebatian Cimes','Elephant','Auston Matthews',0,9,1314,'2018-04-08','2018-04-25');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gabrielle H Clavette','Le fenouille','Chloe Kim',2,7,116,'2018-04-26','2018-04-27');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Crocodile','Giannis Antetokounmpo',0,11,675,'2018-03-08','2018-03-22');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gerard aligege','Walrus','Harry Kane',4,9,234,'2018-04-09','2018-04-11');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gabrielle H Clavette','Le genepy','Odell Beckham Jr.',1,13,2460,'2018-02-10','2018-03-11');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Sebatian Cimes','Shark','Anthony Davis',5,3,247,'2018-04-13','2018-04-25');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','Cormoranf','Mikaela Shrifrin',5,4,522,'2018-02-20','2018-02-28');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gerard aligege','La chartreuse','Claressa Shields',5,15,242,'2018-04-15','2018-04-25');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','Whale','Connor McDavid',4,13,144,'2018-04-05','2018-04-07');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','Octopus','Evgenia Medvedeva',2,7,142,'2018-03-14','2018-03-15');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Octopus','Jordan Spieth',1,6,40,'2018-04-09','2018-04-18');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gerard aligege','Whale','Simone Biles',4,2,6,'2018-04-07','2018-04-07');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Serge Papagali','Seahorse','Katie Ledecky',4,2,190,'2018-04-19','2018-04-20');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Elk','Bruno Tucker',3,10,7,'2018-04-23','2018-04-23');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Cormoranf','Chantale Frank',3,3,15,'2018-04-26','2018-04-26');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Ali Baba','Hippopotamus','Quinn Owen',2,10,736,'2018-02-20','2018-03-07');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','Starfish','Paloma Swanson',1,12,5487,'2018-01-09','2018-03-08');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','Serpentar','Alvin Arnold',2,9,159,'2018-04-25','2018-04-27');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Dolphin','Xenos Sampson',4,8,1118,'2018-02-01','2018-03-15');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','Cormoranf','Grant Lara',5,6,408,'2018-04-17','2018-04-24');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','Walrus','Nasim Dawson',0,4,2184,'2018-01-15','2018-02-11');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','Arthouur','Uriel Puckett',4,4,320,'2018-04-06','2018-04-09');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Otter','Peter Tyson',1,12,357,'2018-02-22','2018-02-28');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Serpentar','Kadeem Bennett',4,15,192,'2018-04-15','2018-04-16');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','Racoon','Phillip Oneil',1,12,134,'2018-02-09','2018-02-10');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Les cailloux','Octavius Walter',1,9,247,'2018-02-24','2018-03-08');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gerard aligege','Octopus','Keane Leblanc',4,2,384,'2018-04-15','2018-04-20');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gabrielle H Clavette','Elephant','Delilah Mccarthy',3,8,486,'2018-03-09','2018-03-14');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Chimpanzee','Teegan Stanley',4,12,258,'2018-04-19','2018-04-24');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Le genepy','Graham Lawson',1,11,94,'2018-04-11','2018-04-12');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Serge Papagali','Hippopotamus','Jackson Wallace',0,4,316,'2018-04-12','2018-04-15');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','Chimpanzee','Thane Wolfe',1,12,360,'2018-04-17','2018-04-22');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Squirrel','Joseph Brown',0,11,160,'2018-04-20','2018-04-21');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Ali Baba','Dolphin','Sasha Lester',2,8,238,'2018-02-16','2018-02-22');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Serge Papagali','Elephant','Anika Randolph',4,6,1216,'2018-04-03','2018-04-21');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Otter','Yoko Randolph',3,1,26,'2018-03-27','2018-03-27');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','La falaise','Blossom Salinas',3,6,1694,'2018-04-01','2018-04-22');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','Cormoranf','Upton Wynn',4,9,1152,'2018-04-07','2018-04-24');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gerard aligege','Otter','Shoshana Carpenter',2,7,2480,'2018-02-05','2018-03-16');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Lion','Karleigh Jackson',4,9,78,'2018-04-02','2018-04-03');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Hippopotamus','Yoko Vaughn',1,11,16,'2018-04-04','2018-04-05');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Serge Papagali','Lion','Aimee Woodward',4,12,78,'2018-01-31','2018-02-12');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Coyote','Stuart Compton',0,2,493,'2018-03-01','2018-03-17');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Le druide','Amela Hodges',3,3,525,'2018-04-09','2018-04-15');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Shark','Tyrone Harding',3,1,0,'2018-04-22','2018-04-26');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Ali Baba','Otter','Ivory Sosa',5,6,1920,'2018-04-02','2018-04-25');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Le castor','Demetrius Pennington',1,14,400,'2018-03-16','2018-03-25');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Serge Papagali','Arthouur','Reese Whitley',5,2,189,'2018-02-26','2018-02-28');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','Le fenouille','Cole Snyder',5,7,96,'2018-04-08','2018-04-10');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Sebatian Cimes','Hippopotamus','Jenette Avery',5,2,480,'2018-04-03','2018-04-17');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Le genepy','Teegan Nichols',4,5,1248,'2018-04-03','2018-04-26');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','Dolphin','Hyatt Sherman',3,14,175,'2018-04-19','2018-04-23');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','Hippopotamus','Kelsie Mcpherson',0,6,63,'2018-04-12','2018-04-20');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','La chartreuse','Upton Quinn',2,3,1020,'2018-04-07','2018-04-26');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gerard aligege','Shark','Amery Kim',2,5,166,'2018-04-26','2018-04-27');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','Octopus','Quinn Marks',5,1,35,'2018-03-07','2018-03-07');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Racoon','MacKensie Bailey',1,7,140,'2018-04-06','2018-04-09');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Sebatian Cimes','Walrus','Kalia Koch',5,14,1940,'2018-04-02','2018-04-21');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gerard aligege','Chimpanzee','Reece Larson',4,3,2646,'2018-03-19','2018-04-14');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Dolphin','Devin Wilkerson',3,12,83,'2018-03-22','2018-03-22');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gabrielle H Clavette','Walrus','Georgia Garner',5,2,28,'2018-03-25','2018-03-25');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Serge Papagali','Chimpanzee','Armand Maynard',1,8,22,'2018-04-24','2018-04-24');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Sebatian Cimes','Whale','Delilah Goodwin',0,3,2134,'2018-04-07','2018-04-28');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Serge Papagali','Racoon','Timothy Madden',1,4,280,'2018-04-07','2018-04-20');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Sebatian Cimes','Octopus','Ocean Bright',1,13,166,'2018-02-14','2018-02-15');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','Squirrel','Sean Hinton',4,10,1056,'2018-01-29','2018-03-01');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Octopus','Tanner Parker',3,5,83,'2018-04-28','2018-04-28');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','Les cailloux','Hayfa Huffman',1,8,39,'2018-04-25','2018-04-25');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','Seahorse','Aileen Mckinney',1,15,275,'2018-03-04','2018-03-08');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Le genepy','Aretha Whitaker',2,2,475,'2018-04-05','2018-04-29');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Le genepy','Maile Barr',3,9,483,'2018-04-05','2018-04-11');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','Hippopotamus','Denton Meyers',3,1,1204,'2018-03-07','2018-03-20');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gerard aligege','Seahorse','Gavin Ray',2,4,134,'2018-03-24','2018-03-25');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','Squirrel','Callum Riggs',5,8,102,'2018-04-24','2018-04-29');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Sebatian Cimes','Elk','Kathleen Gamble',5,13,80,'2018-04-02','2018-04-21');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Sebatian Cimes','Serpentar','Virginia Bryant',3,15,66,'2018-04-07','2018-04-17');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','Shark','Fay Guerra',5,2,138,'2018-03-24','2018-03-25');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Ali Baba','Coyote','Sloane Tran',5,4,2343,'2018-03-03','2018-04-04');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Sebatian Cimes','Elephant','Naida Morris',0,12,2436,'2018-01-04','2018-02-14');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Serge Papagali','Seahorse','Whitney Foreman',3,13,74,'2018-04-02','2018-04-02');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gabrielle H Clavette','Hippopotamus','Jarrod Gomez',5,10,234,'2018-04-11','2018-04-13');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Crocodile','Jesse Mendoza',1,15,30,'2018-04-09','2018-04-09');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','Walrus','Gabriel Payne',2,2,966,'2018-03-07','2018-03-20');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gabrielle H Clavette','Lion','Briar Baird',2,4,574,'2018-04-23','2018-04-29');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gerard aligege','Les cailloux','Warren Todd',5,14,63,'2018-04-25','2018-04-25');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Ali Baba','Seahorse','Macy Tyler',2,2,270,'2018-04-03','2018-04-11');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Sebatian Cimes','Walrus','Shoshana Padilla',1,6,120,'2018-03-21','2018-03-28');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','Dolphin','Miriam Walls',0,15,4950,'2018-01-16','2018-03-11');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gabrielle H Clavette','Shark','Kibo Bowman',0,12,136,'2018-04-01','2018-04-04');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','Elk','Lynn Molina',1,6,111,'2018-04-17','2018-04-19');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','Arthouur','Jason Richardson',0,7,188,'2018-04-16','2018-04-17');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Racoon','Shelly Juarez',5,2,720,'2018-03-07','2018-03-16');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','Hippopotamus','Fulton Weiss',3,13,36,'2018-03-15','2018-03-20');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Crocodile','Zoe Macdonald',3,14,11,'2018-03-06','2018-03-06');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','Elephant','Eve Maddox',2,3,46,'2018-03-23','2018-03-24');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','Starfish','Anne Conrad',1,12,1080,'2018-04-12','2018-04-23');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','Le fenouille','Meghan Greer',5,4,152,'2018-02-25','2018-03-04');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','Arthouur','Noel Thornton',2,6,630,'2018-02-04','2018-02-18');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gabrielle H Clavette','Coyote','Jack Valentine',3,10,147,'2018-04-03','2018-04-09');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Serge Papagali','Coyote','Howard Sims',4,3,132,'2018-04-16','2018-04-19');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','Arthouur','Conan Mckinney',3,4,82,'2018-04-12','2018-04-12');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','Chimpanzee','Richard Mendoza',1,2,75,'2018-02-26','2018-03-12');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Ali Baba','Seahorse','Eagan Clayton',2,3,96,'2018-03-24','2018-03-25');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gerard aligege','Walrus','Lawrence Stewart',5,12,295,'2018-04-01','2018-04-05');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Le fenouille','Kamal Kent',5,2,16,'2018-04-05','2018-04-20');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Sebatian Cimes','La chartreuse','Orson Olson',4,8,1722,'2018-01-24','2018-02-13');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','La falaise','Whilemina Fischer',2,15,400,'2018-04-13','2018-04-17');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Sebatian Cimes','Le druide','Robert Salazar',4,8,846,'2018-02-01','2018-02-09');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Seahorse','Kylee Kinney',5,14,279,'2018-04-04','2018-04-06');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','La falaise','Ria Vasquez',0,12,364,'2018-02-28','2018-03-12');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gabrielle H Clavette','Le genepy','Dante Hendricks',2,12,54,'2018-04-24','2018-04-24');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Elephant','Olga Lyons',1,10,1387,'2018-01-17','2018-02-04');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','Hippopotamus','Nathan West',3,1,217,'2018-01-29','2018-02-04');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','Elephant','Quinlan Mcgee',4,6,1197,'2018-02-04','2018-02-22');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Serge Papagali','Dolphin','Garth Graves',4,2,132,'2018-03-19','2018-03-21');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Ali Baba','Crocodile','Yasir Valencia',5,3,37,'2018-03-17','2018-03-17');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Sebatian Cimes','Elk','Sloane Cooley',1,11,1196,'2018-02-19','2018-04-05');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Coyote','Tyrone Padilla',3,6,390,'2018-04-22','2018-04-26');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Ali Baba','Cormoranf','Reuben White',4,4,266,'2018-03-06','2018-03-12');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Le castor','Cheyenne Patterson',4,6,1216,'2018-04-06','2018-04-24');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gabrielle H Clavette','Le fenouille','Lars Norman',4,5,6,'2018-04-08','2018-04-08');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','La chartreuse','Reagan Andrews',0,8,783,'2018-03-01','2018-03-09');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gerard aligege','La falaise','Shelby Wright',1,12,2046,'2018-03-02','2018-04-01');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Hippopotamus','Christian Fleming',4,5,53,'2018-04-27','2018-04-27');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Sebatian Cimes','Le castor','Timon Petty',0,10,752,'2018-04-06','2018-04-13');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Chimpanzee','Tana Barrera',0,14,1218,'2018-04-06','2018-04-26');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gabrielle H Clavette','Crocodile','Rafael Hawkins',4,14,1007,'2018-01-30','2018-03-23');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Sebatian Cimes','La chartreuse','Emma Bass',1,4,108,'2018-03-13','2018-03-16');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Lion','Charde Velez',0,5,57,'2018-04-28','2018-04-28');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','Le castor','Keane Perry',3,8,80,'2018-04-06','2018-04-09');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','La falaise','Dolan Hopper',2,8,516,'2018-03-07','2018-03-12');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','Elephant','Martha Wilkinson',2,3,741,'2018-04-01','2018-04-19');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Squirrel','Olivia Townsend',5,7,1628,'2018-01-10','2018-02-15');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Sebatian Cimes','Arthouur','Marny Ramsey',3,7,186,'2018-04-17','2018-04-18');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','Squirrel','Yael Parsons',1,1,188,'2018-02-25','2018-04-12');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','Crocodile','Shaeleigh Conrad',0,7,1620,'2018-01-19','2018-03-04');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','Otter','Maisie Hale',4,9,104,'2018-04-14','2018-04-15');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Ali Baba','La chartreuse','Melyssa Sloan',1,4,288,'2018-03-08','2018-03-11');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gabrielle H Clavette','Whale','Joel Maddox',5,4,216,'2018-04-13','2018-04-18');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','La chartreuse','Benedict Noble',2,4,208,'2018-04-07','2018-04-14');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Otter','Audra Rodriguez',1,7,6,'2018-04-27','2018-04-29');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','Serpentar','Ishmael Flores',5,2,128,'2018-04-10','2018-04-17');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Coyote','Barbara Richards',4,11,490,'2018-04-25','2018-04-29');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gerard aligege','Arthouur','Coby Marks',4,5,94,'2018-04-20','2018-04-21');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','Le druide','Maggy Kirkland',3,13,100,'2018-04-20','2018-04-20');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Ali Baba','Whale','Garrison Ayala',3,11,40,'2018-03-04','2018-03-23');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','Seahorse','Wesley Davenport',2,8,445,'2018-04-25','2018-04-29');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Ali Baba','Coyote','Deacon Cohen',5,6,363,'2018-04-11','2018-04-21');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Le castor','Alan Taylor',0,1,24,'2018-03-17','2018-03-20');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','Whale','Camilla Schmidt',2,7,37,'2018-04-29','2018-04-29');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Ali Baba','Hippopotamus','Deirdre Alvarez',3,6,135,'2018-04-03','2018-04-29');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gabrielle H Clavette','Seahorse','Evangeline Douglas',1,5,360,'2018-03-11','2018-03-20');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gabrielle H Clavette','Les cailloux','Tarik Love',3,5,836,'2018-04-15','2018-04-25');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Arthouur','Willow Clarke',4,8,208,'2018-04-23','2018-04-26');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Serge Papagali','Le druide','Fuller Hudson',4,13,40,'2018-03-19','2018-03-20');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Serge Papagali','Crocodile','Guinevere Gutierrez',0,12,465,'2018-04-06','2018-04-10');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','Hippopotamus','Kenyon Hampton',1,11,752,'2018-04-02','2018-04-17');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Le fenouille','Fleur Baird',3,8,416,'2018-03-05','2018-03-17');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Ali Baba','La falaise','Maryam Beach',4,12,68,'2018-04-17','2018-04-17');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','Cormoranf','Reuben Dorsey',0,4,116,'2018-02-26','2018-02-27');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','Squirrel','Mufutau Powers',2,1,67,'2018-03-02','2018-03-02');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Elephant','Joelle Sullivan',1,5,96,'2018-04-20','2018-04-21');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','Arthouur','Isabella Rodriguez',2,6,64,'2018-04-08','2018-04-08');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','Starfish','Zane Walls',1,10,1024,'2018-02-11','2018-02-26');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Le druide','Travis Morin',3,8,14,'2018-04-01','2018-04-02');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','Starfish','Aristotle Stone',3,7,68,'2018-04-28','2018-04-28');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','Cormoranf','Jackson Osborn',0,5,340,'2018-04-08','2018-04-12');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Sebatian Cimes','Walrus','Owen Gross',3,4,1134,'2018-02-08','2018-02-25');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gerard aligege','Le druide','Kaseem Boyle',3,4,268,'2018-04-14','2018-04-17');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Cormoranf','Finn Grimes',4,9,74,'2018-03-24','2018-03-24');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gerard aligege','Crocodile','Ira Wilkerson',4,14,228,'2018-04-19','2018-04-24');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Serge Papagali','Le castor','Wallace Whitaker',3,6,210,'2018-04-13','2018-04-18');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Sebatian Cimes','Coyote','Jolene Buchanan',4,4,441,'2018-04-03','2018-04-09');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gerard aligege','Serpentar','Harper Hanson',2,15,946,'2018-04-11','2018-04-21');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','Coyote','Tarik Black',3,1,735,'2018-04-06','2018-04-26');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Shark','Cameran Small',4,3,480,'2018-04-21','2018-04-28');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','Crocodile','Madeline Parrish',0,15,511,'2018-04-04','2018-04-10');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','Racoon','Justine Burks',3,7,684,'2018-04-04','2018-04-21');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Racoon','Gwendolyn Berger',0,9,140,'2018-04-19','2018-04-23');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Octopus','Emery Ware',5,12,49,'2018-03-15','2018-03-21');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Ali Baba','Elk','Claudia Schneider',3,1,1953,'2018-04-05','2018-04-25');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gerard aligege','La chartreuse','Dean Spencer',2,9,39,'2018-04-16','2018-04-18');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gerard aligege','Lion','Troy Donovan',1,10,1045,'2018-04-06','2018-04-16');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Chimpanzee','Bruno Cantu',0,14,644,'2018-04-20','2018-04-26');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Squirrel','Gregory Rollins',1,12,50,'2018-04-11','2018-04-20');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','La chartreuse','Leila Gilmore',1,2,249,'2018-04-15','2018-04-17');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Coyote','Trevor Talley',5,13,60,'2018-04-10','2018-04-21');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gerard aligege','Cormoranf','Mason Greer',2,12,231,'2018-04-02','2018-04-04');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Le genepy','Preston Woods',1,15,1067,'2018-02-21','2018-03-03');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','Arthouur','Willa Camacho',1,15,34,'2018-04-22','2018-04-23');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','Le genepy','Meredith Soto',1,14,504,'2018-03-02','2018-03-07');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Chimpanzee','Ima Solis',1,1,240,'2018-04-06','2018-04-21');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Serge Papagali','Le castor','Violet Flynn',3,7,228,'2018-04-24','2018-04-29');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Octopus','Shaine Marshall',5,1,1209,'2018-01-12','2018-02-19');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','Lion','Guy Dickerson',4,13,94,'2018-04-15','2018-04-15');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Octopus','Chantale Benjamin',1,14,810,'2018-04-04','2018-04-18');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','La falaise','Charde Doyle',4,5,1701,'2018-04-03','2018-04-29');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Sebatian Cimes','Le druide','Cherokee Foreman',2,4,437,'2018-04-07','2018-04-29');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','La chartreuse','Imani Copeland',0,7,75,'2018-04-21','2018-04-21');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','Squirrel','Adrien Babachat',0,11,2795,'2018-01-08','2018-02-19');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Sebatian Cimes','La chartreuse','Matthieu Laurendeau',2,4,2409,'2018-01-12','2018-02-13');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Racoon','Seb Chabal',4,3,400,'2018-03-10','2018-03-13');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Le castor','Romain Cordoba',4,5,48,'2018-01-27','2018-01-30');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Ali Baba','Chimpanzee','Louis CK',2,15,145,'2018-04-04','2018-04-08');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Ali Baba','Starfish','Sylvie Rodriguez',1,13,434,'2018-03-06','2018-03-19');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','Walrus','Erica Brakebal',5,6,91,'2018-03-19','2018-03-19');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Sebatian Cimes','Octopus','Carlos Correa',4,9,80,'2018-04-11','2018-04-18');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Le fenouille','Dak Prescott',4,6,176,'2018-04-16','2018-04-23');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','La chartreuse','Christian Pulisic',2,11,891,'2018-04-21','2018-04-29');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Arthouur','Laurie Hernandez',0,3,11,'2018-04-03','2018-04-03');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gerard aligege','La chartreuse','Karl-Anthony Towns',4,10,1344,'2018-04-08','2018-04-21');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','Racoon','Joey Bosa',3,3,315,'2018-04-01','2018-04-07');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Ali Baba','Racoon','Mookie Betts',2,10,2044,'2018-01-12','2018-02-08');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Chimpanzee','Lilly King',3,9,585,'2018-04-08','2018-04-16');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Serge Papagali','Le druide','Ezekiel Elliott',2,6,374,'2018-03-14','2018-03-24');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Sebatian Cimes','Le castor','Caeleb Dressel',2,4,416,'2018-04-22','2018-04-29');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gabrielle H Clavette','Crocodile','Kylian Mbappe',0,4,112,'2018-04-18','2018-04-21');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','Serpentar','Auston Matthews',5,9,240,'2018-04-25','2018-04-29');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','Whale','Chloe Kim',4,9,6,'2018-04-25','2018-04-27');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Ali Baba','Crocodile','Giannis Antetokounmpo',0,4,80,'2018-03-12','2018-03-16');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Serge Papagali','Cormoranf','Harry Kane',1,13,30,'2018-04-24','2018-04-24');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Ali Baba','La falaise','Odell Beckham Jr.',0,15,841,'2018-01-26','2018-02-23');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','Les cailloux','Anthony Davis',5,13,663,'2018-04-02','2018-04-18');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gabrielle H Clavette','Le castor','Mikaela Shrifrin',3,12,2000,'2018-02-05','2018-03-01');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Ali Baba','Crocodile','Claressa Shields',3,11,266,'2018-04-07','2018-04-20');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','La falaise','Bryce Harper',1,5,210,'2018-04-23','2018-04-28');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gerard aligege','Elephant','Connor McDavid',5,15,171,'2018-04-03','2018-04-11');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','Crocodile','Evgenia Medvedeva',3,11,196,'2018-03-08','2018-03-09');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gerard aligege','Les cailloux','Jordan Spieth',0,7,76,'2018-04-07','2018-04-10');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Ali Baba','Arthouur','Simone Biles',0,7,2,'2018-02-24','2018-02-25');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Ali Baba','La falaise','Katie Ledecky',2,4,305,'2018-04-12','2018-04-16');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Serge Papagali','Chimpanzee','Bruno Tucker',2,2,225,'2018-04-01','2018-04-03');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','Le genepy','Chantale Frank',3,8,288,'2018-04-24','2018-04-29');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Ali Baba','Crocodile','Quinn Owen',2,5,603,'2018-02-02','2018-02-10');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Starfish','Evan Alexander',5,4,484,'2018-03-08','2018-03-18');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','Elephant','Paloma Swanson',2,12,160,'2018-02-22','2018-02-26');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','Le castor','Alvin Arnold',0,12,190,'2018-04-24','2018-04-25');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Sebatian Cimes','Elk','Xenos Sampson',1,3,470,'2018-03-10','2018-03-14');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','Elk','Grant Lara',4,5,62,'2018-04-23','2018-04-23');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Hippopotamus','Nasim Dawson',0,2,1650,'2018-01-08','2018-01-29');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Seahorse','Uriel Puckett',3,10,49,'2018-04-07','2018-04-07');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gerard aligege','Squirrel','Peter Tyson',5,1,253,'2018-01-23','2018-02-02');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Sebatian Cimes','Otter','Kadeem Bennett',1,15,18,'2018-04-12','2018-04-12');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','Starfish','Phillip Oneil',3,14,2520,'2018-01-21','2018-02-25');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Arthouur','Octavius Walter',1,11,2940,'2018-01-30','2018-02-28');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','Cormoranf','Keane Leblanc',5,11,44,'2018-04-21','2018-04-21');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','Le druide','Delilah Mccarthy',1,15,24,'2018-03-15','2018-03-15');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Dolphin','Teegan Stanley',5,5,1014,'2018-04-14','2018-04-26');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Lion','Graham Lawson',3,10,10,'2018-04-26','2018-04-26');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','Chimpanzee','Patrick Gentry',4,2,2380,'2018-02-04','2018-03-03');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Le castor','Jackson Wallace',3,3,0,'2018-04-20','2018-04-23');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Ali Baba','Le castor','Thane Wolfe',4,7,136,'2018-04-12','2018-04-28');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','Les cailloux','Joseph Brown',2,9,20,'2018-04-02','2018-04-03');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','Seahorse','Sasha Lester',3,4,483,'2018-01-31','2018-02-22');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','Whale','Anika Randolph',2,14,806,'2018-04-13','2018-04-25');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','Le fenouille','Yoko Randolph',4,9,285,'2018-03-31','2018-04-02');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Serge Papagali','Dolphin','Jasper Hoover',0,11,111,'2018-01-15','2018-01-17');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gerard aligege','Squirrel','Blossom Salinas',1,10,300,'2018-04-17','2018-04-28');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','Les cailloux','Upton Wynn',4,7,100,'2018-04-20','2018-04-20');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Le druide','Shoshana Carpenter',0,2,160,'2018-03-04','2018-03-23');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','La falaise','Karleigh Jackson',0,9,146,'2018-04-15','2018-04-16');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Lion','Yoko Vaughn',2,8,116,'2018-03-15','2018-03-18');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Ali Baba','Racoon','Aimee Woodward',5,14,220,'2018-03-19','2018-03-23');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Serge Papagali','Lion','Stuart Compton',0,4,1140,'2018-01-31','2018-03-31');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Walrus','Amela Hodges',1,4,360,'2018-04-10','2018-04-24');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','Dolphin','Tyrone Harding',1,5,174,'2018-04-05','2018-04-07');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','Le fenouille','Ivory Sosa',3,1,72,'2018-04-25','2018-04-26');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Shark','Derek Stokes',4,4,6,'2018-03-09','2018-03-11');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gabrielle H Clavette','Squirrel','Demetrius Pennington',2,15,208,'2018-03-08','2018-03-23');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Serge Papagali','Whale','Reese Whitley',2,13,426,'2018-02-23','2018-02-28');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Le castor','Cole Snyder',0,4,651,'2018-04-23','2018-04-29');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','Walrus','Jenette Avery',1,13,176,'2018-04-14','2018-04-17');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Elk','Teegan Nichols',0,3,320,'2018-04-09','2018-04-16');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','Seahorse','Hyatt Sherman',5,3,144,'2018-04-12','2018-04-13');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Dolphin','Ivy Anthony',2,14,910,'2018-04-08','2018-04-20');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','Le castor','Kelsie Mcpherson',2,2,29,'2018-04-07','2018-04-07');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Ali Baba','Crocodile','Upton Quinn',1,7,1144,'2018-04-14','2018-04-26');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Seahorse','Xyla Snow',2,10,2044,'2018-03-10','2018-04-06');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Les cailloux','Amery Kim',0,2,364,'2018-04-16','2018-04-22');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Sebatian Cimes','Elephant','Quinn Marks',4,8,1292,'2018-01-03','2018-01-19');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gabrielle H Clavette','La falaise','MacKensie Bailey',3,12,222,'2018-04-09','2018-04-11');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Ali Baba','Seahorse','Kalia Koch',5,8,528,'2018-04-02','2018-04-17');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','Le castor','Clayton Mcguire',1,1,550,'2018-04-15','2018-04-24');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Ali Baba','Coyote','Reece Larson',1,15,90,'2018-03-21','2018-03-30');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Arthouur','Devin Wilkerson',4,3,770,'2018-03-12','2018-03-21');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','La chartreuse','Georgia Garner',5,3,203,'2018-03-08','2018-03-14');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','Whale','Armand Maynard',4,6,616,'2018-04-23','2018-04-29');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','Walrus','Delilah Goodwin',0,10,544,'2018-04-21','2018-04-28');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','Chimpanzee','Timothy Madden',3,15,46,'2018-04-23','2018-04-23');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Serge Papagali','Dolphin','Ocean Bright',1,4,188,'2018-03-04','2018-03-05');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Otter','Sean Hinton',5,12,116,'2018-02-17','2018-02-20');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Serge Papagali','Otter','Tanner Parker',3,10,885,'2018-04-15','2018-04-29');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Ali Baba','Le castor','Hayfa Huffman',1,11,550,'2018-04-17','2018-04-26');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Sebatian Cimes','Elephant','Aileen Mckinney',2,12,248,'2018-03-07','2018-03-14');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','Lion','Dominique West',3,1,2,'2018-03-22','2018-03-23');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Shark','Aretha Whitaker',2,3,22,'2018-04-03','2018-04-24');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Ali Baba','Le genepy','Maile Barr',0,12,170,'2018-04-18','2018-04-19');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','Racoon','Denton Meyers',3,11,64,'2018-03-09','2018-03-10');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','Le fenouille','Gavin Ray',1,11,855,'2018-03-03','2018-03-17');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Squirrel','Callum Riggs',4,13,780,'2018-04-10','2018-04-21');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Arthouur','Kathleen Gamble',1,6,180,'2018-04-20','2018-04-21');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gerard aligege','Lion','Virginia Bryant',2,4,816,'2018-04-03','2018-04-14');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','Walrus','Fay Guerra',2,11,190,'2018-03-20','2018-03-21');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','Seahorse','Sloane Tran',4,9,2088,'2018-03-03','2018-03-26');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','Chimpanzee','Naida Morris',5,6,88,'2018-03-05','2018-03-05');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','La chartreuse','Whitney Foreman',1,5,528,'2018-04-21','2018-04-26');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Squirrel','Jarrod Gomez',1,10,1035,'2018-04-12','2018-04-26');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','Coyote','Jesse Mendoza',5,8,294,'2018-04-07','2018-04-12');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Sebatian Cimes','Seahorse','Miriam Petty',5,8,5184,'2018-01-08','2018-03-12');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','Racoon','Ina Caldwell',3,9,672,'2018-04-18','2018-04-24');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Seahorse','Gabriel Payne',4,7,87,'2018-03-23','2018-03-25');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','Coyote','Briar Baird',5,5,312,'2018-04-26','2018-04-29');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','Dolphin','Ethan House',1,12,20,'2018-03-24','2018-03-25');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Le fenouille','Warren Todd',4,15,400,'2018-04-24','2018-04-27');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Serge Papagali','Le fenouille','Macy Tyler',3,1,114,'2018-04-01','2018-04-06');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','Arthouur','Shoshana Padilla',3,3,4290,'2018-01-02','2018-02-25');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Shark','Miriam Walls',5,10,4,'2018-03-01','2018-03-04');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Le genepy','Kibo Bowman',1,1,28,'2018-04-12','2018-04-13');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','Arthouur','Lynn Molina',4,2,39,'2018-04-18','2018-04-20');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Sebatian Cimes','Les cailloux','Jason Richardson',3,3,315,'2018-04-21','2018-04-25');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Seahorse','Shelly Juarez',3,1,171,'2018-02-19','2018-02-21');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','Walrus','Aspen Cherry',4,14,60,'2018-04-08','2018-04-11');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','Seahorse','Fulton Weiss',4,1,36,'2018-03-23','2018-03-23');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gabrielle H Clavette','Arthouur','Zoe Macdonald',1,10,40,'2018-02-15','2018-02-18');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Chimpanzee','Eve Maddox',5,13,693,'2018-03-13','2018-03-21');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Sebatian Cimes','Coyote','Rae Fuentes',3,14,621,'2018-01-18','2018-02-13');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','Otter','Anne Conrad',1,9,1120,'2018-04-05','2018-04-20');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','La falaise','Meghan Greer',4,4,351,'2018-02-14','2018-02-22');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','La falaise','Noel Thornton',3,6,4950,'2018-01-06','2018-03-12');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Sebatian Cimes','Elk','Batiste Chloups',1,5,288,'2018-04-02','2018-04-07');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','La chartreuse','Matthieu Laurendeau',1,12,1235,'2018-02-13','2018-02-25');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','La chartreuse','Seb Chabal',4,12,793,'2018-01-17','2018-01-29');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gerard aligege','Squirrel','Romain Cordoba',3,10,574,'2018-01-18','2018-01-31');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','Starfish','Louis CK',3,3,168,'2018-04-04','2018-04-05');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Christopher Walken','La chartreuse','Sylvie Rodriguez',1,1,356,'2018-03-22','2018-03-25');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Serge Papagali','Le genepy','Erica Brakebal',5,12,145,'2018-03-06','2018-03-10');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Starfish','Laura Calvez',4,14,448,'2018-04-02','2018-04-08');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Ali Baba','Crocodile','Carlos Correa',1,10,172,'2018-04-27','2018-04-28');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','Chimpanzee','Dak Prescott',2,4,12,'2018-04-03','2018-04-14');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','Dolphin','Christian Pulisic',5,9,114,'2018-04-25','2018-04-26');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','Starfish','Laurie Hernandez',1,12,88,'2018-04-16','2018-04-17');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Serge Papagali','Chimpanzee','Karl-Anthony Towns',4,7,869,'2018-04-09','2018-04-19');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','Starfish','Batiste Chloups',4,1,946,'2018-04-07','2018-04-17');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Starfish','Matthieu Laurendeau',2,15,5440,'2018-01-03','2018-03-07');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','Le genepy','Seb Chabal',3,1,924,'2018-02-01','2018-02-12');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','La falaise','Romain Cordoba',4,11,78,'2018-03-07','2018-03-12');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','La falaise','Sylvie Rodriguez',2,14,474,'2018-03-06','2018-03-11');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Sebatian Cimes','Chimpanzee','Erica Brakebal',1,9,39,'2018-03-14','2018-03-16');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Ali Baba','Elephant','Laura Calvez',1,3,676,'2018-04-02','2018-04-14');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('John Snow','Racoon','Carlos Correa',1,9,36,'2018-04-25','2018-04-26');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','Chimpanzee','Dak Prescott',5,13,1292,'2018-04-05','2018-04-21');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','Le genepy','Christian Pulisic',4,1,1064,'2018-04-04','2018-04-22');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','Les cailloux','Laurie Hernandez',3,1,23,'2018-04-12','2018-04-12');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Le castor','Karl-Anthony Towns',3,15,72,'2018-04-07','2018-04-08');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Le genepy','Batiste Chloups',2,13,16,'2018-04-18','2018-04-18');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','Le fenouille','Matthieu Laurendeau',0,11,192,'2018-02-17','2018-02-28');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','Cormoranf','Seb Chabal',0,14,210,'2018-02-12','2018-03-04');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Yunonothing Jonsnow ','Otter','Romain Cordoba',1,2,544,'2018-02-09','2018-02-16');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Serge Papagali','Serpentar','Louis CK',3,13,16,'2018-04-20','2018-04-21');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Le genepy','Sylvie Rodriguez',0,5,141,'2018-03-12','2018-03-14');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','Hippopotamus','Erica Brakebal',4,4,715,'2018-03-12','2018-03-22');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gabrielle H Clavette','Le genepy','Laura Calvez',1,12,96,'2018-04-15','2018-04-20');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Sebatian Cimes','Chimpanzee','Carlos Correa',4,15,88,'2018-04-19','2018-04-19');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Natalie Portman','Elk','Dak Prescott',0,9,564,'2018-04-22','2018-04-27');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Gerard aligege','Le genepy','Christian Pulisic',1,13,464,'2018-04-03','2018-04-18');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','Elephant','Laurie Hernandez',1,3,4,'2018-04-17','2018-04-17');
+INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Joaquin Phoenix','La chartreuse','Karl-Anthony Towns',1,2,296,'2018-04-16','2018-04-19');
