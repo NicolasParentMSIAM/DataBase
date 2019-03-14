@@ -1,10 +1,11 @@
+
 -- DOMAINS
 INSERT INTO Domain(DomainGPSPosition, nbrResorts) VALUES ('454535N, 63133E',1);
 INSERT INTO Domain(DomainGPSPosition, nbrResorts) VALUES ('454546N, 63032E',2);
 INSERT INTO Domain(DomainGPSPosition, nbrResorts) VALUES ('454100N, 63139E',3);
 
 
---SKI RESORTS
+-- SKI RESORTS
 INSERT INTO SkiResort(SkiResortName, DomainGPSPosition, SkiResortGPSPosition) VALUES ('Sambuy-Seythenex','454535N, 63133E', '454535N, 63134E');
 INSERT INTO SkiResort(SkiResortName, DomainGPSPosition, SkiResortGPSPosition) VALUES ('Les Saisies','454546N, 63032E', '454535N, 63135E');
 INSERT INTO SkiResort(SkiResortName, DomainGPSPosition, SkiResortGPSPosition) VALUES ('Crest-Volant','454546N, 63032E', '454535N, 63136E');
@@ -13,8 +14,8 @@ INSERT INTO SkiResort(SkiResortName, DomainGPSPosition, SkiResortGPSPosition) VA
 INSERT INTO SkiResort(SkiResortName, DomainGPSPosition, SkiResortGPSPosition) VALUES ('Meribel','454100N, 63139E', '454535N, 63139E');
 
 
---Building
----Shop
+-- Building
+-- Shop
 INSERT INTO Building(BuildingName,BuildingAdresse,SkiResortName,BuildingDailyPeople) VALUES ('Decathlon', '25  Place Napoleon', 'Sambuy-Seythenex', 300);
 INSERT INTO Building(BuildingName,BuildingAdresse,SkiResortName,BuildingDailyPeople) VALUES ('Decathlon', '61  rue Bonneterie', 'Sambuy-Seythenex', 150);
 INSERT INTO Building(BuildingName,BuildingAdresse,SkiResortName,BuildingDailyPeople) VALUES ('Decathlon', '95  avenue Voltaire', 'Les Saisies', 500);
@@ -84,7 +85,7 @@ INSERT INTO Building(BuildingName,BuildingAdresse,SkiResortName,BuildingDailyPeo
 INSERT INTO Building(BuildingName,BuildingAdresse,SkiResortName,BuildingDailyPeople) VALUES ('Tourist Office', '134  boulevard de la Liberation', 'Meribel', 250);
 INSERT INTO Building(BuildingName,BuildingAdresse,SkiResortName,BuildingDailyPeople) VALUES ('Helicopter renting', '91  rue Nationale', 'Val Thorens', 160);
 
----Hotel
+-- Hotel
 INSERT INTO Building(BuildingName,BuildingAdresse,SkiResortName,BuildingDailyPeople) VALUES ('Hotel Transylvania', '41  Rue de la Pompe', 'Sambuy-Seythenex', 150);
 INSERT INTO Building(BuildingName,BuildingAdresse,SkiResortName,BuildingDailyPeople) VALUES ('Hogwarts', '46  rue Bonneterie', 'Les Saisies', 200);
 INSERT INTO Building(BuildingName,BuildingAdresse,SkiResortName,BuildingDailyPeople) VALUES ('Xavier School', '54  Rue de Strasbourg', 'Crest-Volant', 350);
@@ -93,7 +94,7 @@ INSERT INTO Building(BuildingName,BuildingAdresse,SkiResortName,BuildingDailyPeo
 INSERT INTO Building(BuildingName,BuildingAdresse,SkiResortName,BuildingDailyPeople) VALUES ('The Plaza', '80  place de Miremont', 'Val Thorens', 450);
 
 
----Restaurant
+-- Restaurant
 INSERT INTO Building(BuildingName,BuildingAdresse,SkiResortName,BuildingDailyPeople) VALUES ('Samurai Pizza Cats', '40  rue du Faubourg National', 'Val Thorens', 540);
 INSERT INTO Building(BuildingName,BuildingAdresse,SkiResortName,BuildingDailyPeople) VALUES ('Moe Tavern', '74  Rue de Verdun', 'Les Saisies', 490);
 INSERT INTO Building(BuildingName,BuildingAdresse,SkiResortName,BuildingDailyPeople) VALUES ('Moe Tavern', '54  boulevard Albin Durand', 'Courchevel', 110);
@@ -116,7 +117,7 @@ INSERT INTO Building(BuildingName,BuildingAdresse,SkiResortName,BuildingDailyPeo
 INSERT INTO Building(BuildingName,BuildingAdresse,SkiResortName,BuildingDailyPeople) VALUES ('PIZZA PLANET', '72  rue Leon Dierx', 'Sambuy-Seythenex', 130);
 INSERT INTO Building(BuildingName,BuildingAdresse,SkiResortName,BuildingDailyPeople) VALUES ('PIZZA PLANET', '132  rue du Fosse des Tanneurs', 'Val Thorens', 400);
 
---Shop
+-- Shop
 INSERT INTO Shop(BuildingName,BuildingAdresse,Type,Surface) VALUES ('Decathlon', '25  Place Napoleon', 0, 3000);
 INSERT INTO Shop(BuildingName,BuildingAdresse,Type,Surface) VALUES ('Decathlon', '61  rue Bonneterie', 0, 1500);
 INSERT INTO Shop(BuildingName,BuildingAdresse,Type,Surface) VALUES ('Decathlon', '95  avenue Voltaire', 0, 5000);
@@ -187,7 +188,7 @@ INSERT INTO Shop(BuildingName,BuildingAdresse,Type,Surface) VALUES ('Tourist Off
 INSERT INTO Shop(BuildingName,BuildingAdresse,Type,Surface) VALUES ('Helicopter renting', '91  rue Nationale', 5, 1600);
 
 
---Hotel
+-- Hotel
 INSERT INTO Hotel(BuildingName,BuildingAdresse,HotelCapacity,HotelComfort) VALUES ('Hotel Transylvania', '41  Rue de la Pompe', 175, 3);
 INSERT INTO Hotel(BuildingName,BuildingAdresse,HotelCapacity,HotelComfort) VALUES ('Hogwarts', '46  rue Bonneterie', 250, 4);
 INSERT INTO Hotel(BuildingName,BuildingAdresse,HotelCapacity,HotelComfort) VALUES ('Xavier School', '54  Rue de Strasbourg', 400, 5);
@@ -196,7 +197,7 @@ INSERT INTO Hotel(BuildingName,BuildingAdresse,HotelCapacity,HotelComfort) VALUE
 INSERT INTO Hotel(BuildingName,BuildingAdresse,HotelCapacity,HotelComfort) VALUES ('The Plaza', '80  place de Miremont', 500, 4);
 
 
---Restaurant
+-- Restaurant
 INSERT INTO Restaurant(BuildingName,BuildingAdresse,RstCapacity,RstMenu) VALUES ('Samurai Pizza Cats', '40  rue du Faubourg National', 600, 'Margherita, Quattro Stagioni, Calzone');
 INSERT INTO Restaurant(BuildingName,BuildingAdresse,RstCapacity,RstMenu) VALUES ('Moe Tavern', '74  Rue de Verdun', 490, 'Beef Stroganoff, Beef Wellington, Caesar Salad');
 INSERT INTO Restaurant(BuildingName,BuildingAdresse,RstCapacity,RstMenu) VALUES ('Moe Tavern', '54  boulevard Albin Durand', 110, 'Chicken Marengo, Delmonico Steak, Eggs Benedict');
@@ -555,7 +556,7 @@ INSERT INTO Customer(CustomerName,Gender,Age,CustomerLevel,Practice) VALUES ('We
 INSERT INTO Customer(CustomerName,Gender,Age,CustomerLevel,Practice) VALUES ('Yoko Baird',2,12,0,0);
 INSERT INTO Customer(CustomerName,Gender,Age,CustomerLevel,Practice) VALUES ('Neil Arnold',1,24,0,0);
 
---GoBuilding
+-- GoBuilding
 INSERT INTO GoBuilding(CustomerName,BuildingName,BuildingAdresse) VALUES ('Adrien Babachat','Louis Vuitton','65  boulevard Aristide Briand');
 INSERT INTO GoBuilding(CustomerName,BuildingName,BuildingAdresse) VALUES ('Batiste Chloups','Samurai Pizza Cats','40  rue du Faubourg National');
 INSERT INTO GoBuilding(CustomerName,BuildingName,BuildingAdresse) VALUES ('Seb Chabal','The Grand Budapest Hotel','91  Chemin Du Lavarin Sud');
@@ -849,7 +850,7 @@ INSERT INTO GoBuilding(CustomerName,BuildingName,BuildingAdresse) VALUES ('Wesle
 INSERT INTO GoBuilding(CustomerName,BuildingName,BuildingAdresse) VALUES ('Yoko Baird','Hogwarts','46  rue Bonneterie');
 
 
---Pistes
+-- Pistes
 INSERT INTO Piste(PisteName, DifficultyColor, NbrMeter) Values('La chartreuse', 2,500);
 INSERT INTO Piste(PisteName, DifficultyColor, NbrMeter) Values('Le genepy', 5,1500);
 INSERT INTO Piste(PisteName, DifficultyColor, NbrMeter) Values('Le druide', 4,600);
@@ -879,340 +880,552 @@ INSERT INTO Piste(PisteName, DifficultyColor, NbrMeter) Values('Seahorse', 3, 80
 INSERT INTO Piste(PisteName, DifficultyColor, NbrMeter) Values('Cormoranf', 2, 1900);
 
 
---SkiPass
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('1','Adrien Babachat','2018-01-1','2018-03-24',6612)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('2','Batiste Chloups','2018-04-1','2018-04-21',275)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('3','Matthieu Laurendeau','2018-01-1','2018-03-12',4686)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('4','Seb Chabal','2018-01-1','2018-03-14',1650)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('5','Romain Cordoba','2018-01-1','2018-02-19',3185)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('6','Louis CK','2018-01-2','2018-04-07',6862)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('7','Sylvie Rodriguez','2018-03-1','2018-03-25',736)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('8','Erica Brakebal','2018-02-1','2018-03-11',1443)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('9','Laura Calvez','2018-02-1','2018-04-19',4158)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('10','Carlos Correa','2018-01-2','2018-04-10',5680)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('11','Dak Prescott','2018-03-1','2018-04-11',1500)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('12','Christian Pulisic','2018-04-1','2018-04-19',129)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('13','Laurie Hernandez','2018-02-1','2018-03-29',153)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('14','Karl-Anthony Towns','2018-01-2','2018-04-16',7650)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('15','Joey Bosa','2018-01-1','2018-03-26',1022)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('16','Mookie Betts','2018-02-1','2018-03-17',72)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('17','Lilly King','2018-04-2','2018-04-28',168)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('18','Ezekiel Elliott','2018-04-2','2018-04-28',344)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('19','Caeleb Dressel','2018-03-2','2018-04-18',1656)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('20','Kylian Mbappe','2018-02-1','2018-03-06',2024)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('21','Auston Matthews','2018-01-1','2018-03-29',1292)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('22','Chloe Kim','2018-02-1','2018-02-13',66)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('23','Giannis Antetokounmpo','2018-02-2','2018-03-01',231)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('24','Harry Kane','2018-04-1','2018-04-12',13)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('25','Odell Beckham Jr.','2018-03-1','2018-04-25',4320)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('26','Anthony Davis','2018-04-2','2018-04-25',450)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('27','Mikaela Shrifrin','2018-01-2','2018-02-06',876)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('28','Claressa Shields','2018-04-2','2018-04-25',13)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('29','Bryce Harper','2018-04-3','2018-04-30',39)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('30','Connor McDavid','2018-03-1','2018-04-24',3657)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('31','Evgenia Medvedeva','2018-01-1','2018-03-07',5824)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('32','Jordan Spieth','2018-02-1','2018-02-26',95)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('33','Simone Biles','2018-03-2','2018-04-29',3822)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('34','Katie Ledecky','2018-01-2','2018-03-14',4998)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('35','Bruno Tucker','2018-04-1','2018-04-30',162)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('36','Chantale Frank','2018-03-1','2018-03-30',276)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('37','Quinn Owen','2018-03-1','2018-04-17',1288)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('38','Evan Alexander','2018-03-2','2018-04-25',1410)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('39','Paloma Swanson','2018-04-2','2018-04-25',486)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('40','Alvin Arnold','2018-04-1','2018-04-29',108)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('41','Xenos Sampson','2018-01-2','2018-03-27',630)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('42','Grant Lara','2018-02-1','2018-03-06',1826)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('43','Nasim Dawson','2018-04-2','2018-04-29',96)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('44','Uriel Puckett','2018-01-1','2018-04-09',8064)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('45','Peter Tyson','2018-01-2','2018-03-27',434)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('46','Kadeem Bennett','2018-02-2','2018-03-07',480)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('47','Phillip Oneil','2018-04-1','2018-04-24',928)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('48','Octavius Walter','2018-03-1','2018-04-10',288)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('49','Keane Leblanc','2018-04-1','2018-04-19',384)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('50','Delilah Mccarthy','2018-03-2','2018-03-25',528)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('51','Teegan Stanley','2018-01-1','2018-01-07',64)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('52','Graham Lawson','2018-04-2','2018-04-26',89)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('53','Patrick Gentry','2018-02-2','2018-03-16',1037)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('54','Jackson Wallace','2018-03-1','2018-04-28',920)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('55','Thane Wolfe','2018-02-1','2018-03-27',2132)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('56','Joseph Brown','2018-01-1','2018-03-23',4320)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('57','Sasha Lester','2018-02-1','2018-02-26',17)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('58','Anika Randolph','2018-01-1','2018-04-22',10640)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('59','Yoko Randolph','2018-03-2','2018-04-04',511)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('60','Jasper Hoover','2018-01-1','2018-03-12',612)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('61','Blossom Salinas','2018-01-1','2018-02-09',3096)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('62','Upton Wynn','2018-01-1','2018-04-28',4860)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('63','Shoshana Carpenter','2018-02-1','2018-03-08',2508)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('64','Karleigh Jackson','2018-01-2','2018-04-25',7007)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('65','Yoko Vaughn','2018-03-3','2018-04-05',144)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('66','Aimee Woodward','2018-03-1','2018-04-10',2856)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('67','Stuart Compton','2018-02-2','2018-04-12',2548)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('68','Amela Hodges','2018-04-2','2018-04-27',76)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('69','Tyrone Harding','2018-03-1','2018-04-01',2592)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('70','Ivory Sosa','2018-03-1','2018-04-19',1296)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('71','Derek Stokes','2018-04-2','2018-04-28',216)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('72','Demetrius Pennington','2018-02-2','2018-04-08',3572)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('73','Reese Whitley','2018-02-1','2018-04-14',1568)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('74','Cole Snyder','2018-02-2','2018-04-03',2100)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('75','Jenette Avery','2018-03-1','2018-04-11',2970)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('76','Teegan Nichols','2018-02-1','2018-03-14',1155)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('77','Hyatt Sherman','2018-02-1','2018-04-29',3240)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('78','Ivy Anthony','2018-01-1','2018-02-20',1800)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('79','Kelsie Mcpherson','2018-02-2','2018-03-27',1595)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('80','Upton Quinn','2018-03-1','2018-04-12',2160)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('81','Xyla Snow','2018-03-2','2018-04-10',861)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('82','Amery Kim','2018-03-1','2018-04-14',1672)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('83','Quinn Marks','2018-03-2','2018-04-30',1804)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('84','MacKensie Bailey','2018-01-1','2018-03-13',1512)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('85','Kalia Koch','2018-04-2','2018-04-26',59)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('86','Clayton Mcguire','2018-01-2','2018-04-09',2952)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('87','Reece Larson','2018-03-2','2018-04-19',1081)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('88','Devin Wilkerson','2018-04-2','2018-04-25',108)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('89','Georgia Garner','2018-04-1','2018-04-22',416)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('90','Armand Maynard','2018-03-1','2018-03-14',292)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('91','Delilah Goodwin','2018-04-2','2018-04-26',168)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('92','Timothy Madden','2018-03-2','2018-04-24',1242)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('93','Ocean Bright','2018-04-2','2018-04-30',1012)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('94','Abigail Shaw','2018-04-1','2018-04-22',63)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('95','Sean Hinton','2018-03-1','2018-04-22',588)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('96','Tanner Parker','2018-03-2','2018-03-25',276)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('97','Hayfa Huffman','2018-01-1','2018-02-11',2232)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('98','Aileen Mckinney','2018-04-1','2018-04-20',168)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('99','Dominique West','2018-02-1','2018-04-13',2275)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('100','Aretha Whitaker','2018-01-1','2018-03-07',2915)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('101','Maile Barr','2018-04-1','2018-04-20',589)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('102','Denton Meyers','2018-01-1','2018-02-11',2970)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('103','Gavin Ray','2018-04-2','2018-04-23',22)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('104','Callum Riggs','2018-03-1','2018-04-27',1638)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('105','Kathleen Gamble','2018-01-1','2018-02-26',1836)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('106','Virginia Bryant','2018-03-1','2018-04-20',510)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('107','Fay Guerra','2018-04-1','2018-04-27',1368)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('108','Fritz Levine','2018-03-3','2018-04-06',609)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('109','Branden Kirby','2018-02-2','2018-04-25',992)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('110','Vaughan Levine','2018-01-1','2018-04-03',5874)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('111','Alden Herrera','2018-02-1','2018-04-23',6762)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('112','Lael Henry','2018-03-1','2018-04-24',3444)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('113','Cleo Shepherd','2018-04-2','2018-04-28',252)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('114','Brianna Buckley','2018-02-1','2018-03-23',4794)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('115','Simone Jimenez','2018-03-1','2018-04-02',900)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('116','Macon Robertson','2018-02-1','2018-03-25',2640)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('117','Sybil Bowman','2018-02-1','2018-04-13',3969)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('118','Wing Crosby','2018-01-1','2018-01-25',357)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('119','Fallon Norton','2018-03-1','2018-04-15',4032)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('120','Alvin Mccormick','2018-02-2','2018-02-25',156)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('121','Daquan Franklin','2018-04-1','2018-04-16',1344)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('122','Rudyard Vang','2018-01-2','2018-02-14',1525)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('123','Amos Duke','2018-02-1','2018-03-04',2130)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('124','Idola Nguyen','2018-03-2','2018-04-04',712)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('125','Wesley Lynn','2018-04-2','2018-04-27',133)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('126','Miranda Cardenas','2018-03-1','2018-04-01',903)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('127','Willow Maddox','2018-01-1','2018-04-07',6324)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('128','Freya Osborne','2018-01-2','2018-04-16',2430)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('129','Anastasia Price','2018-04-2','2018-04-29',348)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('130','Gary Burch','2018-03-2','2018-03-30',153)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('131','Lamar Reid','2018-04-1','2018-04-15',996)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('132','Josiah Cherry','2018-03-1','2018-04-16',1426)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('133','Molly Stephens','2018-03-1','2018-03-25',153)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('134','Raja Rollins','2018-04-1','2018-04-27',114)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('135','Todd Harmon','2018-03-1','2018-04-03',850)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('136','Griffith Brown','2018-01-1','2018-02-01',1512)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('137','Leslie Vazquez','2018-01-1','2018-04-27',6490)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('138','Fatima Horton','2018-03-1','2018-04-22',1320)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('139','Hayley Simon','2018-03-1','2018-03-23',324)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('140','Dylan Prince','2018-03-1','2018-03-21',800)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('141','Brennan Bryant','2018-02-1','2018-04-10',189)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('142','Roanna Dyer','2018-03-1','2018-03-27',1152)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('143','Clayton Mills','2018-03-1','2018-04-14',35)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('144','Blossom Stafford','2018-03-1','2018-04-08',148)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('145','Lawrence Bray','2018-04-2','2018-04-20',12)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('146','Arden Torres','2018-03-1','2018-03-13',108)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('147','Brock Cunningham','2018-01-1','2018-02-18',2368)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('148','Ila Tate','2018-01-2','2018-04-26',192)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('149','Geraldine Tran','2018-02-1','2018-04-13',4752)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('150','Jamal Moss','2018-03-1','2018-04-25',3100)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('151','Rajah Mendoza','2018-04-2','2018-04-26',110)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('152','Adrienne Miranda','2018-01-1','2018-01-26',575)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('153','Hashim Coleman','2018-03-2','2018-04-09',1080)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('154','Jonah Guerrero','2018-03-1','2018-04-30',414)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('155','Flynn Rogers','2018-01-3','2018-03-06',2590)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('156','Nathan Avila','2018-02-1','2018-04-29',4235)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('157','Pandora Jarvis','2018-01-2','2018-02-13',468)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('158','Ferris Mcgee','2018-03-1','2018-03-24',1248)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('159','Priscilla Crane','2018-01-1','2018-03-05',2150)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('160','Matthew Martinez','2018-04-2','2018-04-22',71)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('161','Mira Hensley','2018-04-1','2018-04-13',24)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('162','Libby Wyatt','2018-03-1','2018-04-13',1296)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('163','Jin Hampton','2018-02-2','2018-03-16',44)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('164','Rooney Maynard','2018-03-1','2018-04-27',1504)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('165','Shellie Gamble','2018-02-1','2018-02-05',110)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('166','Thor Tanner','2018-03-1','2018-04-29',880)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('167','Pearl Gray','2018-02-1','2018-02-11',632)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('168','Shafira Mendoza','2018-01-2','2018-01-28',4)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('169','Fuller Le','2018-01-1','2018-01-31',378)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('170','Amethyst Lane','2018-03-2','2018-04-19',744)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('171','Aiko Gonzales','2018-04-1','2018-04-21',95)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('172','Sloane Tran','2018-04-2','2018-04-29',120)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('173','Naida Morris','2018-03-1','2018-03-22',1674)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('174','Whitney Foreman','2018-02-1','2018-03-22',4183)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('175','Jarrod Gomez','2018-01-1','2018-01-18',252)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('176','Jesse Mendoza','2018-04-1','2018-04-18',270)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('177','Miriam Petty','2018-04-1','2018-04-18',95)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('178','Ina Caldwell','2018-04-2','2018-04-30',117)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('179','Gabriel Payne','2018-01-1','2018-03-17',854)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('180','Briar Baird','2018-01-1','2018-01-11',63)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('181','Ethan House','2018-01-1','2018-04-01',7480)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('182','Warren Todd','2018-04-1','2018-04-08',279)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('183','Macy Tyler','2018-04-1','2018-04-13',32)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('184','Shoshana Padilla','2018-03-1','2018-03-21',264)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('185','Miriam Walls','2018-04-1','2018-04-22',1584)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('186','Kibo Bowman','2018-01-1','2018-04-15',3848)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('187','Lynn Molina','2018-03-2','2018-03-30',462)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('188','Jason Richardson','2018-02-2','2018-03-15',1564)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('189','Shelly Juarez','2018-04-1','2018-04-14',15)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('190','Aspen Cherry','2018-04-2','2018-04-28',252)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('191','Fulton Weiss','2018-01-1','2018-04-13',8282)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('192','Zoe Macdonald','2018-02-2','2018-03-06',384)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('193','Eve Maddox','2018-01-2','2018-03-05',1764)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('194','Rae Fuentes','2018-02-1','2018-04-17',4897)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('195','Anne Conrad','2018-04-2','2018-04-27',33)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('196','Meghan Greer','2018-03-2','2018-04-22',650)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('197','Noel Thornton','2018-01-1','2018-04-27',7344)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('198','Jack Valentine','2018-01-1','2018-01-19',45)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('199','Howard Sims','2018-03-1','2018-03-24',350)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('200','Conan Mckinney','2018-02-2','2018-03-14',595)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('201','Keiko Browning','2018-03-1','2018-03-28',1036)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('202','Richard Mendoza','2018-04-1','2018-04-15',270)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('203','Eagan Clayton','2018-04-1','2018-04-02',110)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('204','Lawrence Stewart','2018-03-2','2018-04-17',2231)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('205','Kamal Kent','2018-02-1','2018-04-08',275)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('206','Orson Olson','2018-04-2','2018-04-30',30)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('207','Whilemina Fischer','2018-03-3','2018-04-07',639)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('208','Robert Salazar','2018-01-2','2018-02-17',2436)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('209','Kylee Kinney','2018-01-1','2018-01-11',979)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('210','Ria Vasquez','2018-03-1','2018-04-08',1365)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('211','Dante Hendricks','2018-02-1','2018-04-16',2665)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('212','Olga Lyons','2018-03-3','2018-04-24',1274)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('213','Nathan West','2018-01-1','2018-04-19',4080)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('214','Quinlan Mcgee','2018-04-1','2018-04-25',560)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('215','Garth Graves','2018-02-1','2018-02-28',1148)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('216','Yasir Valencia','2018-02-1','2018-04-22',1900)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('217','Sloane Cooley','2018-03-2','2018-04-18',1464)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('218','Tyrone Padilla','2018-02-1','2018-04-16',1898)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('219','Reuben White','2018-03-2','2018-04-20',1856)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('220','Cheyenne Patterson','2018-02-2','2018-04-25',5782)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('221','Lars Norman','2018-04-1','2018-04-14',84)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('222','Reagan Andrews','2018-02-1','2018-03-01',132)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('223','Shelby Wright','2018-03-1','2018-04-12',2070)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('224','Christian Fleming','2018-03-3','2018-04-15',306)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('225','Timon Petty','2018-02-2','2018-03-30',2940)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('226','Tana Barrera','2018-01-2','2018-01-31',402)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('227','Rafael Hawkins','2018-01-2','2018-04-03',4216)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('228','Emma Bass','2018-02-1','2018-03-14',3840)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('229','Charde Velez','2018-02-2','2018-04-26',6300)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('230','Dawn Love','2018-04-3','2018-04-30',19)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('231','Keane Perry','2018-03-2','2018-04-12',1254)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('232','Dolan Hopper','2018-02-1','2018-02-22',1584)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('233','Martha Wilkinson','2018-02-2','2018-03-02',275)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('234','Olivia Townsend','2018-03-2','2018-04-01',385)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('235','Tyrone Castro','2018-02-2','2018-04-15',1372)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('236','Marny Ramsey','2018-03-1','2018-03-16',198)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('237','Yael Parsons','2018-02-2','2018-02-24',45)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('238','Shaeleigh Conrad','2018-02-1','2018-04-10',3968)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('239','Maisie Hale','2018-02-2','2018-03-15',1824)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('240','Ashely Grant','2018-01-1','2018-04-27',3270)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('241','Melyssa Sloan','2018-01-1','2018-01-16',324)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('242','Joel Maddox','2018-02-1','2018-04-12',3816)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('243','Benedict Noble','2018-04-2','2018-04-28',360)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('244','Audra Rodriguez','2018-02-1','2018-03-01',832)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('245','Ishmael Flores','2018-02-1','2018-02-11',350)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('246','Barbara Richards','2018-01-1','2018-02-24',2920)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('247','Coby Marks','2018-04-1','2018-04-27',493)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('248','Maggy Kirkland','2018-03-1','2018-04-26',3657)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('249','Garrison Ayala','2018-02-2','2018-04-15',4418)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('250','Wesley Davenport','2018-03-3','2018-04-15',1632)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('251','Deacon Cohen','2018-01-1','2018-01-13',156)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('252','Alan Taylor','2018-03-1','2018-03-27',110)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('253','Camilla Schmidt','2018-04-1','2018-04-24',840)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('254','Deirdre Alvarez','2018-01-2','2018-02-04',812)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('255','Evangeline Douglas','2018-04-2','2018-04-27',40)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('256','Tarik Love','2018-01-1','2018-01-23',1587)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('257','Willow Clarke','2018-02-1','2018-02-22',1134)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('258','Fuller Hudson','2018-02-1','2018-04-22',5625)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('259','Guinevere Gutierrez','2018-01-1','2018-03-09',3132)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('260','Kenyon Hampton','2018-02-1','2018-04-30',3150)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('261','Fleur Baird','2018-01-2','2018-02-05',350)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('262','Maryam Beach','2018-01-2','2018-02-12',1472)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('263','Reuben Dorsey','2018-04-1','2018-04-12',430)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('264','Mufutau Powers','2018-02-2','2018-03-31',1014)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('265','Joelle Sullivan','2018-04-2','2018-04-22',16)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('266','Isabella Rodriguez','2018-04-2','2018-04-27',128)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('267','Zane Walls','2018-03-2','2018-04-06',1386)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('268','Travis Morin','2018-01-1','2018-02-03',2175)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('269','Aristotle Stone','2018-02-1','2018-04-26',5698)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('270','Jackson Osborn','2018-03-1','2018-04-26',3355)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('271','Owen Gross','2018-02-1','2018-03-01',1666)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('272','Kaseem Boyle','2018-03-1','2018-04-07',1344)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('273','Finn Grimes','2018-01-1','2018-02-25',4277)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('274','Ira Wilkerson','2018-04-1','2018-04-30',2231)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('275','Blossom Glenn','2018-01-1','2018-04-24',3535)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('276','Wallace Whitaker','2018-04-2','2018-04-28',360)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('277','Jolene Buchanan','2018-01-2','2018-04-01',4047)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('278','Harper Hanson','2018-02-1','2018-02-15',357)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('279','Tarik Black','2018-02-1','2018-03-31',4268)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('280','Cameran Small','2018-04-2','2018-04-26',480)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('281','Madeline Parrish','2018-02-1','2018-03-27',2028)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('282','Justine Burks','2018-03-1','2018-04-12',3772)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('283','Gwendolyn Berger','2018-03-2','2018-04-12',1275)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('284','Emery Ware','2018-01-2','2018-03-27',3422)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('285','Claudia Schneider','2018-02-1','2018-04-26',825)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('286','Dean Spencer','2018-03-1','2018-03-27',810)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('287','Troy Donovan','2018-03-2','2018-03-21',58)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('288','Bruno Cantu','2018-01-3','2018-03-20',49)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('289','Drake Barber','2018-01-1','2018-02-04',3168)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('290','Lacey Smith','2018-04-1','2018-04-21',441)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('291','Myles Riggs','2018-04-1','2018-04-26',780)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('292','Reece Strong','2018-01-2','2018-04-11',480)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('293','Hayden Rowland','2018-02-1','2018-02-27',518)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('294','Cain Eaton','2018-01-1','2018-01-09',125)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('295','Colorado Marshall','2018-01-2','2018-03-29',6200)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('296','Quinlan Juarez','2018-02-1','2018-03-10',280)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('297','Bryar Kaufman','2018-04-1','2018-04-22',216)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('298','Dahlia Sloan','2018-04-1','2018-04-18',240)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('299','Kelsey Barber','2018-01-2','2018-03-13',1222)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('300','Gregory Rollins','2018-03-1','2018-04-26',4312)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('301','Leila Gilmore','2018-02-1','2018-04-18',4970)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('302','Trevor Talley','2018-01-1','2018-02-07',1216)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('303','Mason Greer','2018-01-1','2018-02-22',1254)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('304','Preston Woods','2018-01-1','2018-02-02',935)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('305','Willa Camacho','2018-04-1','2018-04-24',50)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('306','Meredith Soto','2018-04-1','2018-04-21',1064)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('307','Ima Solis','2018-02-2','2018-03-23',2511)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('308','Violet Flynn','2018-02-2','2018-02-25',48)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('309','Shaine Marshall','2018-04-1','2018-04-21',500)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('310','Guy Dickerson','2018-01-2','2018-03-02',252)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('311','Chantale Benjamin','2018-04-1','2018-04-18',60)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('312','Charde Doyle','2018-02-1','2018-04-28',6120)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('313','Cherokee Foreman','2018-02-1','2018-02-11',244)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('314','Acton Meadows','2018-04-3','2018-04-30',26)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('315','Imani Copeland','2018-02-2','2018-04-19',4316)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('316','Whoopi Atkinson','2018-04-1','2018-04-20',1520)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('317','Lars Mcintyre','2018-01-1','2018-03-23',2128)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('318','Karen Lyons','2018-03-1','2018-04-26',1702)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('319','Carla Carr','2018-04-2','2018-04-24',120)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('320','Tatyana Kline','2018-02-1','2018-03-13',1292)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('321','Brennan Blair','2018-04-2','2018-04-30',60)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('322','Daniel Reyes','2018-03-2','2018-03-30',672)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('323','Jena Witt','2018-01-3','2018-04-07',1632)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('324','Chantale Wolf','2018-02-1','2018-04-16',2257)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('325','Drew Rich','2018-02-1','2018-03-27',1560)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('326','Kareem Nieves','2018-04-2','2018-04-25',132)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('327','Mason Hardy','2018-01-1','2018-01-16',212)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('328','Dale Knight','2018-03-3','2018-04-18',1349)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('329','May Bruce','2018-03-2','2018-04-02',234)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('330','Blaine Mcintyre','2018-02-2','2018-04-01',2418)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('331','Wesley Crosby','2018-01-1','2018-01-30',1219)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('332','Yoko Baird','2018-03-1','2018-04-19',374)
-INSERT INTO SkiPass(SkiPassID,CustomerName,SkiStartDate,SkiEndDate,SPPrice) VALUES ('333','Neil Arnold','2018-04-2','2018-04-25',192)
+-- SkiPass
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('1','Adrien Babachat','2018-01-01','2018-03-24',6612);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('2','Batiste Chloups','2018-04-01','2018-04-21',275);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('3','Matthieu Laurendeau','2018-01-01','2018-03-12',4686);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('4','Seb Chabal','2018-01-01','2018-03-14',1650);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('5','Romain Cordoba','2018-01-01','2018-02-19',3185);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('6','Louis CK','2018-01-02','2018-04-07',6862);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('7','Sylvie Rodriguez','2018-03-01','2018-03-25',736);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('8','Erica Brakebal','2018-02-01','2018-03-11',1443);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('9','Laura Calvez','2018-02-01','2018-04-19',4158);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('10','Carlos Correa','2018-01-02','2018-04-10',5680);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('11','Dak Prescott','2018-03-01','2018-04-11',1500);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('12','Christian Pulisic','2018-04-01','2018-04-19',129);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('13','Laurie Hernandez','2018-02-01','2018-03-29',153);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('14','Karl-Anthony Towns','2018-01-02','2018-04-16',7650);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('15','Joey Bosa','2018-01-01','2018-03-26',1022);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('16','Mookie Betts','2018-02-01','2018-03-17',72);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('17','Lilly King','2018-04-02','2018-04-28',168);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('18','Ezekiel Elliott','2018-04-02','2018-04-28',344);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('19','Caeleb Dressel','2018-03-02','2018-04-18',1656);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('20','Kylian Mbappe','2018-02-01','2018-03-06',2024);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('21','Auston Matthews','2018-01-01','2018-03-29',1292);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('22','Chloe Kim','2018-02-01','2018-02-13',66);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('23','Giannis Antetokounmpo','2018-02-02','2018-03-01',231);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('24','Harry Kane','2018-04-01','2018-04-12',13);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('25','Odell Beckham Jr.','2018-03-01','2018-04-25',4320);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('26','Anthony Davis','2018-04-02','2018-04-25',450);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('27','Mikaela Shrifrin','2018-01-02','2018-02-06',876);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('28','Claressa Shields','2018-04-02','2018-04-25',13);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('29','Bryce Harper','2018-04-03','2018-04-30',39);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('30','Connor McDavid','2018-03-01','2018-04-24',3657);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('31','Evgenia Medvedeva','2018-01-01','2018-03-07',5824);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('32','Jordan Spieth','2018-02-01','2018-02-26',95);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('33','Simone Biles','2018-03-02','2018-04-29',3822);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('34','Katie Ledecky','2018-01-02','2018-03-14',4998);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('35','Bruno Tucker','2018-04-01','2018-04-30',162);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('36','Chantale Frank','2018-03-01','2018-03-30',276);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('37','Quinn Owen','2018-03-01','2018-04-17',1288);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('38','Evan Alexander','2018-03-02','2018-04-25',1410);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('39','Paloma Swanson','2018-04-02','2018-04-25',486);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('40','Alvin Arnold','2018-04-01','2018-04-29',108);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('41','Xenos Sampson','2018-01-02','2018-03-27',630);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('42','Grant Lara','2018-02-01','2018-03-06',1826);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('43','Nasim Dawson','2018-04-02','2018-04-29',96);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('44','Uriel Puckett','2018-01-01','2018-04-09',8064);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('45','Peter Tyson','2018-01-02','2018-03-27',434);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('46','Kadeem Bennett','2018-02-02','2018-03-07',480);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('47','Phillip Oneil','2018-04-01','2018-04-24',928);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('48','Octavius Walter','2018-03-01','2018-04-10',288);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('49','Keane Leblanc','2018-04-01','2018-04-19',384);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('50','Delilah Mccarthy','2018-03-02','2018-03-25',528);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('51','Teegan Stanley','2018-01-01','2018-01-07',64);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('52','Graham Lawson','2018-04-02','2018-04-26',89);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('53','Patrick Gentry','2018-02-02','2018-03-16',1037);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('54','Jackson Wallace','2018-03-01','2018-04-28',920);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('55','Thane Wolfe','2018-02-01','2018-03-27',2132);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('56','Joseph Brown','2018-01-01','2018-03-23',4320);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('57','Sasha Lester','2018-02-01','2018-02-26',17);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('58','Anika Randolph','2018-01-01','2018-04-22',10640);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('59','Yoko Randolph','2018-03-02','2018-04-04',511);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('60','Jasper Hoover','2018-01-01','2018-03-12',612);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('61','Blossom Salinas','2018-01-01','2018-02-09',3096);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('62','Upton Wynn','2018-01-01','2018-04-28',4860);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('63','Shoshana Carpenter','2018-02-01','2018-03-08',2508);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('64','Karleigh Jackson','2018-01-02','2018-04-25',7007);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('65','Yoko Vaughn','2018-03-03','2018-04-05',144);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('66','Aimee Woodward','2018-03-01','2018-04-10',2856);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('67','Stuart Compton','2018-02-02','2018-04-12',2548);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('68','Amela Hodges','2018-04-02','2018-04-27',76);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('69','Tyrone Harding','2018-03-01','2018-04-01',2592);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('70','Ivory Sosa','2018-03-01','2018-04-19',1296);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('71','Derek Stokes','2018-04-02','2018-04-28',216);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('72','Demetrius Pennington','2018-02-02','2018-04-08',3572);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('73','Reese Whitley','2018-02-01','2018-04-14',1568);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('74','Cole Snyder','2018-02-02','2018-04-03',2100);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('75','Jenette Avery','2018-03-01','2018-04-11',2970);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('76','Teegan Nichols','2018-02-01','2018-03-14',1155);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('77','Hyatt Sherman','2018-02-01','2018-04-29',3240);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('78','Ivy Anthony','2018-01-01','2018-02-20',1800);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('79','Kelsie Mcpherson','2018-02-02','2018-03-27',1595);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('80','Upton Quinn','2018-03-01','2018-04-12',2160);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('81','Xyla Snow','2018-03-02','2018-04-10',861);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('82','Amery Kim','2018-03-01','2018-04-14',1672);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('83','Quinn Marks','2018-03-02','2018-04-30',1804);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('84','MacKensie Bailey','2018-01-01','2018-03-13',1512);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('85','Kalia Koch','2018-04-02','2018-04-26',59);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('86','Clayton Mcguire','2018-01-02','2018-04-09',2952);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('87','Reece Larson','2018-03-02','2018-04-19',1081);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('88','Devin Wilkerson','2018-04-02','2018-04-25',108);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('89','Georgia Garner','2018-04-01','2018-04-22',416);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('90','Armand Maynard','2018-03-01','2018-03-14',292);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('91','Delilah Goodwin','2018-04-02','2018-04-26',168);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('92','Timothy Madden','2018-03-02','2018-04-24',1242);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('93','Ocean Bright','2018-04-02','2018-04-30',1012);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('94','Abigail Shaw','2018-04-01','2018-04-22',63);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('95','Sean Hinton','2018-03-01','2018-04-22',588);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('96','Tanner Parker','2018-03-02','2018-03-25',276);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('97','Hayfa Huffman','2018-01-01','2018-02-11',2232);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('98','Aileen Mckinney','2018-04-01','2018-04-20',168);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('99','Dominique West','2018-02-01','2018-04-13',2275);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('100','Aretha Whitaker','2018-01-01','2018-03-07',2915);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('101','Maile Barr','2018-04-01','2018-04-20',589);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('102','Denton Meyers','2018-01-01','2018-02-11',2970);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('103','Gavin Ray','2018-04-02','2018-04-23',22);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('104','Callum Riggs','2018-03-01','2018-04-27',1638);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('105','Kathleen Gamble','2018-01-01','2018-02-26',1836);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('106','Virginia Bryant','2018-03-01','2018-04-20',510);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('107','Fay Guerra','2018-04-01','2018-04-27',1368);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('108','Fritz Levine','2018-03-03','2018-04-06',609);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('109','Branden Kirby','2018-02-02','2018-04-25',992);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('110','Vaughan Levine','2018-01-01','2018-04-03',5874);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('111','Alden Herrera','2018-02-01','2018-04-23',6762);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('112','Lael Henry','2018-03-01','2018-04-24',3444);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('113','Cleo Shepherd','2018-04-02','2018-04-28',252);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('114','Brianna Buckley','2018-02-01','2018-03-23',4794);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('115','Simone Jimenez','2018-03-01','2018-04-02',900);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('116','Macon Robertson','2018-02-01','2018-03-25',2640);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('117','Sybil Bowman','2018-02-01','2018-04-13',3969);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('118','Wing Crosby','2018-01-01','2018-01-25',357);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('119','Fallon Norton','2018-03-01','2018-04-15',4032);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('120','Alvin Mccormick','2018-02-02','2018-02-25',156);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('121','Daquan Franklin','2018-04-01','2018-04-16',1344);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('122','Rudyard Vang','2018-01-02','2018-02-14',1525);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('123','Amos Duke','2018-02-01','2018-03-04',2130);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('124','Idola Nguyen','2018-03-02','2018-04-04',712);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('125','Wesley Lynn','2018-04-02','2018-04-27',133);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('126','Miranda Cardenas','2018-03-01','2018-04-01',903);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('127','Willow Maddox','2018-01-01','2018-04-07',6324);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('128','Freya Osborne','2018-01-02','2018-04-16',2430);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('129','Anastasia Price','2018-04-02','2018-04-29',348);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('130','Gary Burch','2018-03-02','2018-03-30',153);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('131','Lamar Reid','2018-04-01','2018-04-15',996);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('132','Josiah Cherry','2018-03-01','2018-04-16',1426);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('133','Molly Stephens','2018-03-01','2018-03-25',153);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('134','Raja Rollins','2018-04-01','2018-04-27',114);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('135','Todd Harmon','2018-03-01','2018-04-03',850);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('136','Griffith Brown','2018-01-01','2018-02-01',1512);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('137','Leslie Vazquez','2018-01-01','2018-04-27',6490);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('138','Fatima Horton','2018-03-01','2018-04-22',1320);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('139','Hayley Simon','2018-03-01','2018-03-23',324);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('140','Dylan Prince','2018-03-01','2018-03-21',800);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('141','Brennan Bryant','2018-02-01','2018-04-10',189);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('142','Roanna Dyer','2018-03-01','2018-03-27',1152);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('143','Clayton Mills','2018-03-01','2018-04-14',35);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('144','Blossom Stafford','2018-03-01','2018-04-08',148);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('145','Lawrence Bray','2018-04-02','2018-04-20',12);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('146','Arden Torres','2018-03-01','2018-03-13',108);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('147','Brock Cunningham','2018-01-01','2018-02-18',2368);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('148','Ila Tate','2018-01-02','2018-04-26',192);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('149','Geraldine Tran','2018-02-01','2018-04-13',4752);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('150','Jamal Moss','2018-03-01','2018-04-25',3100);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('151','Rajah Mendoza','2018-04-02','2018-04-26',110);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('152','Adrienne Miranda','2018-01-01','2018-01-26',575);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('153','Hashim Coleman','2018-03-02','2018-04-09',1080);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('154','Jonah Guerrero','2018-03-01','2018-04-30',414);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('155','Flynn Rogers','2018-01-03','2018-03-06',2590);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('156','Nathan Avila','2018-02-01','2018-04-29',4235);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('157','Pandora Jarvis','2018-01-02','2018-02-13',468);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('158','Ferris Mcgee','2018-03-01','2018-03-24',1248);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('159','Priscilla Crane','2018-01-01','2018-03-05',2150);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('160','Matthew Martinez','2018-04-02','2018-04-22',71);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('161','Mira Hensley','2018-04-01','2018-04-13',24);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('162','Libby Wyatt','2018-03-01','2018-04-13',1296);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('163','Jin Hampton','2018-02-02','2018-03-16',44);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('164','Rooney Maynard','2018-03-01','2018-04-27',1504);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('165','Shellie Gamble','2018-02-01','2018-02-05',110);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('166','Thor Tanner','2018-03-01','2018-04-29',880);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('167','Pearl Gray','2018-02-01','2018-02-11',632);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('168','Shafira Mendoza','2018-01-02','2018-01-28',4);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('169','Fuller Le','2018-01-01','2018-01-31',378);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('170','Amethyst Lane','2018-03-02','2018-04-19',744);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('171','Aiko Gonzales','2018-04-01','2018-04-21',95);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('172','Sloane Tran','2018-04-02','2018-04-29',120);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('173','Naida Morris','2018-03-01','2018-03-22',1674);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('174','Whitney Foreman','2018-02-01','2018-03-22',4183);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('175','Jarrod Gomez','2018-01-01','2018-01-18',252);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('176','Jesse Mendoza','2018-04-01','2018-04-18',270);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('177','Miriam Petty','2018-04-01','2018-04-18',95);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('178','Ina Caldwell','2018-04-02','2018-04-30',117);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('179','Gabriel Payne','2018-01-01','2018-03-17',854);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('180','Briar Baird','2018-01-01','2018-01-11',63);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('181','Ethan House','2018-01-01','2018-04-01',7480);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('182','Warren Todd','2018-04-01','2018-04-08',279);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('183','Macy Tyler','2018-04-01','2018-04-13',32);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('184','Shoshana Padilla','2018-03-01','2018-03-21',264);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('185','Miriam Walls','2018-04-01','2018-04-22',1584);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('186','Kibo Bowman','2018-01-01','2018-04-15',3848);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('187','Lynn Molina','2018-03-02','2018-03-30',462);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('188','Jason Richardson','2018-02-02','2018-03-15',1564);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('189','Shelly Juarez','2018-04-01','2018-04-14',15);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('190','Aspen Cherry','2018-04-02','2018-04-28',252);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('191','Fulton Weiss','2018-01-01','2018-04-13',8282);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('192','Zoe Macdonald','2018-02-02','2018-03-06',384);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('193','Eve Maddox','2018-01-02','2018-03-05',1764);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('194','Rae Fuentes','2018-02-01','2018-04-17',4897);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('195','Anne Conrad','2018-04-02','2018-04-27',33);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('196','Meghan Greer','2018-03-02','2018-04-22',650);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('197','Noel Thornton','2018-01-01','2018-04-27',7344);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('198','Jack Valentine','2018-01-01','2018-01-19',45);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('199','Howard Sims','2018-03-01','2018-03-24',350);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('200','Conan Mckinney','2018-02-02','2018-03-14',595);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('201','Keiko Browning','2018-03-01','2018-03-28',1036);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('202','Richard Mendoza','2018-04-01','2018-04-15',270);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('203','Eagan Clayton','2018-04-01','2018-04-02',110);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('204','Lawrence Stewart','2018-03-02','2018-04-17',2231);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('205','Kamal Kent','2018-02-01','2018-04-08',275);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('206','Orson Olson','2018-04-02','2018-04-30',30);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('207','Whilemina Fischer','2018-03-03','2018-04-07',639);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('208','Robert Salazar','2018-01-02','2018-02-17',2436);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('209','Kylee Kinney','2018-01-01','2018-01-11',979);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('210','Ria Vasquez','2018-03-01','2018-04-08',1365);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('211','Dante Hendricks','2018-02-01','2018-04-16',2665);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('212','Olga Lyons','2018-03-03','2018-04-24',1274);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('213','Nathan West','2018-01-01','2018-04-19',4080);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('214','Quinlan Mcgee','2018-04-01','2018-04-25',560);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('215','Garth Graves','2018-02-01','2018-02-28',1148);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('216','Yasir Valencia','2018-02-01','2018-04-22',1900);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('217','Sloane Cooley','2018-03-02','2018-04-18',1464);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('218','Tyrone Padilla','2018-02-01','2018-04-16',1898);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('219','Reuben White','2018-03-02','2018-04-20',1856);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('220','Cheyenne Patterson','2018-02-02','2018-04-25',5782);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('221','Lars Norman','2018-04-01','2018-04-14',84);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('222','Reagan Andrews','2018-02-01','2018-03-01',132);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('223','Shelby Wright','2018-03-01','2018-04-12',2070);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('224','Christian Fleming','2018-03-03','2018-04-15',306);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('225','Timon Petty','2018-02-02','2018-03-30',2940);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('226','Tana Barrera','2018-01-02','2018-01-31',402);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('227','Rafael Hawkins','2018-01-02','2018-04-03',4216);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('228','Emma Bass','2018-02-01','2018-03-14',3840);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('229','Charde Velez','2018-02-02','2018-04-26',6300);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('230','Dawn Love','2018-04-03','2018-04-30',19);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('231','Keane Perry','2018-03-02','2018-04-12',1254);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('232','Dolan Hopper','2018-02-01','2018-02-22',1584);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('233','Martha Wilkinson','2018-02-02','2018-03-02',275);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('234','Olivia Townsend','2018-03-02','2018-04-01',385);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('235','Tyrone Castro','2018-02-02','2018-04-15',1372);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('236','Marny Ramsey','2018-03-01','2018-03-16',198);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('237','Yael Parsons','2018-02-02','2018-02-24',45);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('238','Shaeleigh Conrad','2018-02-01','2018-04-10',3968);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('239','Maisie Hale','2018-02-02','2018-03-15',1824);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('240','Ashely Grant','2018-01-01','2018-04-27',3270);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('241','Melyssa Sloan','2018-01-01','2018-01-16',324);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('242','Joel Maddox','2018-02-01','2018-04-12',3816);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('243','Benedict Noble','2018-04-02','2018-04-28',360);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('244','Audra Rodriguez','2018-02-01','2018-03-01',832);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('245','Ishmael Flores','2018-02-01','2018-02-11',350);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('246','Barbara Richards','2018-01-01','2018-02-24',2920);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('247','Coby Marks','2018-04-01','2018-04-27',493);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('248','Maggy Kirkland','2018-03-01','2018-04-26',3657);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('249','Garrison Ayala','2018-02-02','2018-04-15',4418);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('250','Wesley Davenport','2018-03-03','2018-04-15',1632);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('251','Deacon Cohen','2018-01-01','2018-01-13',156);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('252','Alan Taylor','2018-03-01','2018-03-27',110);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('253','Camilla Schmidt','2018-04-01','2018-04-24',840);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('254','Deirdre Alvarez','2018-01-02','2018-02-04',812);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('255','Evangeline Douglas','2018-04-02','2018-04-27',40);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('256','Tarik Love','2018-01-01','2018-01-23',1587);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('257','Willow Clarke','2018-02-01','2018-02-22',1134);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('258','Fuller Hudson','2018-02-01','2018-04-22',5625);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('259','Guinevere Gutierrez','2018-01-01','2018-03-09',3132);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('260','Kenyon Hampton','2018-02-01','2018-04-30',3150);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('261','Fleur Baird','2018-01-02','2018-02-05',350);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('262','Maryam Beach','2018-01-02','2018-02-12',1472);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('263','Reuben Dorsey','2018-04-01','2018-04-12',430);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('264','Mufutau Powers','2018-02-02','2018-03-31',1014);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('265','Joelle Sullivan','2018-04-02','2018-04-22',16);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('266','Isabella Rodriguez','2018-04-02','2018-04-27',128);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('267','Zane Walls','2018-03-02','2018-04-06',1386);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('268','Travis Morin','2018-01-01','2018-02-03',2175);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('269','Aristotle Stone','2018-02-01','2018-04-26',5698);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('270','Jackson Osborn','2018-03-01','2018-04-26',3355);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('271','Owen Gross','2018-02-01','2018-03-01',1666);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('272','Kaseem Boyle','2018-03-01','2018-04-07',1344);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('273','Finn Grimes','2018-01-01','2018-02-25',4277);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('274','Ira Wilkerson','2018-04-01','2018-04-30',2231);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('275','Blossom Glenn','2018-01-01','2018-04-24',3535);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('276','Wallace Whitaker','2018-04-02','2018-04-28',360);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('277','Jolene Buchanan','2018-01-02','2018-04-01',4047);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('278','Harper Hanson','2018-02-01','2018-02-15',357);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('279','Tarik Black','2018-02-01','2018-03-31',4268);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('280','Cameran Small','2018-04-02','2018-04-26',480);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('281','Madeline Parrish','2018-02-01','2018-03-27',2028);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('282','Justine Burks','2018-03-01','2018-04-12',3772);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('283','Gwendolyn Berger','2018-03-02','2018-04-12',1275);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('284','Emery Ware','2018-01-02','2018-03-27',3422);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('285','Claudia Schneider','2018-02-01','2018-04-26',825);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('286','Dean Spencer','2018-03-01','2018-03-27',810);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('287','Troy Donovan','2018-03-02','2018-03-21',58);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('288','Bruno Cantu','2018-01-03','2018-03-20',49);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('289','Drake Barber','2018-01-01','2018-02-04',3168);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('290','Lacey Smith','2018-04-01','2018-04-21',441);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('291','Myles Riggs','2018-04-01','2018-04-26',780);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('292','Reece Strong','2018-01-02','2018-04-11',480);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('293','Hayden Rowland','2018-02-01','2018-02-27',518);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('294','Cain Eaton','2018-01-01','2018-01-09',125);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('295','Colorado Marshall','2018-01-02','2018-03-29',6200);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('296','Quinlan Juarez','2018-02-01','2018-03-10',280);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('297','Bryar Kaufman','2018-04-01','2018-04-22',216);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('298','Dahlia Sloan','2018-04-01','2018-04-18',240);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('299','Kelsey Barber','2018-01-02','2018-03-13',1222);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('300','Gregory Rollins','2018-03-01','2018-04-26',4312);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('301','Leila Gilmore','2018-02-01','2018-04-18',4970);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('302','Trevor Talley','2018-01-01','2018-02-07',1216);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('303','Mason Greer','2018-01-01','2018-02-22',1254);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('304','Preston Woods','2018-01-01','2018-02-02',935);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('305','Willa Camacho','2018-04-01','2018-04-24',50);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('306','Meredith Soto','2018-04-01','2018-04-21',1064);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('307','Ima Solis','2018-02-02','2018-03-23',2511);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('308','Violet Flynn','2018-02-02','2018-02-25',48);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('309','Shaine Marshall','2018-04-01','2018-04-21',500);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('310','Guy Dickerson','2018-01-02','2018-03-02',252);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('311','Chantale Benjamin','2018-04-01','2018-04-18',60);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('312','Charde Doyle','2018-02-01','2018-04-28',6120);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('313','Cherokee Foreman','2018-02-01','2018-02-11',244);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('314','Acton Meadows','2018-04-03','2018-04-30',26);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('315','Imani Copeland','2018-02-02','2018-04-19',4316);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('316','Whoopi Atkinson','2018-04-01','2018-04-20',1520);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('317','Lars Mcintyre','2018-01-01','2018-03-23',2128);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('318','Karen Lyons','2018-03-01','2018-04-26',1702);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('319','Carla Carr','2018-04-02','2018-04-24',120);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('320','Tatyana Kline','2018-02-01','2018-03-13',1292);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('321','Brennan Blair','2018-04-02','2018-04-30',60);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('322','Daniel Reyes','2018-03-02','2018-03-30',672);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('323','Jena Witt','2018-01-03','2018-04-07',1632);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('324','Chantale Wolf','2018-02-01','2018-04-16',2257);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('325','Drew Rich','2018-02-01','2018-03-27',1560);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('326','Kareem Nieves','2018-04-02','2018-04-25',132);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('327','Mason Hardy','2018-01-01','2018-01-16',212);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('328','Dale Knight','2018-03-03','2018-04-18',1349);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('329','May Bruce','2018-03-02','2018-04-02',234);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('330','Blaine Mcintyre','2018-02-02','2018-04-01',2418);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('331','Wesley Crosby','2018-01-01','2018-01-30',1219);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('332','Yoko Baird','2018-03-01','2018-04-19',374);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('333','Neil Arnold','2018-04-02','2018-04-25',192);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('334','Batiste Chloups','2018-03-07','2018-03-30',24);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('339','Sylvie Rodriguez','2018-01-15','2018-02-15',2);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('340','Erica Brakebal','2018-01-21','2018-01-30',128);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('341','Laura Calvez','2018-01-11','2018-01-19',40);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('342','Carlos Correa','2018-01-02','2018-01-02',45);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('343','Dak Prescott','2018-01-24','2018-01-24',3);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('344','Christian Pulisic','2018-01-14','2018-02-26',1);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('345','Laurie Hernandez','2018-01-24','2018-02-01',88);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('346','Karl-Anthony Towns','2018-01-02','2018-01-02',18);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('348','Mookie Betts','2018-01-07','2018-01-15',3);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('349','Lilly King','2018-01-14','2018-02-02',18);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('350','Ezekiel Elliott','2018-01-10','2018-02-07',100);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('351','Caeleb Dressel','2018-01-31','2018-02-22',87);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('352','Kylian Mbappe','2018-01-13','2018-01-26',115);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('354','Chloe Kim','2018-01-30','2018-02-01',2);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('355','Giannis Antetokounmpo','2018-01-16','2018-01-28',6);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('356','Harry Kane','2018-03-05','2018-03-16',39);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('357','Odell Beckham Jr.','2018-01-10','2018-01-27',36);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('358','Anthony Davis','2018-01-21','2018-02-24',36);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('360','Claressa Shields','2018-02-13','2018-03-25',10);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('361','Bryce Harper','2018-02-02','2018-03-29',205);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('362','Connor McDavid','2018-01-13','2018-02-27',112);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('364','Jordan Spieth','2018-01-03','2018-01-18',5);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('365','Simone Biles','2018-01-11','2018-01-18',48);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('366','Katie Ledecky','2018-01-02','2018-01-02',40);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('367','Bruno Tucker','2018-03-03','2018-03-12',4);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('368','Chantale Frank','2018-01-19','2018-01-23',10);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('369','Quinn Owen','2018-01-30','2018-02-12',25);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('370','Evan Alexander','2018-01-09','2018-02-16',42);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('371','Paloma Swanson','2018-01-06','2018-02-12',78);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('372','Alvin Arnold','2018-02-27','2018-03-20',76);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('373','Xenos Sampson','2018-01-01','2018-01-02',66);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('374','Grant Lara','2018-01-13','2018-01-19',4);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('375','Nasim Dawson','2018-03-24','2018-03-24',28);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('377','Peter Tyson','2018-01-01','2018-01-02',5);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('378','Kadeem Bennett','2018-01-11','2018-01-13',2);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('379','Phillip Oneil','2018-03-18','2018-03-26',3);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('380','Octavius Walter','2018-02-21','2018-02-27',18);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('381','Keane Leblanc','2018-02-12','2018-02-17',14);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('382','Delilah Mccarthy','2018-02-09','2018-03-02',30);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('384','Graham Lawson','2018-01-16','2018-02-16',4);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('385','Patrick Gentry','2018-01-28','2018-01-29',32);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('386','Jackson Wallace','2018-03-01','2018-03-01',8);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('387','Thane Wolfe','2018-01-31','2018-02-01',5);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('395','Shoshana Carpenter','2018-01-07','2018-01-07',1);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('396','Karleigh Jackson','2018-01-02','2018-01-02',1);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('397','Yoko Vaughn','2018-02-24','2018-02-28',5);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('398','Aimee Woodward','2018-01-17','2018-01-29',15);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('399','Stuart Compton','2018-01-08','2018-01-08',26);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('400','Amela Hodges','2018-02-03','2018-02-25',3);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('401','Tyrone Harding','2018-01-05','2018-01-07',46);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('402','Ivory Sosa','2018-02-08','2018-02-25',15);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('403','Derek Stokes','2018-01-13','2018-02-13',36);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('404','Demetrius Pennington','2018-01-08','2018-01-26',160);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('405','Reese Whitley','2018-01-20','2018-01-30',95);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('406','Cole Snyder','2018-01-09','2018-01-30',55);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('407','Jenette Avery','2018-02-19','2018-02-24',44);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('408','Teegan Nichols','2018-01-17','2018-01-25',18);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('409','Hyatt Sherman','2018-01-11','2018-01-19',36);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('411','Kelsie Mcpherson','2018-01-27','2018-01-28',5);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('412','Upton Quinn','2018-01-26','2018-02-25',8);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('413','Xyla Snow','2018-01-18','2018-02-14',62);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('414','Amery Kim','2018-02-04','2018-02-20',140);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('415','Quinn Marks','2018-01-07','2018-01-19',85);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('417','Kalia Koch','2018-01-30','2018-02-07',3);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('418','Clayton Mcguire','2018-01-02','2018-01-02',27);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('419','Reece Larson','2018-01-16','2018-02-17',5);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('420','Devin Wilkerson','2018-03-12','2018-03-26',132);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('421','Georgia Garner','2018-01-13','2018-03-03',45);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('422','Armand Maynard','2018-01-30','2018-02-28',150);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('423','Delilah Goodwin','2018-02-09','2018-02-27',120);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('424','Timothy Madden','2018-02-08','2018-02-14',76);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('425','Ocean Bright','2018-03-27','2018-03-31',21);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('426','Abigail Shaw','2018-02-08','2018-03-16',15);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('427','Sean Hinton','2018-02-24','2018-02-24',185);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('428','Tanner Parker','2018-02-03','2018-02-19',5);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('430','Aileen Mckinney','2018-03-15','2018-03-28',3);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('431','Dominique West','2018-01-05','2018-01-22',42);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('433','Maile Barr','2018-01-15','2018-02-11',3);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('435','Gavin Ray','2018-03-11','2018-03-22',4);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('436','Callum Riggs','2018-01-13','2018-01-29',24);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('438','Virginia Bryant','2018-01-08','2018-02-07',3);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('439','Fay Guerra','2018-01-10','2018-02-23',62);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('440','Fritz Levine','2018-01-01','2018-01-14',180);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('441','Branden Kirby','2018-01-28','2018-02-01',70);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('443','Alden Herrera','2018-01-15','2018-01-28',2);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('444','Lael Henry','2018-01-05','2018-01-24',70);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('445','Cleo Shepherd','2018-02-15','2018-03-12',100);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('446','Brianna Buckley','2018-02-01','2018-02-01',78);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('447','Simone Jimenez','2018-01-07','2018-02-09',4);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('448','Macon Robertson','2018-01-31','2018-02-01',170);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('449','Sybil Bowman','2018-01-23','2018-01-31',10);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('451','Fallon Norton','2018-01-15','2018-02-10',3);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('452','Alvin Mccormick','2018-01-18','2018-01-28',108);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('453','Daquan Franklin','2018-01-21','2018-01-23',33);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('455','Amos Duke','2018-01-20','2018-01-20',2);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('456','Idola Nguyen','2018-01-05','2018-02-25',2);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('457','Wesley Lynn','2018-01-01','2018-01-24',208);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('458','Miranda Cardenas','2018-01-15','2018-02-05',120);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('460','Freya Osborne','2018-01-02','2018-01-02',2);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('461','Anastasia Price','2018-03-27','2018-03-29',5);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('462','Gary Burch','2018-03-01','2018-03-01',6);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('463','Lamar Reid','2018-01-20','2018-03-04',3);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('464','Josiah Cherry','2018-02-08','2018-02-16',176);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('465','Molly Stephens','2018-02-06','2018-02-24',45);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('466','Raja Rollins','2018-02-26','2018-03-13',38);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('467','Todd Harmon','2018-02-20','2018-02-24',64);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('470','Fatima Horton','2018-01-23','2018-01-28',1);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('471','Hayley Simon','2018-02-28','2018-03-01',30);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('472','Dylan Prince','2018-01-15','2018-02-07',10);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('473','Brennan Bryant','2018-01-19','2018-01-19',120);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('474','Roanna Dyer','2018-01-25','2018-02-20',4);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('475','Clayton Mills','2018-02-21','2018-02-23',108);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('476','Blossom Stafford','2018-03-01','2018-03-01',15);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('477','Lawrence Bray','2018-02-24','2018-03-02',5);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('478','Arden Torres','2018-01-04','2018-02-24',7);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('480','Ila Tate','2018-01-02','2018-01-02',3);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('481','Geraldine Tran','2018-01-18','2018-01-29',5);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('482','Jamal Moss','2018-01-02','2018-01-03',36);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('483','Rajah Mendoza','2018-01-13','2018-02-18',6);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('485','Hashim Coleman','2018-01-01','2018-02-19',1);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('486','Jonah Guerrero','2018-02-21','2018-02-23',50);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('487','Flynn Rogers','2018-01-03','2018-01-03',3);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('488','Nathan Avila','2018-01-10','2018-01-19',4);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('489','Pandora Jarvis','2018-01-02','2018-01-02',40);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('490','Ferris Mcgee','2018-02-23','2018-02-27',2);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('492','Matthew Martinez','2018-01-06','2018-02-26',4);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('493','Mira Hensley','2018-03-16','2018-03-19',156);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('494','Libby Wyatt','2018-02-10','2018-02-28',8);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('495','Jin Hampton','2018-01-21','2018-01-22',38);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('496','Batiste Chloups','2018-04-22','2018-04-27',10);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('497','Matthieu Laurendeau','2018-04-29','2018-04-29',6);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('498','Seb Chabal','2018-03-16','2018-03-18',3);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('499','Romain Cordoba','2018-03-22','2018-04-09',3);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('500','Louis CK','2018-04-13','2018-04-23',19);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('501','Sylvie Rodriguez','2018-03-30','2018-04-24',22);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('502','Erica Brakebal','2018-03-22','2018-04-26',52);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('503','Laura Calvez','2018-04-28','2018-04-28',180);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('504','Carlos Correa','2018-04-21','2018-04-26',5);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('505','Dak Prescott','2018-04-22','2018-04-27',24);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('506','Christian Pulisic','2018-04-23','2018-04-23',6);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('507','Laurie Hernandez','2018-04-07','2018-04-28',3);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('508','Karl-Anthony Towns','2018-04-21','2018-04-26',110);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('509','Joey Bosa','2018-04-03','2018-04-24',24);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('510','Mookie Betts','2018-04-22','2018-04-22',22);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('511','Lilly King','2018-04-29','2018-04-30',5);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('512','Ezekiel Elliott','2018-04-29','2018-04-30',2);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('513','Caeleb Dressel','2018-04-24','2018-04-29',2);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('514','Kylian Mbappe','2018-03-13','2018-04-30',6);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('515','Auston Matthews','2018-04-04','2018-04-13',147);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('516','Chloe Kim','2018-02-20','2018-04-10',10);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('517','Giannis Antetokounmpo','2018-03-01','2018-03-26',200);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('518','Harry Kane','2018-04-18','2018-04-20',26);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('519','Odell Beckham Jr.','2018-04-30','2018-04-30',6);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('520','Anthony Davis','2018-04-26','2018-04-28',2);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('521','Mikaela Shrifrin','2018-03-26','2018-04-18',15);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('522','Claressa Shields','2018-04-30','2018-04-30',120);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('523','Bryce Harper','2018-04-30','2018-04-30',5);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('524','Connor McDavid','2018-04-26','2018-04-28',3);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('525','Evgenia Medvedeva','2018-04-05','2018-04-20',9);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('526','Jordan Spieth','2018-04-24','2018-04-27',32);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('527','Simone Biles','2018-04-30','2018-04-30',4);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('528','Katie Ledecky','2018-03-30','2018-04-19',2);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('529','Bruno Tucker','2018-04-30','2018-04-30',84);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('530','Chantale Frank','2018-04-09','2018-04-14',1);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('531','Quinn Owen','2018-04-17','2018-04-24',6);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('532','Evan Alexander','2018-04-27','2018-04-30',8);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('533','Paloma Swanson','2018-04-26','2018-04-26',8);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('534','Alvin Arnold','2018-04-29','2018-04-29',2);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('535','Xenos Sampson','2018-04-19','2018-04-30',2);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('536','Grant Lara','2018-04-29','2018-04-29',60);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('537','Nasim Dawson','2018-04-29','2018-04-29',5);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('538','Uriel Puckett','2018-04-26','2018-04-28',2);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('539','Peter Tyson','2018-04-25','2018-04-26',12);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('540','Kadeem Bennett','2018-03-25','2018-03-26',2);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('541','Phillip Oneil','2018-04-24','2018-04-29',8);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('542','Octavius Walter','2018-04-16','2018-04-24',24);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('543','Keane Leblanc','2018-04-30','2018-04-30',45);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('544','Delilah Mccarthy','2018-04-09','2018-04-21',2);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('545','Teegan Stanley','2018-01-19','2018-04-23',65);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('546','Graham Lawson','2018-04-26','2018-04-26',95);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('547','Patrick Gentry','2018-03-31','2018-04-13',5);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('548','Jackson Wallace','2018-04-30','2018-04-30',28);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('549','Thane Wolfe','2018-04-02','2018-04-23',1);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('550','Joseph Brown','2018-04-04','2018-04-12',88);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('551','Sasha Lester','2018-04-05','2018-04-29',18);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('552','Anika Randolph','2018-04-22','2018-04-25',75);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('553','Yoko Randolph','2018-04-07','2018-04-25',12);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('554','Jasper Hoover','2018-04-18','2018-04-27',19);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('555','Blossom Salinas','2018-03-20','2018-04-23',50);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('556','Upton Wynn','2018-04-30','2018-04-30',175);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('557','Shoshana Carpenter','2018-04-04','2018-04-30',1);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('558','Karleigh Jackson','2018-04-29','2018-04-29',81);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('559','Yoko Vaughn','2018-04-25','2018-04-26',2);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('560','Aimee Woodward','2018-04-24','2018-04-25',8);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('561','Stuart Compton','2018-04-24','2018-04-30',6);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('562','Amela Hodges','2018-04-29','2018-04-29',35);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('563','Tyrone Harding','2018-04-01','2018-04-20',1);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('564','Ivory Sosa','2018-04-26','2018-04-26',80);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('565','Derek Stokes','2018-04-28','2018-04-30',2);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('566','Demetrius Pennington','2018-04-22','2018-04-22',6);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('567','Reese Whitley','2018-04-21','2018-04-30',1);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('568','Cole Snyder','2018-04-21','2018-04-22',50);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('569','Jenette Avery','2018-04-19','2018-04-30',6);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('570','Teegan Nichols','2018-04-21','2018-04-29',24);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('571','Hyatt Sherman','2018-04-30','2018-04-30',27);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('572','Ivy Anthony','2018-02-21','2018-03-14',5);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('573','Kelsie Mcpherson','2018-03-27','2018-04-18',44);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('574','Upton Quinn','2018-04-30','2018-04-30',46);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('575','Xyla Snow','2018-04-21','2018-04-29',3);
+INSERT INTO SkiPass(SkiPassIDCustomerNameSkiStartDateSkiEndDateSPPrice) VALUES ('576','Amery Kim','2018-04-30','2018-04-30',18);
+
 
 
 -- MechanicalLift
@@ -1252,7 +1465,7 @@ INSERT INTO MechanicalLift(MLName,SkiResortName,MLType,MLCapacityNbr) VALUES ('L
 INSERT INTO MechanicalLift(MLName,SkiResortName,MLType,MLCapacityNbr) VALUES ('QueenEli',  'Meribel', 1, 560);
 
 
---AccessMechanicalLift
+-- AccessMechanicalLift
 INSERT INTO AccessMechanicalLift(MLName,SkiPassID) VALUES ('Le Fast','1');
 INSERT INTO AccessMechanicalLift(MLName,SkiPassID) VALUES ('GiveMeMore','2');
 INSERT INTO AccessMechanicalLift(MLName,SkiPassID) VALUES ('Water','3');
@@ -1534,7 +1747,7 @@ INSERT INTO AccessMechanicalLift(MLName,SkiPassID) VALUES ('GiveMeMore','332');
 INSERT INTO AccessMechanicalLift(MLName,SkiPassID) VALUES ('Touriste','333');
 
 
---MLGiveAccessToPiste
+-- MLGiveAccessToPiste
 INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('La chartreuse','Les anglaises');
 INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Arthouur','Le 6 places');
 INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Arthouur','Le Fast');
@@ -1618,28 +1831,28 @@ INSERT INTO MLGiveAccessToPiste(PisteName,MLName) VALUES ('Whale','Pays merveill
 
 
 
---Transport
-INSERT INTO Transport(TransportID,TransportType,TransportPassengerNbr,TransportCapacityNbr) Values('The Magic School Bus',0,50,75)
-INSERT INTO Transport(TransportID,TransportType,TransportPassengerNbr,TransportCapacityNbr) Values('Fortnite bus',0,50,50)
-INSERT INTO Transport(TransportID,TransportType,TransportPassengerNbr,TransportCapacityNbr) Values('C est pas sorcier',0,9,30)
-INSERT INTO Transport(TransportID,TransportType,TransportPassengerNbr,TransportCapacityNbr) Values('SOS fantomes',0,3,15)
-INSERT INTO Transport(TransportID,TransportType,TransportPassengerNbr,TransportCapacityNbr) Values('Fast and Furious',0,15,20)
-INSERT INTO Transport(TransportID,TransportType,TransportPassengerNbr,TransportCapacityNbr) Values('L Agence tous risque',0,10,30)
+-- Transport
+INSERT INTO Transport(TransportID,TransportType,TransportPassengerNbr,TransportCapacityNbr) Values('The Magic School Bus',0,50,75);
+INSERT INTO Transport(TransportID,TransportType,TransportPassengerNbr,TransportCapacityNbr) Values('Fortnite bus',0,50,50);
+INSERT INTO Transport(TransportID,TransportType,TransportPassengerNbr,TransportCapacityNbr) Values('C est pas sorcier',0,9,30);
+INSERT INTO Transport(TransportID,TransportType,TransportPassengerNbr,TransportCapacityNbr) Values('SOS fantomes',0,3,15);
+INSERT INTO Transport(TransportID,TransportType,TransportPassengerNbr,TransportCapacityNbr) Values('Fast and Furious',0,15,20);
+INSERT INTO Transport(TransportID,TransportType,TransportPassengerNbr,TransportCapacityNbr) Values('L Agence tous risque',0,10,30);
 
-INSERT INTO Transport(TransportID,TransportType,TransportPassengerNbr,TransportCapacityNbr) Values('Bumblebee',1,5,5)
-INSERT INTO Transport(TransportID,TransportType,TransportPassengerNbr,TransportCapacityNbr) Values('Coccinelle',1,4,5)
-INSERT INTO Transport(TransportID,TransportType,TransportPassengerNbr,TransportCapacityNbr) Values('Eleanor',1,2,5)
-INSERT INTO Transport(TransportID,TransportType,TransportPassengerNbr,TransportCapacityNbr) Values('K2000',1,1,2)
-INSERT INTO Transport(TransportID,TransportType,TransportPassengerNbr,TransportCapacityNbr) Values('De Lorean',1,2,5)
-INSERT INTO Transport(TransportID,TransportType,TransportPassengerNbr,TransportCapacityNbr) Values('Batmobile',1,1,2)
-INSERT INTO Transport(TransportID,TransportType,TransportPassengerNbr,TransportCapacityNbr) Values('OuiOui',1,1,4)
+INSERT INTO Transport(TransportID,TransportType,TransportPassengerNbr,TransportCapacityNbr) Values('Bumblebee',1,5,5);
+INSERT INTO Transport(TransportID,TransportType,TransportPassengerNbr,TransportCapacityNbr) Values('Coccinelle',1,4,5);
+INSERT INTO Transport(TransportID,TransportType,TransportPassengerNbr,TransportCapacityNbr) Values('Eleanor',1,2,5);
+INSERT INTO Transport(TransportID,TransportType,TransportPassengerNbr,TransportCapacityNbr) Values('K2000',1,1,2);
+INSERT INTO Transport(TransportID,TransportType,TransportPassengerNbr,TransportCapacityNbr) Values('De Lorean',1,2,5);
+INSERT INTO Transport(TransportID,TransportType,TransportPassengerNbr,TransportCapacityNbr) Values('Batmobile',1,1,2);
+INSERT INTO Transport(TransportID,TransportType,TransportPassengerNbr,TransportCapacityNbr) Values('OuiOui',1,1,4);
 
-INSERT INTO Transport(TransportID,TransportType,TransportPassengerNbr,TransportCapacityNbr) Values('Spectre',2,2,2)
-INSERT INTO Transport(TransportID,TransportType,TransportPassengerNbr,TransportCapacityNbr) Values('Faucon noir',2,1,4)
-INSERT INTO Transport(TransportID,TransportType,TransportPassengerNbr,TransportCapacityNbr) Values('Blackout',2,3,4)
+INSERT INTO Transport(TransportID,TransportType,TransportPassengerNbr,TransportCapacityNbr) Values('Spectre',2,2,2);
+INSERT INTO Transport(TransportID,TransportType,TransportPassengerNbr,TransportCapacityNbr) Values('Faucon noir',2,1,4);
+INSERT INTO Transport(TransportID,TransportType,TransportPassengerNbr,TransportCapacityNbr) Values('Blackout',2,3,4);
 
 
---UseTransport
+-- UseTransport
 INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Adrien Babachat','Spectre','2018-01-20','2018-02-26',1786);
 INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Batiste Chloups','Batmobile','2018-04-04','2018-04-06',123);
 INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,TransportCost) Values('Carlos Correa','Batmobile','2018-03-10','2018-03-12',42);
@@ -2022,7 +2235,7 @@ INSERT INTO UseTransport(CustomerName,TransportID,DepartureDate,ArrivalDate,Tran
 
 
 
---TransportDeserveResort
+-- TransportDeserveResort
 INSERT INTO TransportDeserveResort(SkiResortName,TransportID) Values('Val Thorens','The Magic School Bus');
 INSERT INTO TransportDeserveResort(SkiResortName,TransportID) Values('Val Thorens','Fortnite bus');
 INSERT INTO TransportDeserveResort(SkiResortName,TransportID) Values('Sambuy-Seythenex','C est pas sorcier');
@@ -2041,7 +2254,7 @@ INSERT INTO TransportDeserveResort(SkiResortName,TransportID) Values('Meribel','
 INSERT INTO TransportDeserveResort(SkiResortName,TransportID) Values('Les Saisies','Blackout');
 
 
---Instructor
+-- Instructor
 INSERT INTO Instructor(InstructorName,ExperienceLevel) Values('Sebatian Cimes', 56);
 INSERT INTO Instructor(InstructorName,ExperienceLevel) Values('John Snow', 100);
 INSERT INTO Instructor(InstructorName,ExperienceLevel) Values('Yunonothing Jonsnow ', 80);
@@ -2057,7 +2270,7 @@ INSERT INTO Instructor(InstructorName,ExperienceLevel) Values('Natalie Portman',
 INSERT INTO Instructor(InstructorName,ExperienceLevel) Values('Christopher Walken', 98);
 
 
---SkiClass
+-- SkiClass
 INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Lorde ','Walrus','Adrien Babachat',2,13,312,'2018-03-14','2018-03-19');
 INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Guerin H Sauve','Octopus','Batiste Chloups',5,8,112,'2018-04-08','2018-04-21');
 INSERT INTO SkiClass(InstructorName,PisteName,CustomerName,CourseLevel,MaxParticipants,CoursePrice,SCBeginTime,SCEndTime) Values('Serge Papagali','Le castor','Matthieu Laurendeau',0,9,406,'2018-01-13','2018-01-26');
