@@ -1,7 +1,7 @@
 ssh parentn@im2ag-oracle.e.ujf-grenoble.fr
 setenv ORACLE_SID im2ag
 sqlplus
-alter session set current_schema=PARENTN
+alter session set current_schema=PARENTN ;
 
 /*to change the line size so you have all the tuples on the same line*/
 set linesize 80

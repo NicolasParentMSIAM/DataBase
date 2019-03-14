@@ -10,7 +10,10 @@ CREATE TABLE SkiResort
     SkiResortName VARCHAR(60) PRIMARY KEY,
     DomainGPSPosition VARCHAR(60),
     SkiResortGPSPosition VARCHAR(60),
-    FOREIGN KEY(DomainGPSPosition) REFERENCES Domain(DomainGPSPosition)
+    CONSTRAINT SkiResortConstraint
+      FOREIGN KEY(DomainGPSPosition)
+        REFERENCES Domain(DomainGPSPosition)
+        ON DELETE SET NULL
 );
 
 CREATE TABLE Building
@@ -20,7 +23,10 @@ CREATE TABLE Building
     SkiResortName VARCHAR(60) ,
     BuildingDailyPeople INT ,
     PRIMARY KEY(BuildingName, BuildingAdresse),
-    CONSTRAINT CNAME FOREIGN KEY(SkiResortName) REFERENCES SkiResort(SkiResortName)
+    CONSTRAINT BuidingConstraint
+      FOREIGN KEY(SkiResortName)
+        REFERENCES SkiResort(SkiResortName)
+        ON DELETE CASCADE
 );
 
 CREATE TABLE Shop
@@ -30,7 +36,9 @@ CREATE TABLE Shop
     Type INT  NOT NULL,
     Surface FLOAT ,
     PRIMARY KEY(BuildingName, BuildingAdresse),
-    FOREIGN KEY(BuildingName, BuildingAdresse) REFERENCES Building(BuildingName, BuildingAdresse)
+    CONSTRAINT ShopConstraint
+      FOREIGN KEY(BuildingName, BuildingAdresse)
+        REFERENCES Building(BuildingName, BuildingAdresse)
 );
 
 CREATE TABLE Hotel
@@ -40,7 +48,9 @@ CREATE TABLE Hotel
     HotelCapacity INT  NOT NULL,
     HotelComfort INT ,
     PRIMARY KEY(BuildingName, BuildingAdresse),
-    FOREIGN KEY(BuildingName, BuildingAdresse) REFERENCES Building(BuildingName, BuildingAdresse)
+    CONSTRAINT HotelConstraint
+      FOREIGN KEY(BuildingName, BuildingAdresse)
+        REFERENCES Building(BuildingName, BuildingAdresse)
 );
 
 CREATE TABLE Restaurant
@@ -50,7 +60,9 @@ CREATE TABLE Restaurant
     RstCapacity INT ,
     RstMenu VARCHAR(600),
     PRIMARY KEY(BuildingName, BuildingAdresse),
-    FOREIGN KEY(BuildingName, BuildingAdresse) REFERENCES Building(BuildingName, BuildingAdresse)
+    CONSTRAINT RestaurantConstraint
+      FOREIGN KEY(BuildingName, BuildingAdresse)
+        REFERENCES Building(BuildingName, BuildingAdresse)
 );
 
 CREATE TABLE Transport
@@ -77,7 +89,9 @@ CREATE TABLE MechanicalLift
     SkiResortName VARCHAR(60) ,
     MLType FLOAT  NOT NULL,
     MLCapacityNbr INT,
-    FOREIGN KEY(SkiResortName) REFERENCES SkiResort(SkiResortName)
+    CONSTRAINT MechanicalLiftConstraint
+      FOREIGN KEY(SkiResortName)
+        REFERENCES SkiResort(SkiResortName)
 );
 
 
@@ -88,7 +102,10 @@ CREATE TABLE SkiPass
     SkiStartDate VARCHAR(60) NOT NULL,
     SkiEndDate VARCHAR(60) NOT NULL,
     SPPrice FLOAT,
-    FOREIGN KEY(CustomerName) REFERENCES Customer(CustomerName)
+    CONSTRAINT SkiPassConstraint
+      FOREIGN KEY(CustomerName)
+        REFERENCES Customer(CustomerName)
+        ON DELETE CASCADE
 );
 
 CREATE TABLE Piste
@@ -116,9 +133,15 @@ CREATE TABLE SkiClass
     SCBeginTime VARCHAR(60) NOT NULL,
     SCEndTime VARCHAR(60) NOT NULL,
     PRIMARY KEY(InstructorName, PisteName, CustomerName),
-    FOREIGN KEY(InstructorName) REFERENCES Instructor(InstructorName),
-    FOREIGN KEY(PisteName) REFERENCES Piste(PisteName),
-    FOREIGN KEY(CustomerName) REFERENCES Customer(CustomerName)
+    CONSTRAINT InstructorConstraint
+      FOREIGN KEY(InstructorName)
+        REFERENCES Instructor(InstructorName),
+      CONSTRAINT  PisteConstraint
+        FOREIGN KEY(PisteName)
+          REFERENCES Piste(PisteName),
+      CONSTRAINT CustomerConstraint
+        FOREIGN KEY(CustomerName)
+          REFERENCES Customer(CustomerName)
 );
 
 -- any to any tables
@@ -128,8 +151,12 @@ CREATE TABLE AccessMechanicalLift
     MLName VARCHAR(60) ,
     SkiPassID VARCHAR(60) , /*can be null*/
     PRIMARY KEY(MLName, SkiPassID),
-    FOREIGN KEY(MLName) REFERENCES MechanicalLift(MLName),
-    FOREIGN KEY(SkiPassID) REFERENCES SkiPass(SkiPassID)
+    CONSTRAINT AMLConstraint
+      FOREIGN KEY(MLName)
+        REFERENCES MechanicalLift(MLName),
+    CONSTRAINT AMLSPConstraint
+     FOREIGN KEY(SkiPassID)
+      REFERENCES SkiPass(SkiPassID)
 );
 
 
@@ -141,8 +168,12 @@ CREATE TABLE UseTransport
     ArrivalDate VARCHAR(60) NOT NULL,
     TransportCost FLOAT,
     PRIMARY KEY(CustomerName, TransportID),
-    FOREIGN KEY(CustomerName) REFERENCES Customer(CustomerName),
-    FOREIGN KEY(TransportID) REFERENCES Transport(TransportID)
+    CONSTRAINT UseTransport1
+      FOREIGN KEY(CustomerName)
+        REFERENCES Customer(CustomerName),
+    CONSTRAINT UseTransport2
+      FOREIGN KEY(TransportID)
+        REFERENCES Transport(TransportID)
 );
 
 
@@ -152,8 +183,12 @@ CREATE TABLE GoBuilding
     BuildingName VARCHAR(60) ,
     BuildingAdresse VARCHAR(60) ,
     PRIMARY KEY(CustomerName, BuildingName, BuildingAdresse),
-    FOREIGN KEY(CustomerName) REFERENCES Customer(CustomerName),
-    FOREIGN KEY(BuildingName, BuildingAdresse) REFERENCES Building(BuildingName, BuildingAdresse)
+    CONSTRAINT GoBuilding1
+      FOREIGN KEY(CustomerName)
+        REFERENCES Customer(CustomerName),
+    CONSTRAINT GoBuilding2
+      FOREIGN KEY(BuildingName, BuildingAdresse)
+        REFERENCES Building(BuildingName, BuildingAdresse)
 );
 
 
@@ -162,8 +197,12 @@ CREATE TABLE TransportDeserveResort
     SkiResortName VARCHAR(60) ,
     TransportID VARCHAR(60) ,
     PRIMARY KEY(SkiResortName, TransportID),
-    FOREIGN KEY(SkiResortName) REFERENCES SkiResort(SkiResortName),
-    FOREIGN KEY(TransportID) REFERENCES Transport(TransportID)
+    CONSTRAINT TDR1
+      FOREIGN KEY(SkiResortName)
+        REFERENCES SkiResort(SkiResortName),
+    CONSTRAINT TDR2
+      FOREIGN KEY(TransportID)
+        REFERENCES Transport(TransportID)
 );
 
 
@@ -171,6 +210,10 @@ CREATE TABLE MLGiveAccessToPiste(
     PisteName VARCHAR(60) ,
     MLName VARCHAR(60) ,
     PRIMARY KEY(PisteName, MLName),
-    FOREIGN KEY(PisteName) REFERENCES Piste(PisteName),
-    FOREIGN KEY(MLName) REFERENCES MechanicalLift(MLName)
+    CONSTRAINT MLGATP1
+      FOREIGN KEY(PisteName)
+        REFERENCES Piste(PisteName),
+    CONSTRAINT MLGATP2
+      FOREIGN KEY(MLName)
+        REFERENCES MechanicalLift(MLName)
 );
