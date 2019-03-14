@@ -19,10 +19,12 @@ where c.Age > 50
 group by c.CustomerName
 
 
-/* R3 Give the Names of pistes that are accesible from at least to Mechanical List */
-Select p.PisteName from Piste p join MechanicaLift ML
-group by p.PisteName
-having count(p.PisteName) >= 2
+/* R3 Give the Names of Mechanical List that give access to at least to 2 pistes*/
+Select a.PisteName  from MechanicalLift m
+join MLGiveAccessToPiste a on  m.MLName = a.MLName
+group by  a.PisteName
+having count(*) = 2
+
 
 /* R3bis Whats the mean price of the ski pass by ski resorts */
 
@@ -31,6 +33,10 @@ having count(p.PisteName) >= 2
 
 
 /* R5 Give the transportType that are most used by customer that have taken at least 5 skipass */
+
+
+/*R5bis Give the names of customers that have use a building but never bought a ski pass */
+
 
 /* R6 Give the customers Name that have taken the maniest courses with the same Instructor  */
 
