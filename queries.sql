@@ -26,7 +26,10 @@ group by  a.PisteName
 having count(*) = 2
 
 
-/* R3bis Whats the mean price of the ski pass by ski resorts */
+/* R3bis Whats the mean price of the ski pass by age */
+select avg(s.SPPrice), c.Age from SkiPass s
+join Customer c on c.CustomerName = s.CustomerName
+group by c.Age
 
 
 /* R4 Give the instructor names that have did a least on class with at least 3 customers */
@@ -36,10 +39,30 @@ having count(*) = 2
 
 
 /*R5bis Give the names of customers that have use a building but never bought a ski pass */
+select CustomerName from SkiPass s
+where CustomerName not in(select CustomerName from GoBuilding)
+
 
 
 /* R6 Give the customers Name that have taken the maniest courses with the same Instructor  */
 
+/* R6Bis Name of the pistes who are deserved by mechanical lift of capacity less than 50
+AND who are utilized by instructor for class with a number maximal of participants more than 10  */
+Select a.PisteName from MechanicalLift m
+join MLGiveAccessToPiste a on  m.MLName = a.MLName
+where m.MLCapacityNbr < 50 and a.PisteName in
+(
+select s.PisteName from Instructor i
+join SkiClass s on i.InstructorName = s.InstructorName
+where s.MaxParticipants > 10)
+group by PisteName
+
+
+/* Give the customer name that have taken all type of transport  */
+select * from UseTransport u
+join Transport t on u.TransportID = t.TransportID
+where u.TransportID = all(
+select transportType from Transport)
 
 /* R7 Give the transportType taken by the customer that have already access to an hotel in the 3 vallees domain */
 
