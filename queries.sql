@@ -12,10 +12,11 @@ where r.type = 'seaside' and r.rn=h.rn;
 Select i.InstructorName  from Instructor i where i.ExperienceLevel >= 50;
 
 
-/* R2- Give the names of the customers that have already followed a ski class */
-Select CustomerName From Customer
-right join SkiClass
-group by CustomerName
+/* R2- Give the names of the customers that have already followed a ski class and have more than 50 years old*/
+Select s.CustomerName from SkiClass s
+join Customer c on s.CustomerName = c.CustomerName
+where c.Age > 50
+group by c.CustomerName
 
 
 /* R3 Give the Names of pistes that are accesible from at least to Mechanical List */
