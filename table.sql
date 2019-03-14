@@ -20,7 +20,7 @@ CREATE TABLE Building
     SkiResortName VARCHAR(60) ,
     BuildingDailyPeople INT ,
     PRIMARY KEY(BuildingName, BuildingAdresse),
-    FOREIGN KEY(SkiResortName) REFERENCES SkiResort(SkiResortName)
+    CONSTRAINT CNAME FOREIGN KEY(SkiResortName) REFERENCES SkiResort(SkiResortName)
 );
 
 CREATE TABLE Shop
